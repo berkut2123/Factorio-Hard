@@ -1,0 +1,701 @@
+
+{
+  "mods": 
+  [
+    
+    {
+      "name": "base",
+      "enabled": true
+    },
+    
+    {
+      "name": "AAI-CraftTab",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-industry",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-locales",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-motor-speed-tweak",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-programmable-structures",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-programmable-vehicles",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-signal-transmission",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-signals",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-vehicles-chaingunner",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-vehicles-flame-tank",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-vehicles-flame-tumbler",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-vehicles-hauler",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-vehicles-laser-tank",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-vehicles-miner",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-vehicles-warden",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-zones",
+      "enabled": true
+    },
+    
+    {
+      "name": "AdminCommands",
+      "enabled": true
+    },
+    
+    {
+      "name": "AdminUtils",
+      "enabled": true
+    },
+    
+    {
+      "name": "Advanced-Electric-Revamped-v16",
+      "enabled": true
+    },
+    
+    {
+      "name": "advanced-satellite-mod",
+      "enabled": true
+    },
+    
+    {
+      "name": "Advanced-Solar-and-Accumulator",
+      "enabled": true
+    },
+    
+    {
+      "name": "AdvancedSubstation",
+      "enabled": true
+    },
+    
+    {
+      "name": "Advanced_Electric",
+      "enabled": true
+    },
+    
+    {
+      "name": "air-filtering",
+      "enabled": true
+    },
+    
+    {
+      "name": "AllLanguageswiththeEnglishnamestoo",
+      "enabled": true
+    },
+    
+    {
+      "name": "ammo-loader",
+      "enabled": true
+    },
+    
+    {
+      "name": "angels-smelting-extended",
+      "enabled": false
+    },
+    
+    {
+      "name": "angelsaddons-cab",
+      "enabled": true
+    },
+    
+    {
+      "name": "angelsaddons-insulatedcablecoil",
+      "enabled": true
+    },
+    
+    {
+      "name": "angelsaddons-newlocales",
+      "enabled": true
+    },
+    
+    {
+      "name": "angelsaddons-oresilos",
+      "enabled": true
+    },
+    
+    {
+      "name": "angelsaddons-petrotrain",
+      "enabled": true
+    },
+    
+    {
+      "name": "angelsaddons-pressuretanks",
+      "enabled": true
+    },
+    
+    {
+      "name": "angelsaddons-refiningthorium",
+      "enabled": true
+    },
+    
+    {
+      "name": "angelsaddons-smeltingtrain",
+      "enabled": true
+    },
+    
+    {
+      "name": "angelsaddons-warehouses",
+      "enabled": true
+    },
+    
+    {
+      "name": "angelsbioprocessing",
+      "enabled": true
+    },
+    
+    {
+      "name": "angelsextended-remelting",
+      "enabled": true
+    },
+    
+    {
+      "name": "angelsindustries",
+      "enabled": true
+    },
+    
+    {
+      "name": "angelspetrochem",
+      "enabled": true
+    },
+    
+    {
+      "name": "angelsrefining",
+      "enabled": true
+    },
+    
+    {
+      "name": "angelssmelting",
+      "enabled": true
+    },
+    
+    {
+      "name": "angelssmelting-extended-upgradet",
+      "enabled": true
+    },
+    
+    {
+      "name": "AngelsUsedCoolant",
+      "enabled": true
+    },
+    
+    {
+      "name": "apm_energy_addon",
+      "enabled": true
+    },
+    
+    {
+      "name": "apm_lib",
+      "enabled": true
+    },
+    
+    {
+      "name": "apm_modpack",
+      "enabled": true
+    },
+    
+    {
+      "name": "apm_nuclear",
+      "enabled": true
+    },
+    
+    {
+      "name": "apm_power",
+      "enabled": true
+    },
+    
+    {
+      "name": "apm_recycling",
+      "enabled": true
+    },
+    
+    {
+      "name": "apm_resource_pack",
+      "enabled": true
+    },
+    
+    {
+      "name": "Armored-train",
+      "enabled": true
+    },
+    
+    {
+      "name": "automatic-train-and-station-painter",
+      "enabled": false
+    },
+    
+    {
+      "name": "AutomaticStationNames",
+      "enabled": true
+    },
+    
+    {
+      "name": "Automatic_Train_Painter",
+      "enabled": true
+    },
+    
+    {
+      "name": "bob-basic-belt-reskin",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobassembly",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobclasses",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobelectronics",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobenemies",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobequipment",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobgreenhouse",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobinserters",
+      "enabled": true
+    },
+    
+    {
+      "name": "boblibrary",
+      "enabled": true
+    },
+    
+    {
+      "name": "boblocale",
+      "enabled": true
+    },
+    
+    {
+      "name": "boblogistics",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobmining",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobmodules",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobores",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobplates",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobpower",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobrevamp",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobsflowcontrol-updated",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobtech",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobvehicleequipment",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobwarfare",
+      "enabled": true
+    },
+    
+    {
+      "name": "Bob_Power_Fix",
+      "enabled": true
+    },
+    
+    {
+      "name": "bullet-trails",
+      "enabled": true
+    },
+    
+    {
+      "name": "clock",
+      "enabled": true
+    },
+    
+    {
+      "name": "CW-thermal-solar-power",
+      "enabled": true
+    },
+    
+    {
+      "name": "CWTSP_balance",
+      "enabled": true
+    },
+    
+    {
+      "name": "DeadlockLargerLamp",
+      "enabled": false
+    },
+    
+    {
+      "name": "Dectorio",
+      "enabled": true
+    },
+    
+    {
+      "name": "DragonIndustries",
+      "enabled": true
+    },
+    
+    {
+      "name": "ElectricTrain",
+      "enabled": true
+    },
+    
+    {
+      "name": "EvoGUI",
+      "enabled": true
+    },
+    
+    {
+      "name": "extendedangels",
+      "enabled": true
+    },
+    
+    {
+      "name": "Factorissimo2",
+      "enabled": true
+    },
+    
+    {
+      "name": "Flammable_Oils_fix",
+      "enabled": true
+    },
+    
+    {
+      "name": "Flow Control",
+      "enabled": true
+    },
+    
+    {
+      "name": "FNEI",
+      "enabled": true
+    },
+    
+    {
+      "name": "FuelTrainStop",
+      "enabled": true
+    },
+    
+    {
+      "name": "GunTurretAlerts",
+      "enabled": true
+    },
+    
+    {
+      "name": "HeavyTank",
+      "enabled": true
+    },
+    
+    {
+      "name": "HermiosLibs",
+      "enabled": true
+    },
+    
+    {
+      "name": "IndustrialRevolution",
+      "enabled": false
+    },
+    
+    {
+      "name": "LargeElectricPole",
+      "enabled": true
+    },
+    
+    {
+      "name": "LargeLamp",
+      "enabled": true
+    },
+    
+    {
+      "name": "Load-Furn",
+      "enabled": true
+    },
+    
+    {
+      "name": "LogisticTrainNetwork",
+      "enabled": true
+    },
+    
+    {
+      "name": "LTN_Combinator",
+      "enabled": true
+    },
+    
+    {
+      "name": "LTN_Content_Reader",
+      "enabled": true
+    },
+    
+    {
+      "name": "LTN_Tracker",
+      "enabled": true
+    },
+    
+    {
+      "name": "Natural_Evolution_Buildings",
+      "enabled": true
+    },
+    
+    {
+      "name": "Natural_Evolution_Enemies",
+      "enabled": true
+    },
+    
+    {
+      "name": "nixie-tubes",
+      "enabled": true
+    },
+    
+    {
+      "name": "only-smelting",
+      "enabled": true
+    },
+    
+    {
+      "name": "OpteraLib",
+      "enabled": true
+    },
+    
+    {
+      "name": "Quicksearch",
+      "enabled": true
+    },
+    
+    {
+      "name": "RailPowerSystem",
+      "enabled": true
+    },
+    
+    {
+      "name": "Realistic_Electric_Trains",
+      "enabled": true
+    },
+    
+    {
+      "name": "ReStack",
+      "enabled": true
+    },
+    
+    {
+      "name": "reverse-factory",
+      "enabled": true
+    },
+    
+    {
+      "name": "rso-mod",
+      "enabled": true
+    },
+    
+    {
+      "name": "ruslocale",
+      "enabled": true
+    },
+    
+    {
+      "name": "SchallTransportGroup",
+      "enabled": true
+    },
+    
+    {
+      "name": "ShinyAngelGFX",
+      "enabled": true
+    },
+    
+    {
+      "name": "ShinyBobGFX",
+      "enabled": true
+    },
+    
+    {
+      "name": "ShinyBob_Techs_Update",
+      "enabled": true
+    },
+    
+    {
+      "name": "ShinyIcons",
+      "enabled": true
+    },
+    
+    {
+      "name": "Shinys-parkingzone_A16",
+      "enabled": true
+    },
+    
+    {
+      "name": "SimpleFusionTweaked",
+      "enabled": true
+    },
+    
+    {
+      "name": "sketchy-power-lamps",
+      "enabled": true
+    },
+    
+    {
+      "name": "speaker-signals",
+      "enabled": true
+    },
+    
+    {
+      "name": "speaker-signals-2",
+      "enabled": true
+    },
+    
+    {
+      "name": "Squeak Through",
+      "enabled": true
+    },
+    
+    {
+      "name": "stdlib",
+      "enabled": true
+    },
+    
+    {
+      "name": "StoneWaterWell",
+      "enabled": true
+    },
+    
+    {
+      "name": "textplates",
+      "enabled": true
+    },
+    
+    {
+      "name": "VehicleWagon2",
+      "enabled": true
+    },
+    
+    {
+      "name": "vtk-cannon-turret",
+      "enabled": true
+    },
+    
+    {
+      "name": "WagonColors",
+      "enabled": true
+    },
+    
+    {
+      "name": "WarehouseAddons",
+      "enabled": true
+    },
+    
+    {
+      "name": "Warehousing",
+      "enabled": true
+    },
+    
+    {
+      "name": "what-is-missing",
+      "enabled": true
+    },
+    
+    {
+      "name": "WhereIsMyBody",
+      "enabled": true
+    },
+    
+    {
+      "name": "Wind_Turbine V16",
+      "enabled": true
+    },
+    
+    {
+      "name": "YARM",
+      "enabled": true
+    }
+  ]
+}

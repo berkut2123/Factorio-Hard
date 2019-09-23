@@ -1,0 +1,25 @@
+{
+	"name": "VehicleWagon2",
+	"version": "1.2.13",
+	"factorio_version": "0.17",
+	"title": "Vehicle Wagon 2",
+	"author": "Artanis_Mattias",
+	"homepage": "",
+	"contact": "gorlovdiman@gmail.com",
+	"dependencies": [
+		"base >= 0.17.0",
+		"? trucks",
+		"? aai-programmable-vehicles",
+		"? aai-vehicles-chaingunner",
+		"? aai-vehicles-hauler",
+		"? aai-vehicles-flame-tank",
+		"? aai-vehicles-flame-tumbler",
+		"? aai-vehicles-hauler",
+		"? aai-vehicles-laser-tank",
+		"? aai-vehicles-miner",
+		"? aai-vehicles-warden",
+		"? vwtransporter_A16",
+		"? SchallTransportGroup"
+	],
+	"description": "Возьмите с собой полностью заряженный и готовый к бою транспорт и отправьте его в путешествие по железной дороге."
+}

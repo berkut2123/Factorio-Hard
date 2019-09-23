@@ -1,0 +1,11 @@
+{
+    "name": "SimpleFusionTweaked",
+    "version": "1.0.0",
+    "title": "Arc Reactor",
+    "author": "mman0385",
+    "contact": "",
+    "homepage": "",
+    "factorio_version": "0.17",
+    "dependencies": ["base >= 0.17"],
+    "description": "Become Tony Stark and build an arc reactor from scraps. Provides 250 kw."
+}

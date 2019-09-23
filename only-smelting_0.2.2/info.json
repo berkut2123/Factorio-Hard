@@ -1,0 +1,11 @@
+{
+  "name": "only-smelting",
+  "version": "0.2.2",
+  "factorio_version": "0.17",
+  "title": "Angel's Smelting Patch",
+  "author": "Florian1024",
+  "contact": "",
+  "homepage": "https://forums.factorio.com/viewtopic.php?f=185&t=47545",
+  "description": "Make Angel's smelting recipes the best way by disabling direct ore smelting in furnaces. It forces you to go in the advanced metallurgy path. Need angel's smelting.",
+  "dependencies": ["base", "? bobplates >= 0.15.0", "angelspetrochem >= 0.5.9", "? boblibrary >= 0.15.0", "? bobelectronics >= 0.15.0", "angelssmelting >= 0.3.0", "? angelsrefining >= 0.7.0", "? CMHMod >= 0.15.0"]
+}

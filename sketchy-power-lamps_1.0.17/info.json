@@ -1,0 +1,9 @@
+{
+	"name": "sketchy-power-lamps",
+	"version": "1.0.17",
+	"title": "Sketchy Power Lamps",
+	"author": "SketchyGalore",
+	"description": "Adds medium and high power lamps that use more power to illuminate a larger area. Includes slightly altered vanilla textures.",
+	"factorio_version":"0.17",
+	"dependencies": ["base >= 0.17.0"]
+}

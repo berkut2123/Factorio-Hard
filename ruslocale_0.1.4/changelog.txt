@@ -1,0 +1,66 @@
+v0.1.4
+- updated to latest version Factorio v0.17x
+v0.1.3
+- обновлен перевод мода Bob's Adjustable Inserters
+- обновлен перевод мода Bob's Logistics mod
+- обновлен перевод мода Bob's Metals, Chemicals and Intermediates
+- обновлен перевод мода Bob's Power
+- обновлен перевод мода Bob's Warfare
+v0.1.2
+- updated to latest version Factorio v0.16x
+v0.1.1
+- updated to latest version angelspetrochem.cfg 0.5.10
+v0.1.0
+- updated to latest version angelsrefinig.cfg 0.7.14
+- updated boblogistics.cfg
+- updated angelssmelting.cfg
+v0.0.12
+- added translation for PCP.cfg
+- added translation for EfficienSee.cfg
+- added translation for additional-turret.cfg
+- updated angelrefining.cfg
+- updated bobplates.cfg
+- updated to latest version angelspetrochem.cfg 0.5.9
+v0.0.11
+- updated bobores.cfg 
+- updated angelsinfiniteores.cfg
+- updated angelspetrochem.cfg
+- updated angelssmelting.cfg
+- added translation for hyperkiller-addons.cfg
+- updated bobvehicleequipment.cfg
+v0.0.10
+- updated to latest version bobplates.cfg 0.15.10
+- updated to latest version bobrevamp.cfg 0.15.3
+- updated to latest version angelspetrochem.cfg 0.5.8
+- updated to latest version water-treatment.cfg 0.7.11
+- updated to latest version angelrefining.cfg 0.7.11
+- updated to latest version angelssmelting.cfg 0.3.2
+v0.0.9
+- added translation for Angel's Addons - Ore Silos mod
+- updated bobvehicleequipment.cfg
+- updated bobplates.cfg 0.15.9
+- updated angelsbioprocessing.cfg
+v0.0.8
+- updated bobpower.cfg
+- updated bobassembly.cfg
+- updated angelspetrochem.cfg
+- updated and cleaned to latest version bobrevamp.cfg 0.15.1
+v0.0.7
+- updated and cleaned to latest version bobplates.cfg 0.15.7
+- updated and cleaned to latest version bobelectronics.cfg 0.15.1
+- updated and cleaned to latest version angelsinfiniteores.cfg 0.6.10
+- added translation for CMHMod.cfg 0.15.2
+v0.0.6
+- added translation for Reverse-Factory mod
+- added translation for Flow Control mod
+- updated angelsbioprocessing.cfg
+v0.0.5
+- updated  angelspetrochem.cfg
+- updated  angelrefining.cfg
+- added translation for angelsbioprocessing.cfg
+v0.0.4
+- updated angelssmelting.cfg
+- updated angelspetrochem.cfg
+- added translation for water-treatment.cfg
+v0.0.3
+- updated bobvehicleequipment.cfg

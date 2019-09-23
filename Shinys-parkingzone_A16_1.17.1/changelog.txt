@@ -1,0 +1,14 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.16.0
+    - update to 0.16
+---------------------------------------------------------------------------------------------------
+Version: 1.16.1
+  Changes:
+    - mining parking concrete gives concrete now
+    - added parking asphalt, needs Asphalt Roads (https://mods.factorio.com/mod/AsphaltRoads) 
+---------------------------------------------------------------------------------------------------
+Version: 1.17.0
+  Changes:
+    - mod settings moved to Settings -> Mod Settings ingame
+    - added parking refined concrete
+    - updated to 0.17

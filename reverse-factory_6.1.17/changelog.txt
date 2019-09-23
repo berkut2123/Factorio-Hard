@@ -1,0 +1,263 @@
+---------------------------------------------------------------------------------------------------
+Version: 6.1.17
+Date: September 21, 2019
+  Bugfixes:
+    - Fixed crash due to Industrial Revolution's removal of disassembly recipes.
+  Changes:
+    - Hides and disables Industrial Revolution scrapper and scrap smelting recipes.
+---------------------------------------------------------------------------------------------------
+Version: 6.1.16
+Date: September 13, 2019
+  Bugfixes:
+    - Fixed minor bug with reverse factory 3 tech prerequisites with Industrial Revolution.
+---------------------------------------------------------------------------------------------------
+Version: 6.1.15
+Date: September 10, 2019
+  Minor Features:
+    - Added fully featured compatibility with Industrial Revolution.
+      Removes iron disassembler entity and technology, in favor of reverse factories.
+      Also hides and disables all disassemble recipes from technology and crafting menu.
+      Reverse factory recipes are altered to include IR ingredients.
+---------------------------------------------------------------------------------------------------
+Version: 6.1.14
+Date: July 29, 2019
+  Bugfixes:
+    - Disabled recycling of a warptorio armor when using the warptorio2 mod to prevent crash.
+---------------------------------------------------------------------------------------------------
+Version: 6.1.13
+Date: July 28, 2019
+  Bugfixes:
+    - Commented out debugging line from control.lua
+---------------------------------------------------------------------------------------------------
+Version: 6.1.12
+Date: July 28, 2019
+  Bugfixes:
+    - Fixed error when using New Game Plus after launching the rocket by adding validity check.
+      (thanks to slippycheeze and indirectly to Klonan)
+---------------------------------------------------------------------------------------------------
+Version: 6.1.11
+Date: July 27, 2019
+  Bugfixes:
+    - Fixed startup error caused by reversible variable not resetting to false.
+---------------------------------------------------------------------------------------------------
+Version: 6.1.10
+Date: July 25, 2019
+  Bugfixes:
+    - Fixed issue with recycler result size not matching recycling recipes.
+    - Fixed issue with higher tier recyclers not accomodating for lower tier recipes.
+---------------------------------------------------------------------------------------------------
+Version: 6.1.9
+Date: July 24, 2019
+  Bugfixes:
+    - Fixed load error regarding nil defined expensive recipes.
+---------------------------------------------------------------------------------------------------
+Version: 6.1.8
+Date: July 23, 2019
+  Bugfixes:
+    - Fixed issue with reverse recipes not being properly hidden.
+---------------------------------------------------------------------------------------------------
+Version: 6.1.7
+Date: July 23, 2019
+  Bugfixes:
+    - Fixed load error due to forgot to comment out a single line.
+---------------------------------------------------------------------------------------------------
+Version: 6.1.6
+Date: July 23, 2019
+  Bugfixes:
+    - Fixed bug with mods that define normal recipes without expensive variants.
+    - Fixed bug with minimum energy required not applying to certain recipes.
+  Changes:
+    - Minimum energy required dependent on which tier of recycler can recycle.
+      This means t1 recipes in t1 machines recycle at the same speed as t4 recipes in t4 machines.
+      This also means t1 recipes in a t4 machine should recycle them even faster.
+    - Also reduced minimum energy requirement from 5 to 4. This only applies to t4 recipes.
+      Similarly, minimum energy requirement of t1 recipes set to 1, t2 recipes to 2, and t3 to 3.
+---------------------------------------------------------------------------------------------------
+Version: 6.1.5
+Date: July 20, 2019
+  Bugfixes:
+    - Fixed bug with recyclers not being removed from list when using automatic ingredient push.
+---------------------------------------------------------------------------------------------------
+Version: 6.1.4
+Date: July 20, 2019
+  Bugfixes:
+    - Fixed bug with automatic ingredient push setting, involving multiple surfaces.
+    - Fixed item duplication bug with Fantario.
+---------------------------------------------------------------------------------------------------
+Version: 6.1.3
+Date: July 12, 2019
+  Changes:
+    - Set maxmimum different results for lower tier machines.
+      T1 max of 5 products, T2 max of 10 products, T3 max of 15 products, T4 unlimited.
+      Only noticeable with certain mods (Fantario)
+    - Rebalanced recycling recipe time costs. Originally 3 times the base recipe cost.
+      Changed to a minimum of 5 seconds, and if greater, set to the base recipe cost.
+---------------------------------------------------------------------------------------------------
+Version: 6.1.2
+Date: July 11, 2019
+  Minor Features:
+    - Fully featured Fantario compatibility.
+      T1-3 machines rely on heat as power source; T4 machine locked behind space science.
+      Recipes and technologies rebalanced for Fantario progression.
+  Changes:
+    - Rebalanced module slots of machines to make T1 noticeably weaker.
+    - Reduced time in recipe for reverse factories from 20s to 5s.
+      Now it can actually recycle itself in a resonable amount of time.
+  Graphics:
+    - Changed icon graphics to match properly.
+  Bugfixes:
+    - Fixed accidental reduction of base recipe costs due to efficiency percentage setting.
+---------------------------------------------------------------------------------------------------
+Version: 6.1.1
+Date: July 10, 2019
+  Bugfixes:
+    - Fixed incompatibility with Tarawind Beacons RELOAD mod.
+      Also works with any other mods that remove productivity module limitations.
+    - Fixed incompatibility with Amator Phasma's Nuclear mod.
+      Also with any other mods that set either normal or expensive results to nil.
+    - Fixed incompatibility with Krastorio.
+      Also with any other mods that define ingredient name/amount without type.
+    - Fixed incompatibility with Space Exploration.
+      Also with any other mods that use probability in matching recipes.
+    - Fixed efficiency percentage setting not affecting certain recipes.
+  Changes:
+    - Items whose recipes use probability can no longer be recycled.
+  Other:
+    - Thanks to everyone on the mod portal who helped with debugging the above issues.
+      Pi-C, Ambaire, Snoman314, KeisariJulma, CyberWizard2261, Ratmaniak, Davidbest, ElAdamo, slippycheeze, rebirth101, TalDoMula, xilr, alatarqq, and NickNDS for both of the error threads.
+---------------------------------------------------------------------------------------------------
+Version: 6.1.0
+Date: July 9, 2019
+  Changes:
+    - Internal functions and logic has been optimized, hopefully preventing future incompatibility.
+      Due to this rewrite, the Factorio Standard Library mod is now a mandatory requirement.
+    - Removed non-recyclable intermediate ingredients setting.
+    - Added 2 higher tiers of reverse factory, tier 4 of which can recycle intermediates.
+    - Changed recipes of the 2 lower tiered machines when playing vanilla or bobs mods.
+    - Bobs mods will enable more complex recipes and different technology requirements.
+    - Recycling recipes changed from a set time cost to 3 times the original recipe's time cost.
+  Minor Features:
+    - Added efficiency percentage, to reduce the amount of returned ingredients (100% by default)
+  Graphics:
+    - Added new high resolution graphics and updated icons (thanks to Krastor from Krastorio!)
+  Locale:
+    - Added Russian locale provided by Krastor (slightly out of date)
+---------------------------------------------------------------------------------------------------
+Version: 6.0.9
+Date: June 21, 2019
+  Bugfixes:
+    - Fixed random incompatibility between Bobs Plates and Attach Notes mods.
+---------------------------------------------------------------------------------------------------
+Version: 6.0.8
+Date: June 17, 2019
+  Changes:
+    - When both Robot Army and Construction Drones are detected, prevent recycling of flamebot.
+  Bugfixes:
+    - Removal of recycling flamebot in above situation prevents "not stackable" error.
+---------------------------------------------------------------------------------------------------
+Version: 6.0.7
+Date: June 6, 2019
+  Changes:
+    - Removed safety toggle, as dense recipes are no longer an issue.
+      Items such as nuclear reactor, rocket silo, etc can now be recycled.
+  Bugfixes:
+    - Any bugs relating to stack sizes of dense recipes should be fixed
+---------------------------------------------------------------------------------------------------
+Version: 6.0.6
+Date: April 23, 2019
+  Major Features:
+    - Added non-recyclable intermediates setting (thanks to Leopard for the idea)
+      Disables recycling of intermediates products, thus preventing the duplication exploit
+  Minor Features:
+    - Fixed changelog for use from within Factorio (thanks to Pi-C on the forums!)
+---------------------------------------------------------------------------------------------------
+Version: 6.0.5
+Date: April 20, 2019
+  Minor Features:
+    - Added feature to set non-recyclable recipes and categories for other mods to use (see FAQs)
+---------------------------------------------------------------------------------------------------
+Version: 6.0.4
+Date: March 30, 2019
+  Bugfixes:
+    - Fixed compatibility with bobs + angels
+---------------------------------------------------------------------------------------------------
+Version: 6.0.3
+Date: March 29, 2019
+  Bugfixes:
+    - Fix for recipes with nonstackable ingredients (these shouldn't exist in the first place)
+      To recycle these recipes, ingredient safety toggle must be disabled (it is not lossless)
+---------------------------------------------------------------------------------------------------
+Version: 6.0.2
+Date: March 28, 2019
+  Bugfixes:
+    - Fix for the "total raw" calculation bug (thanks to mrudat for the fix!)
+---------------------------------------------------------------------------------------------------
+Version: 6.0.1
+Date: March 3, 2019
+  Bugfixes:
+    - Added optional dependencies to GDIW and Bobs Assembling Machines
+      Should improve load order compatibility
+---------------------------------------------------------------------------------------------------
+Version: 6.0.0
+Date: March 1, 2019
+  Info:
+    - Initial release for Factorio v0.17.x
+---------------------------------------------------------------------------------------------------
+Version: 5.1.7
+  Bugfixes:
+    - Fixed compatibility with angels bio processing
+---------------------------------------------------------------------------------------------------
+Version: 5.1.6
+  Bugfixes:
+    - Fixed duplication bug with bobs plates
+  Minor Features:
+    - Added toggle for recycling vehicles and power armors (off by default)
+    - Added changelog.txt for a prettier changelog (many thanks to SuperSandro2000)
+---------------------------------------------------------------------------------------------------
+Version: 5.1.3
+  Bugfixes:
+    - Improved compatibility with angels refining and bio industries.
+    - Prevents crushed stone duplication in recyclers.
+    - Allows bio industries terraformer to be recycled.
+---------------------------------------------------------------------------------------------------
+Version: 5.1.2
+  Bugfixes:
+    - Potential final bugfix for rf-recipe related errors
+    - Small fix to safety toggle so it applies to normal/expensive recipes
+---------------------------------------------------------------------------------------------------
+Version: 5.1.1
+  Bugfixes:
+    - Minor bugfix for angel's smelting, preventing crushed stone duplication in recyclers.
+---------------------------------------------------------------------------------------------------
+Version: 5.1.0
+  Info:
+    - Massive rewrite of core mod
+  Major Features:
+    - Recyclers come in 2 tiers; t1 produces solids, t2 produces solids and fluids
+    - Recycler icons now use powerbars, edited from Zombiee's ShinyBobGFX mod
+    - T1 recycler is easier to research, requiring only red science, electronics and automation
+    - T1 recipe requires more resources and is marginally slower, but retains its 2 module slots
+    - T2 recycler is harder to craft and research, requiring steel, red circuits, 2 t2 assemblers
+    - T2 recycler is almost twice as fast as before, with 4 module slots
+    - Recyclers adhere to new normal/expensive mode, dynamically changing reverse recipes accordingly
+    - Recyclers require alloy processing from bobs mods if detected (bronze for t1, invar for t2)
+    - Recyclers output slots will stretch to fill the largest ingrediant amount in the game
+  Minor Features:
+    - Added new safety toggle, which prevents the recycling of dense recipes
+  Changes:
+    - Removed redundant settings, implemented into core mod
+    - Automatic Ingredient push setting still exists and works with new tier of recycler
+---------------------------------------------------------------------------------------------------
+Version: 5.0.1
+  Balancing:
+    - Added 2 module slots to recycler, allowing beacon effects to apply (excluding productivity)
+---------------------------------------------------------------------------------------------------
+Version: 5.0.0
+  Info:
+    - Initial release for Factorio v0.16
+    - Any earlier changelogs can be found at 
+      https://mods.factorio.com/mod/reverse-factory/discussion/5a5f1b0dadcc441024d769dc
+
+
+
+

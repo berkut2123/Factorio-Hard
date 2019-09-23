@@ -1,0 +1,8 @@
+smeltingtinyequipment = settings.startup["smelting-tiny-equipment"]
+smeltingstartresearch = settings.startup["smelting-start-research"]
+--smeltingnul = settings.startup["smelting-nul"]
+smeltingsteel = settings.startup["smelting-steel"]
+smeltingelectro = settings.startup["smelting-electro"]
+smeltingsolder = settings.startup["smelting-solder"]
+smeltingcable = settings.startup["smelting-cable"]
+smeltingglass = settings.startup["smelting-glass"]

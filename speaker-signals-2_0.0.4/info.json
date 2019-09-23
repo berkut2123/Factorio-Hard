@@ -1,0 +1,9 @@
+{
+	"name": "speaker-signals-2",
+	"version": "0.0.4",
+	"title": "Speaker Signals 2",
+	"author": "Aidan647",
+	"dependencies": ["base"],
+	"description": "More additional signals for speakers",
+	"factorio_version": "0.17"
+}

@@ -1,0 +1,43 @@
+0.16.21 - Mk5 boiler and steam engines.
+
+0.16.20 - Fixed the blinky pixels on the steam engines. Thanks UncraftedName, sorry for the delay.
+
+0.16.19 - Minor update. Lab icons match science pack colors.
+Added bob-laser-bot GFX I made. It's not great, but at least it's hi-res.
+
+0.16.18 - Icon for steam engine mk4
+
+0.16.17 - Steam engine mk4 added, fixed shadow on low res steam engines
+
+0.16.16 - Update for bob's logistic changes.
+
+0.16.15 - Added console message if you have a common mod conflict
+
+0.16.14 - New inserter icons/GFX. It's optional, default on. Fixed boiler fire colors.
+Removed pipes because Bob used mine! Hooray!
+
+0.16.13 - Another quick patch, some forgotten code messed with how bob moved trains. Fixed! Inserters will be updated this week when I finish the low res versions.
+
+0.16.12 - Quick patch to disable my inserter stuff to make it load with low res GFX and the bob's update. Expect another this weekend once I decide what to change and what to keep.
+
+0.16.11 - No entities here, just new OPTIONAL icons for most of bob's ammo. Be sure to check mod settings though it defaults to on. ShinyIcons update also sorts it. Added power bars to some orphans (arty wagon/turret, some armor equipment). Feel free to yell at me.
+
+0.16.10 - Lab Mk2, Alien Lab and Module Lab now hi-res and with random colors. Also includes fix to not break lighted poles.
+
+0.16.9 - Electric furnaces are colored, along with an option to disable it for now. I'm not sure how they'll be received, feedback please. Also added some missing shadows.
+
+0.16.8 - Pumpjacks are redone and have hires as well now. Ditto for the waterjacks.
+
+0.16.7 - HiRes Bots and Fluid Tanks, huzzah!
+
+0.16.6 - Made the new bob's bots match, still low res.
+
+0.16.5 - Radars for Xmas!
+
+0.16.4 - Roboports complete. Not sure how to create new hi-res zone expanders/charger/chests yet though.
+
+0.16.3 - Fixed recipe icons to match crafting menu items.
+
+0.16.2 - Solar Panels added, feedback welcome.
+
+0.16.1 - New Release. Seems stable. No new graphics. Please report any and all bugs/crashes.

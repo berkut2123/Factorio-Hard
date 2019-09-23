@@ -1,0 +1,62 @@
+0.16.20 - sortify the mk5 boiler and steam engine
+
+0.16.19 - added basic loader support
+
+0.16.18 - fix crash when you don't have bob-logistics but do have angel-industry
+
+0.16.17 - made basic belts be in order now that undergrounds/splitters also exist.
+
+0.16.16 - mini-machines support
+- minor cleanup of things when not using Angel's
+-removed my accidental excessive logging
+
+0.16.15 - reverse factory support that I thought I did months ago
+
+0.16.14 - added artifact loot-chest
+
+0.16.13 - sorted mk4 steam engine
+
+0.16.12 - fix for loaders/miniloaders. Minor tweaks
+
+0.16.11 - update for BobLogistic changes
+
+0.16.10 - added miniloaders, changed inserter sorting
+
+0.16.9 - fix for crash if you don't have bob_logistics
+
+0.16.8 - small change, move batteries and iron gears to live with their family
+
+0.16.7 - move Bob's new tiers of inserters if you have em, sort the old versions as they currently are if you don't
+
+0.16.6 - Bob added Uranium shotgun shells, I moved em. Also moved silos and warehouses to the container line again due to overwhelming complaints from myself.
+
+0.16.5 - AAI vehicles. Minor item corrections for reasons
+
+0.16.4 - Took a stab at organizing combat tab. Comments/complaints welcome
+
+0.16.3 - Consolidated all logistic chests in bob-logistics. Corrected some minor bits.
+
+0.16.2 - Some cleanup of bob's intermediate tab (specifically parts of bobwarfare ammos).
+Also sorted some one item mods (void chest, loot chest, peppe bot replacer, belt buffer)
+
+0.16.1 - Initial release, did a little cleanup on obvious things. Please report oddities.
+
+0.15.6
+bug fix - added dependency for 10x harder
+0.15.5
+bugfix and minor icon adjust
+
+0.15.4
+production tab made pretty
+
+0.15.3
+bug fix
+
+0.15.2
+Complete rewrite, will no longer move things I don't want moved
+Fiddled with robot parts
+Logistics, Bob's Logistics and Angels Logistics sorted
+
+0.15.1
+Initial release
+Logistics and Bob's Logistics tabs complete.

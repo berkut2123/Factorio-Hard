@@ -1,0 +1,15 @@
+0.16.8 Algae farm mk1 and mk2 painted
+
+0.16.7 Ore powderizer now colorizered while powderifying
+
+0.16.6 Now with Whinning machines. There was much celebration.
+
+0.16.5 Angel Chem Factories- colored! Hooray!
+
+0.16.4 Fix to make the leaching plant fluidbox work
+
+0.16.3 Cleaned up the Liquifier and made gfx smaller. Thanks to nastyslave.
+
+0.16.2 Fixed the output pipe from leaching plants. Thanks Irwon
+
+0.16.1 Initial release, seems stable. New buildings not colored.

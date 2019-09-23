@@ -1,0 +1,10 @@
+{
+	"name": "Shinys-parkingzone_A16",
+	"version": "1.17.1",
+	"title": "Shinys parkingzone",
+	"author": "ShinyAfro",
+	"homepage": "N/A",
+	"description": "Makes a high-friction variant of concrete.",
+	"factorio_version": "0.17",
+	"dependencies": ["base", "? AsphaltRoads"]
+}

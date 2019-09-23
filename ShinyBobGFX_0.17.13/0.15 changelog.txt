@@ -1,0 +1,98 @@
+Changelog:
+0.15.28
+Thanks to Tharagon, pointed out the assemblers were sloppy and provided a fix.
+New assembler hi-res caps. Less bold, better edges.
+
+0.15.27
+Added roboports and robots
+
+0.15.26
+Added check for when entity, recipe and item names no longer match
+
+0.15.25
+Bug fix for missing file
+
+0.15.24
+Bug fix for power poles.
+0.15.23
+Minor bug fix
+New armoured train icons (Kryzeth is great)
+some file cleanup
+0.15.22
+NOTE - I couldn't make it crash, but there are many changes. Please report bugs
+added powerbars to indicate tier, there is an option to shut off as well
+powerbars show up on some extra items like exoskeletons
+moved orphan icons to live with their brethren (trains, copper wire, iron gears, etc)
+added some custom icons - special thanks to Kryzeth for the labs and mines
+colored robot parts
+added support for heat exchangers and lab-mk2 
+0.15.21
+Fixed path error
+0.15.20
+made electrolysers follow color scheme
+GFX size reduction - please report anything that looks funny
+0.15.19
+added fast replace groups for power poles, substations and beacons
+0.15.18
+added recolored chem plants
+0.15.17
+added options to not use assembling machines or circuits graphics
+
+0.15.16
+fixed all the pipe visibility issues I caused. If you spot one now, let me know
+
+0.15.15
+fixed inserter graphic bug in low res
+
+0.15.14
+added updated low res miners - this also fixed inverted shadow animation
+
+0.15.13
+added high and updated low res pipes
+added high and updated low res underneathies/splitters
+added high res belts and inserters
+fixed graphics when connecting colored pipes to buildings or different pipes
+
+0.15.12
+added beacons and chem/mixer steel furnaces
+fixed naming issue with gems
+fixed error with BigBrotherBobsPlugin
+
+0.15.10
+changed pumpjacks so I don't hate them
+added storage tanks, oil-refinery, accumulators, steam turbines
+
+0.15.9
+WaiTex should no longer conflict.
+
+0.15.8
+added low and high res pumps
+
+0.15.7
+changed high res miners to overlay format
+Mod size now only 37 meg
+
+0.15.6
+added low res assemblers and elec assemblers
+changed high res assemblers and elec assemblers to overlay format
+added shadows to assemblers
+
+0.15.5
+changed steam engines to overlay format, size savings
+added boilers
+
+0.15.4
+added low res mining drills
+changed hi res mining drills to tint format, 50MB smaller download for you
+added boiler fire colors
+
+0.15.3 -
+added low res steam engines and assembling machines - this appears to be enough to allow lower graphics settings
+corrected alignment of low and high res steam engines
+added support for BigBrotherBobsPlugin
+
+0.15.2 - updated description
+
+0.15.1 -
+added colors of power poles, steam engines, assembly machines, pumpjacks, radars, miners and solar and their icons
+added circuit icons and graphics

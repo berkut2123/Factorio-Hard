@@ -1,0 +1,40 @@
+Changelog:
+0.15.10
+minor fix related to changes in ShinyBobGFX
+
+0.15.9
+added support for chem plants
+moved storage tanks to Angel's fluid tab
+
+0.15.8
+small icon fixes
+added colored bars (see gallery) to indicate tier
+added option to turn colored bars on/off
+added option to turn colored icons on/off
+
+0.15.7
+added strand casting machine
+changed icon style by shamelessly copying Angel
+made pellet press IV not pink
+
+0.15.6
+correction of images included
+
+0.15.5
+added salination plant, filtration unit and crystallizer
+All buildings are complete ( I think )
+
+0.15.4
+added ore handling chain buildings
+added powder mixer and sintering oven
+
+0.15.3
+added chemical furnace
+removed 20% clown car colors, icons too!
+
+0.15.2
+added some smelting buildings
+fixed blinky pipe graphic bug
+
+0.15.1
+initial release, all petrochem buildings and some refining buildings added

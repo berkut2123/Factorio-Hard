@@ -1,0 +1,17 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.17.4
+	- Sort Bob's Robotport bits
+	- Sort Mk2,3,4 Logi Chests
+---------------------------------------------------------------------------------------------------
+Version: 0.17.3
+	- Fixed issue when not using all of bob's
+---------------------------------------------------------------------------------------------------
+Version: 0.17.2
+	- Moved Distillery
+	- Made Category Icon for Logistics
+	- Buffer Warehouse and Silo moved
+	- Belt immunity moved
+	- Added Changlog and the worst thumbnail ever, blender is hard
+---------------------------------------------------------------------------------------------------
+Version: 0.17.1
+	- Initial release. Some orphans have their own line, expect updates.
