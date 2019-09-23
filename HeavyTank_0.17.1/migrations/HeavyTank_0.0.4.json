@@ -1,0 +1,16 @@
+{
+  "entity":
+  [
+    ["HeavyTank_tank_a", "HeavyTank_heavy_tank"]
+  ],
+  "item":
+  [
+    ["HeavyTank_tank_a", "HeavyTank_heavy_tank"],
+	["HeavyTank-cannon-shell", "HeavyTank-piercing-cannon-shell"]
+  ],
+  "recipe":
+  [
+    ["HeavyTank_tank_a", "HeavyTank_heavy_tank"],
+	["HeavyTank-cannon-shell", "HeavyTank-piercing-cannon-shell"]
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "LargeElectricPole",
+  "version": "0.17.2",
+  "factorio_version": "0.17",
+  "title": "Large Electric Pole",
+  "author": "SPolygon",
+  "homepage": "",
+  "dependencies": ["base >= 0.17.0"],
+  "description": "Adds a large electric pole that is even bigger than the big electric pole"
+}

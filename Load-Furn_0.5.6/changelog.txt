@@ -1,0 +1,350 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.5.6
+Date: 20. 09. 2019.
+  Bugs:
+    - Fixed a bug in technologies when belt and forklift recipes were opened ahead of time, an extra blue oven loader recipe was removed from technology when using Loader Redux. If you opened the recipes, then you will have them, if not, then you will have to learn a little more technology
+    - Исправлена ошибка в технологиях, когда рецепты ремней и погрузчиков открывались раньше времени, удален лишний рецепт синего погрузчика печи из технологий при использовании Loader Redux. Если вы открыли рецепты, то они у вас останутся, если еще нет то вам придется выучить чуть больше технологий
+---------------------------------------------------------------------------------------------------
+Version: 0.5.5
+Date: 18. 09. 2019.
+  Bugs:
+    - Fixed a bug in the recipe when playing with the Industrial Revolution mod.
+    - Исправлена ошибка в рецепте при игре с модом IndustrialRevolution.
+---------------------------------------------------------------------------------------------------
+Version: 0.5.4
+Date: 15. 09. 2019.
+  Changes:
+    - Added compatibility with the IndustrialRevolution mod.
+    - Добавлена совместимость с модом IndustrialRevolution.
+---------------------------------------------------------------------------------------------------
+Version: 0.5.3
+Date: 13. 09. 2019.
+  Changes:
+    - Changed recipes for loaders, conveyors, dividers, underground conveyors, added loaders for yellow and red conveyors.
+    - Изменены рецепты погрузчиков, конвееров, разделителей, подземных конвееров, добавлены погрузчики для желтых и красных конвееров.
+---------------------------------------------------------------------------------------------------
+Version: 0.5.2
+Date: 05. 09. 2019.
+  Bugs:
+    - Fixed crooked display of icons in size 64
+    - Исправлено кривое отображение иконок размером 64
+  Changes:
+    - Cheaper loader recipe
+    - Reduced mining time for furnaces and loaders
+    - Сокращено время убирания печей и погрузчиков в инвентарь
+    - Удешевлен рецепт погрузчиков
+---------------------------------------------------------------------------------------------------
+Version: 0.5.1
+Date: 29. 08. 2019.
+  Changes:
+    - Changed the size of loaders from 2x1 to 1x1
+    - Изменен размер погрузчиков с 2х1 на 1х1
+---------------------------------------------------------------------------------------------------
+Version: 0.5.0
+Date: 29. 08. 2019.
+  Bugs:
+    - Fixed bug
+    - Исправлен вылет игры при закрузке
+---------------------------------------------------------------------------------------------------
+Version: 0.4.9
+Date: 28. 08. 2019.
+  Changes:
+    - Mods recipes can only be done on your own stoves
+    - Собственные рецепты теперь доступны только для печей мода
+---------------------------------------------------------------------------------------------------
+Version: 0.4.7
+Date: 28. 08. 2019.
+  Changes:
+    - Code fixes improved compatibility
+    - Исправления в коде улучшена совместимость
+---------------------------------------------------------------------------------------------------
+Version: 0.4.6
+Date: 27. 08. 2019.
+  Bugs:
+    - Fixed bug in technology names
+    - Исправлена ошибка в названиях технологий
+---------------------------------------------------------------------------------------------------
+Version: 0.4.5
+Date: 27. 08. 2019.
+  Changes:
+    - Missing icons added to oven recipes
+    - Добавлены недостающие иконки в рецепты печей
+---------------------------------------------------------------------------------------------------
+Version: 0.4.4
+Date: 25. 08. 2019.
+  Changes:
+    - Change in code, craft speed reduced to match recipe, fixed mess with oven recipes, now they are added to the appropriate technology
+    - Изменение в коде, уменьшена скорость крафта для соответствия с рецептапи печи, исправлен бардак с рецептами печи, теперь они добавлены в соответствующие технологии
+---------------------------------------------------------------------------------------------------
+Version: 0.4.3
+Date: 25. 08. 2019.
+  Bugs:
+    - Fixed a bug in which removing restrictions from productivity modules with furnaces recipes did not work
+    - Исправлена ошибка при которой не работало снятие ограничений с модулей продуктивности с рецептами печи
+---------------------------------------------------------------------------------------------------
+Version: 0.4.2
+Date: 22. 07. 2019.
+  Changes:
+    - Added compatibility with PY mod
+    - Vanilla Upgrade Planner is connected (I constantly forgot to add it to the mod)
+    - The icons in the craft crafting menu are ordered (more convenient option)
+    - Добавлена совместимость с PY мод
+    - Подключен ванильный Upgrade Planner (постоянно забывал его внести в мод)
+    - Упорядоченены иконки в меню крафта печи (более удобный вариант)
+---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+Date: 21. 07. 2019.
+  Changes:
+    - Error correction
+    - Added recipe group compatibility for all mods
+    - Added Finnish localization by Aidan647
+    - Исправление ошибок
+    - Добавлена совместимость групп рецептов для всех модов
+    - Добавлена Финская локализация
+---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 19. 07. 2019.
+  Changes:
+    - Added compatibility with recipes that required 3 entry points for liquids
+    - Добавлена совместимость с рецептами, которые требовали 3 точки входа для жидкостей
+---------------------------------------------------------------------------------------------------
+Version: 0.3.9
+Date: 19. 07. 2019.
+  Changes:
+    - missing recipes added, minor fixes related to this
+    - дополнены не достающие рецепты, не большие исправления связаные с этим
+---------------------------------------------------------------------------------------------------
+Version: 0.3.8
+Date: 11. 07. 2019.
+  Changes:
+    - Added new oven recipes, now time, ingredients and result multiplied by 10. This should solve the problem of crafting speed limits. Previous bugs fixed.
+    - Добавнены новые рецепты печи, теперь время, ингридиенты и результат умножены на 10. Это должно решить проблему ограничения скорости крафта. Исправлены предыдущие ошибки.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.7
+Date: 11. 07. 2019.
+  Changes:
+    - changed graphics underground-belt, splitter, transport-belt,loaders.
+    - Изменена графика конвееров, подземных конвееров, погрузчиков, разделителей.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.6
+Date: 09. 07. 2019.
+  Changes:
+    - In the settings, the ability to turn on the furnace recipe change has been added, this will lead to an increase in production by two times, as well as the time and resource costs will increase by two, which will allow smelting more products in the furnaces. Default off.
+    - В настройках добавлена возможность включить изменение рецептов печи, это приведет к увеличению производства в два раза, так же временные и ресурсные затраты возрастут в двое, что позволит выплавлять больше продукции в печах. По умолчанию выкл.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.5
+Date: 28. 06. 2019.
+  Changes:
+    - The formula crafting_speed is changed to an integer.
+    - Изменена формула крафта на целое число (должна быть меньшая погрешность).
+---------------------------------------------------------------------------------------------------
+Version: 0.3.4
+Date: 02. 05. 2019.
+  Changes:
+    - In the mod settings you can disable conveyors and mod loaders. Enabled by default.
+    - В настройках мода можно выключить конвееры и погрузчики мода. По умолчанию включено.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+Date: 30. 04. 2019.
+  Changes:
+    - Reduced recipe cost.
+    - Уменьшена стоимость рецепта.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 06. 04. 2019.
+  Bugs:
+    - Fixed a bug that occurred when the bobelectronics mode was installed without the bobplates mode.
+    - Исправлена ошибка, которая возникала при установленом моде bobelectronics без мода bobplates.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 24. 03. 2019.
+  Bugs:
+    - Changed graphics
+    - Исменена графика
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 24. 03. 2019.
+  Bugs:
+    - Fixed a bug related to the previous fix.
+    - Исправлена ошибка связаная с предыдущем исправлением
+---------------------------------------------------------------------------------------------------
+Version: 0.2.9
+Date: 24. 03. 2019.
+  Changes:
+    - Changed graphics
+    - Исменена графика
+---------------------------------------------------------------------------------------------------
+Version: 0.2.8
+Date: 23. 03. 2019.
+  Changes:
+    - In the settings you can now unlock the use of productivity modules for recipes that use furnaces. Default off.
+    - В настройках теперь можно разблокировать использование модудей продуктивности для рецептов, которые используют печи. По умолчанию выкл.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.7
+Date: 13. 03. 2019.
+  Bugs:
+    - The recipe for smelting steel beams from ore can only be performed by furnaces from the mod. (Only you choose what and how you swim) Also in the settings you can disable this recipe. The recipe for burning wood in coal can perform any kind of stove
+    - Рецепт плавки стальных балок из руды, могут выполнять только печи из мода (игра определяла случайным образом какой рецепт она будет выполнять). Также в настройках можно будет отключить этот рецепт. Рецепт сжигания дерева в уголь могут выполнять любые печи
+---------------------------------------------------------------------------------------------------
+Version: 0.2.6
+Date: 11. 03. 2019.
+  Bugs:
+    - Fixed a bug related to the previous fix.
+    - Исправлена ошибка связаная с предыдущем исправлением
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+Date: 11. 03. 2019.
+  Bugs:
+    - Fixed a bug related to the previous fix.
+    - Исправлена ошибка связаная с предыдущем исправлением
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 11. 03. 2019.
+  Bugs:
+    - Fixed error appears when you try to start the game, it only happens when you have Bob's modules mod, and only if you delete the productivity limitation restriction. Steel beam remelting recipe compatible with bob productivity modules.
+    - Исправлена ошибка, возникающая при попытке запуска игры, она возникала только при наличии мода модули Боба и только при удалении ограничения производительности. Рецепт переплавки стальных балок совместим с модулями продуктивности боба.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 08. 03. 2019.
+  Changes:
+    - Added recipe for burning wood in coal 1 wood = 150 coal or 75 coal if you play at a high difficulty level
+    - Добавлен рецепт сжигания дерева в уголь 1 дерево = 150 угля или 75 угля, если вы играете на высоком уровне сложности
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 08. 03. 2019.
+  Changes:
+    - Added a recipe for steel beams made from iron ore, can work with productivity modules
+    - Добавлен рецепт стальных балок из железной руды, может работать с модулями продуктивностями
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 06. 03. 2019.
+  Bugs:
+    - Correction of transport-belt graphics
+    - Исправления графики транспортных лент
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 26. 02. 2019.
+  Bugs:
+    - Description fixes
+    - Исправления описания
+---------------------------------------------------------------------------------------------------
+Version: 0.1.9
+Date: 26. 02. 2019.
+  Changes:
+    - Added compatibility with factorio 0.17
+    - Добавлена совместимость с факторио 0.17
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+Date: 17. 02. 2019.
+  Changes:
+    - Changed recipes loaders, underground conveyors, which were unnecessarily exaggerated. The ovens themselves are untouched.
+    - Изменены рецепты погрузчиков, подземных конвееров, которые были не оправдано завышены. Сами печи не тронуты.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+Date: 09. 02. 2019.
+  Changes:
+    - Optimization mod, removed all unnecessary, fixed some textures.
+    - Оптимизация мода, удалено все лишнее, исправлены некоторые текстуры.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+Date: 07. 02. 2019.
+  Changes:
+    - The ability of loader to unload / load from train wagons is added.
+    - Добавлена способность погручиков выгружать/загружать с вагонов поездов.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 04. 02. 2019.
+  Changes:
+    - Added German language author [kingmax007](https://mods.factorio.com/user/kingmax007).
+    - Deutsche Sprache hinzugefügt der Autor [kingmax007](https://mods.factorio.com/user/kingmax007).
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 02. 02. 2019.
+  Changes:
+    - Reduction of energy consumption on the basis of 1 electric oven consumes 180 kW, 48 furnaces (8640 kW) are included in the recipe, but products produce two times less, respectively, energy consumption should be reduced by two times.
+    - Снижение энергопотребления на основе 1 электрическая печь потребляет 180 кВт, в рецептуру входит 48 печей (8640 кВт), но продукции производят в два раза меньше, соответственно потребление энергии должно быть в два раза снижено. 
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 31. 01. 2019.
+  Changes:
+    - In the options added the ability to reduce the cost of technology in half (by default off).
+    - В опциях добавлена возможность уменьшить стоимость технологий в два раза (по умолчанию выкл). 
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 30. 01. 2019.
+  Changes:
+    - Added a detailed description, and ways to use in the localization mode.
+    - Добавлено подробное описание, и способы использования в локализацию мода. 
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 24. 01. 2019.
+  Changes:
+    - Minor fixes, increased conveyor crafting speed
+    - Небольшие исправления, увеличена скорость крафта конвеера
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 20. 01. 2019.
+  Changes:
+    - Improved compatibility with other mods, added new recipes
+    - Улучшена совместимость с другими модами, добавлены новые рецепты
+---------------------------------------------------------------------------------------------------
+Version: 0.0.10
+Date: 12. 01. 2019.
+  Changes:
+    - Reduced the size of the mod from 8.54mb to 5.74
+    - Уменьшен размер мода с 8.54мб до 5.74
+---------------------------------------------------------------------------------------------------
+Version: 0.0.9
+Date: 12. 01. 2019.
+  Changes:
+    - Fixed a technology bug in the last update.
+    - Исправлена ошибка в технологиях допущеная в последнем обновлении
+---------------------------------------------------------------------------------------------------
+Version: 0.0.8
+Date: 12. 01. 2019.
+  Changes:
+    - Added logistic tools (loader, underground belt, splitter, transport belt), vanilla version but with relevant characteristics. The recipe was added to the technology, there was no point in creating a new branch considering the cost of technology.
+    - Добавлены логистические инструменты  (погрузчик, подземный ремень, разделитель, транспортный ремень), ванильной версии но с соответствующими характеристиками. Рецепт добавлен в технологии, не было смысла создавать новую ветку учитывая стоимость технологий.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.7
+Date: 07. 01. 2019.
+  Bugfixes:
+    - Fixed a bug in the "categories" (function of a chemical furnace), which led to the departure of the game.
+    - Исправлена ошибка в "категориях" (функции химической печи), что приводило к вылету игры.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 04. 01. 2019.
+  Changes:
+    - Fixed changelog errors.
+    - Исправлены ошибки changelog (в игре не отображалась кнопка "Список изменений")
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 04. 01. 2019.
+  Changes:
+    - The "Remelting" group has been removed from the crafting menu in order not to hinder. The furnaces can    now be found in the production section along with the rest of the furnaces.
+
+    - Из меню крафта удалена группа "Переплавка", чтобы не заграмождать. Печи теперь можно найти в разделе производство вместе с остальными печами.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 31. 12. 2018.
+  Bugs:
+    - Error in the version name in the folder.
+    - В названии папке была указана не та версия, что при распаковке архива приводило к вылету игры.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 27. 12. 2018.
+  Changes:
+    - Small changes that do not affect the characteristics of the furnaces. Has been removed all that is superfluous.
+    - Небольшие изменения не влияющие на характеристики печей, удалено все лишнее.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 27. 12. 2018.
+  Changes:
+    - Small changes that do not affect the characteristics of the furnaces. Has been removed all that is superfluous.
+    - Небольшие изменения не влияющие на характеристики печей, удалено все лишнее.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 25. 12. 2018.
+  Changes:
+    - Initial mod.
+    - Первая версия мода

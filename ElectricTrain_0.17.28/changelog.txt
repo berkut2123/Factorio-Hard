@@ -1,0 +1,230 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.17.28
+Date: 2019-08-31
+  Bugfixes:
+    - Change code for compatibility with Multiple Unit Train Control
+---------------------------------------------------------------------------------------------------
+Version: 0.17.27
+Date: 2019-08-24
+  Changes:
+    - Removed the old power provider
+---------------------------------------------------------------------------------------------------
+Version: 0.17.23
+Date: 2019-08-21
+  Bugfixes:
+    - Change code for compatibility with Multiple Unit Train Control
+---------------------------------------------------------------------------------------------------
+Version: 0.17.22
+Date: 2019-07-02
+  Bugfixes:
+    - Fixed a tech issue.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.21
+Date: 2019-06-29
+  Bugfixes:
+    - Fixed a recipe issue.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.20
+Date: 2019-06-28
+  Minor Features:
+    - Implements a new Behavior.
+    - Control Station is the new building that powers the trains.
+    - For future updates, i will add more control stations to supply the trains (e.g. mk1 can supply 2 trains, mk2 4.....) and a GUI that makes that visible.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.14
+Date: 2019-05-31
+  Bugfixes:
+    - Fixed a table issue.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.13
+Date: 2019-03-31
+  Changes:
+    - Fixed a typo.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.12
+Date: 2019-03-30
+  Changes:
+    - Fixed a typo.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.11
+Date: 2019-03-30
+  Changes:
+    - Fixed a mistake.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.10
+Date: 2019-03-30
+  Changes:
+    - Change code for compatibility with Multiple Unit Train Control
+  Translation:
+    - French translation. (Pull request by kryshnar)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.9
+Date: 2019-03-29
+  Changes:
+    - Update for factorio 0.17.23. Renamed "electric-energy-accumulators-1" to "electric-energy-accumulators"
+---------------------------------------------------------------------------------------------------
+Version: 0.17.8
+Date: 2019-03-28
+  Bugfixes:
+    - Attempt to fix the error. https://mods.factorio.com/mod/ElectricTrain/discussion/5c9cd4b1e95caf000b9fc903
+---------------------------------------------------------------------------------------------------
+Version: 0.17.7
+Date: 2019-03-27
+  Changes:
+    - Fixed a mistake.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.6
+Date: 2019-03-27
+  Changes:
+    - Change code for compatibility with Automatic Train Fuel Stop
+---------------------------------------------------------------------------------------------------
+Version: 0.17.5
+Date: 2019-03-21
+  Changes:
+    - Next attempt to fix the "item without a fuel value" error. https://mods.factorio.com/mod/ElectricTrain/discussion/5c7bd6de961aa5000cbe7693
+    - Attempt to fix the performance issues.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.4
+Date: 2019-03-17
+  Changes:
+    - Next attempt to fix the "item without a fuel value" error. https://mods.factorio.com/mod/ElectricTrain/discussion/5c7bd6de961aa5000cbe7693
+---------------------------------------------------------------------------------------------------
+Version: 0.17.3
+Date: 2019-03-10
+  Changes:
+    - Attempt to fix the "item without a fuel value" error. https://mods.factorio.com/mod/ElectricTrain/discussion/5c7bd6de961aa5000cbe7693
+    - Fixed the version issue. You have to update it manually. I'm sorry :(
+---------------------------------------------------------------------------------------------------
+Version: 0.17.1
+Date: 2019-03-01
+  Major Features:
+    - Release 0.17.
+---------------------------------------------------------------------------------------------------
+Version: 0.16.12
+Date: 2018-10-26
+  Bugfixes:
+    - Next attempt to fix the error. https://mods.factorio.com/mod/ElectricTrain/discussion/5b97a7ae21a58d000969be25
+---------------------------------------------------------------------------------------------------
+Version: 0.16.11
+Date: 2018-10-08
+  Bugfixes:
+    - Fixed a mod incompatibility. https://mods.factorio.com/mod/ElectricTrain/discussion/5bb7961a84c755000987c5cd
+---------------------------------------------------------------------------------------------------
+Version: 0.16.10
+Date: 2018-10-08
+  Bugfixes:
+    - Fixed a migrations issue. https://mods.factorio.com/mod/ElectricTrain/discussion/5bbb3281b4521f000a54c4f2
+---------------------------------------------------------------------------------------------------
+Version: 0.16.9
+Date: 2018-09-27
+  Bugfixes:
+    - Attempt to fix the error. https://mods.factorio.com/mod/ElectricTrain/discussion/5b97a7ae21a58d000969be25
+---------------------------------------------------------------------------------------------------
+Version: 0.16.8
+Date: 2018-08-16
+  Bugfixes:
+    - Next attempt to fix the error. https://mods.factorio.com/mod/ElectricTrain/discussion/5b68a354a16c56000abd2fe7
+---------------------------------------------------------------------------------------------------
+Version: 0.16.7
+Date: 2018-08-07
+  Bugfixes:
+    - Fixed the crash when placing power provider. https://mods.factorio.com/mod/ElectricTrain/discussion/5b68a354a16c56000abd2fe7
+  Translation:
+    - Russian translation. (Pull request by MasterLogick)
+---------------------------------------------------------------------------------------------------
+Version: 0.16.6
+Date: 2018-08-03
+  Changes:
+    - Resolving the problem that hybrid trains have consumed fuel even though power was available.
+    - Fuel bar is now filled.
+---------------------------------------------------------------------------------------------------
+Version: 0.16.5
+Date: 2018-07-02
+  Changes:
+    - Pull request by "shanemadden". Listen for script_raised_built and script_raised_destroy events.
+---------------------------------------------------------------------------------------------------
+Version: 0.16.4
+Date: 2018-03-27
+  Bugfixes:
+    - Fixed crash when mined rails. https://mods.factorio.com/mod/ElectricTrain/discussion/5ab8a9e11d4344000a467985
+---------------------------------------------------------------------------------------------------
+Version: 0.16.3
+Date: 2018-03-05
+  Changes:
+    - Rename items/entities for compatibility.
+---------------------------------------------------------------------------------------------------
+Version: 0.16.2
+  Changes:
+    - Changed fluid wagon recipes and capacities.
+    - Fluid wagon are now enabled by default.
+    - Requires factorio version 0.16.8.
+---------------------------------------------------------------------------------------------------
+Version: 0.16.1
+  Major Features:
+    - Release 0.16.
+---------------------------------------------------------------------------------------------------
+Version: 0.15.12
+  Bugfixes:
+    - Remove forgotten debug code.
+---------------------------------------------------------------------------------------------------
+Version: 0.15.11
+  Bugfixes:
+    - Some code cleaning.
+---------------------------------------------------------------------------------------------------
+Version: 0.15.10
+  Bugfixes:
+    - Next attempt to fix my mistake. https://mods.factorio.com/mod/ElectricTrain/discussion/5a5f1b0dadcc441024d76eb3
+---------------------------------------------------------------------------------------------------
+Version: 0.15.9
+  Bugfixes:
+    - Fixed a mistake. https://mods.factorio.com/mod/ElectricTrain/discussion/5a5f1b0dadcc441024d76eb3
+---------------------------------------------------------------------------------------------------
+Version: 0.15.8
+  Minor Features:
+    - Adds 2 higher levels of fluid wagons. (disabled by default, can be activated via settings)
+---------------------------------------------------------------------------------------------------
+Version: 0.15.7
+  Changes:
+    - Add technology requirement.
+---------------------------------------------------------------------------------------------------
+Version: 0.15.6
+  Minor Features:
+    - Adding setting page.
+    - Adding setting to disable hybrid trains.	  
+  Changes:
+    - Requires factorio version 0.15.31.
+---------------------------------------------------------------------------------------------------
+Version: 0.15.5
+  Minor Features:
+    - Adding hybrid trains. They can use fuel and electricity.
+    - Adds grid size if bob's vehicle equipment is used.  
+  Changes:
+    - Code cleaning.
+---------------------------------------------------------------------------------------------------
+Version: 0.15.4
+  Bugfixes:
+    - Fixed the issue with providers. https://mods.factorio.com/mod/ElectricTrain/discussion/5a5f1b0dadcc441024d76678
+---------------------------------------------------------------------------------------------------
+Version: 0.15.3
+  Bugfixes:
+    - Fixed a mistake.
+---------------------------------------------------------------------------------------------------
+Version: 0.15.2
+  Changes:
+    - Deactivated the cargo wagons when bob's logistics is used.
+    - Changing order.
+    - Requires factorio version 0.15.10.
+---------------------------------------------------------------------------------------------------
+Version: 0.15.1
+  Changes:
+    - Train MK3 needs now advanced electronics 2.
+---------------------------------------------------------------------------------------------------
+Version: 0.15.0
+  Major Features:
+    - Release 0.15.
+    - Adds 2 higher levels of cargo wagons.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0 - First public release
+  Major Features:
+    - Release 0.14. (forked from LuziferSenpai)
+    - Adds 3 levels of electric trains.

@@ -1,0 +1,29 @@
+Escudos Empilhaveis
+
+uranium cluster shells
+uranium piercing shells
+uranium autocannons shells
+
+Plasma shells
+Plasma autocannons
+Plasma Turret
+Anti Matter Turret
+
+
+push back
+
+
+dark matter
+anti matter
+
+
+Experimental tank
+Recipe:
+Heavy Tank + 8 dark Shields
+
+---------------------------------------------------------------------
+Em aberto
+--------------------------------------------------------------------
+Recipe Experimental Tank
+Locales
+Posição Icone

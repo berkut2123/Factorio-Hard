@@ -1,0 +1,7 @@
+{
+  "technology":
+  [
+    ["HeavyTank-Damage-Boost", "HeavyTank-Cannon-Damage-Boost"],
+    ["HeavyTank-Reload-Speed", "HeavyTank-Cannon-Reload-Speed"]
+  ]
+}

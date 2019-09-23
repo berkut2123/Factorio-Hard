@@ -1,0 +1,12 @@
+{
+  "item":
+  [
+    ["uranium-armor-unworn", "ht-uranium-armor-unworn"],
+	["uranium-armor", "ht-uranium-armor"]
+  ],
+  "recipe":
+  [
+    ["uranium-armor-unworn", "ht-uranium-armor-unworn"],
+	["uranium-armor", "ht-uranium-armor"]
+  ]
+}

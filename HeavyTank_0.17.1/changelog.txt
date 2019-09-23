@@ -1,0 +1,115 @@
+V 0.17.1 - New Tier and stuff
+
+Itens change/added
+- Added one more tier of tank and 120mm munnitions.
+- Improved some graphics and icons.
+- Added Plasma Cannons (tank equipment)
+- Multi layer Armor
+- New Nuclear Generator
+
+Mechanics changed
+- Shockwaves deals less damage to small targets
+- Shockwaves now Slows Move Speed by 50% for 5 seconds. Affects biters and players, tanks are immune. (dont stack)
+- Gattling Lasers now slows instead of pushback
+- All explosive shells and rockets destroys cliffs
+- All 120mm Shells push back and slow enemies (if not killed), Effect Stacks (ex: piercing shells will push 10 times if the creature survives a full hit)
+
+Minor Fixes
+- Corrected positions of signals. Now all Heavy Tank things are in the proper tab.
+- Corrected Heavy Tank and Medium Tank resistance descriptions
+- Complatible with Schall's mods
+
+----------------------------------------
+
+V 0.17.0 - Conversion to 0.17
+
+Fast conversion, many things changed in the game and not everything causes an error, some weird things happened during tests, fixed what i could notice, but probaly missed something. Also, worms and spitters now do Acid damage and are imune to Acid, Heavy Tanks are also very resistent to acid... You receive almost no damage and your Acid weapons do Nothing. I will correct this on the next few days.
+
+----------------------------------------
+V 0.2.0 - Heavy Tank 2° Generation - Graphic overhaul and few changes
+
+Graphics:
+- All Heavy Tanks Models and textures remade from Scratch
+- Tank Tracks now are animated
+- 120mm Cannons now have Muzzle Fire
+- Each 120mm projectile have his own color
+- Shockwave new graphic
+- Updated a few icons
+
+Major changes:
+- Scrap Tank (mk1) now have an autocannon instead a mounted machine gun and a new scrap autocannon munition was added.
+- Rocket Pads now fires 1 rocket per shot and now uses Vanilla Rockets instead of Rocket Packs, all Rockets Packs now works like a normal Rocket, this means you can use my custom rockets in anything that fit vanilla rockets AND they will get all benefits from upgrades.
+- Upgrades for autocannons and 120mm cannons now are one.
+- Added munitions: 25mm crude Autocannons shells, 120mm atomic shell, Explosive Uranium Rocket, Standard Land Mines
+- Standard and Heavy landmines dont creates ghosts
+
+Minor changes:
++ Too much to remember all of them. 
+- Laser Gatling knock back increased from 0.5 to 0.6
+- Laser Gatling mk1 technology removed high tec science pack
+- Laser Gatling mk3 technology now requeries HeavyTank
+- Description of tanks now shows its resistances
+----------------------------------------
+
+V 0.0.10 - Small Changes
+- Decreased the size of Collision Box for all tanks a bit
+- Changed sounds of Scrap tank, now have sounds of steam engine and similar
+- Fixed Autocannons equipment shooting only 1 projectile instead of 2
+- Fixed some recipes that should not be used as intermediate, like unloaded gun turrets -> gun turrets that breaks a lot of mods and vanilla recipes and heavy duty batteries that was creating a loop with itself
+----------------------------------------
+V 0.0.9 - Quick Fix
+- Fixed a conflict with Advanced Atomics Mod
+- Fixed wrong item name 120mm Uranium Shell
+- Added description to Diesel fuels recipes, now shows fuel value, acceleration and top speed.
+----------------------------------------
+V 0.0.8 - Quick Fix
+- Fixed a icon with wrong size ( was working fine for me, but for some reason for some people was not)
+----------------------------------------
+V 0.07 - Equipment Overhaul
+-changed the cannon damage upgrade boost from 5/10/15 to 10/20/30
+-Added uranium Shells with custom explosion, less expensive than a nuke, but less powerful too, BUT lot better animation. Very thx to me.
+-Added ThunderStorm rocket pack, creates clouds that drop thunders for a long time. Less DPS than melting rockets, but last longer and is affected by wind.
+-Added equipments, a LOT of them. Generators, armors, batteries, gun turret, autocannons turret, laser gatling...
+----------------------------------------
+V 0.06 - Quick fix
+-Recipe "iodine-from-seaweed" now dont have a second product of nothing....factorio update decides that doing that to show the % is a crime.... for now the % is hidden but still 1% of chance.
+----------------------------------------
+V 0.05 - Complete Overhaul
+-2 more tiers of heavy tanks
+-Complete redone recipes for heavy tanks.
++ Now you need to craft 4 different parts and then assembly the heavy tank.
+-Added "Crude Shells"
+-Better icons for 120mm and 25mm munitions.
+-Complete redone of the tech tree. (if you have some damage and speed upgrades, i'm sorry, but you will lost then)
+-Heavy tank Tier 2 uses custom fuel that can be fabricated from oil derivates.
+-Heavy tank tier 3 uses nuclear cells as fuel and added a new nuclear fuel made from iodine, (i know it's not exactly immersive, but fitted so well....and i have no other ideas ), but don't be fooled, you need a lot of energy to produce it and doesn't last much. Using on nuclear reactors is possible but not viable.
+----------------------------------------
+V 0.0.4 - Minor fixes
+-Tweaked the recipe: autocannons ammo, greatly decreased the cost.
+-Fixed Technology description: autocannons.
+----------------------------------------
+V 0.0.3 - new stuff and tweaks
+- Grid now accepts armor equipments as well
+- Added a group to pack all craft-able things on the mod
+- Buffed auto cannons damage from 2x100 to 2x200 and range from 30 to 75
+- Changed auto cannons from Directional to Target, now its lot easier to kill small biters
+- Added Technology to damage and speed upgrades for auto cannons as well
+(now for the fun part)
+- Changed the "rocket launcher" to "rocket pad", now uses different rockets
+- Added Explosive Rocket Pack, Melting Rocket Pack (acid) and Hellfire Rocket Pack (napalm)
+- Explosive Rocket Pack - 20 vanilla Explosive Rockets
+- Melting Rocket Pack - 20 rockets that explodes like a poison capsule (that was hard to do)
+- Hellfire Rocket Pack - 20 rockets that creates fires in a big area that burns for a wile ( fuck this piece of shit, why fire is so hard to code, dammit, this was a fucking nightmare to work...)
+----------------------------------------
+V 0.0.2 - Lots of changes:
+- Bobs equipments dependency fixed, now full standalone. Very thanks to Kumpu.
+- Added mine laying feature, idea and development once more from Kumpu.
+- Added Technology tree, damage and speed upgrades.
+- Changed the main weapon, now has 2 modes, high damage mode and fast reload mode.
+- Added a shotgun like munition to clear biters and spiters. Clears almost anything in a 30º angle and 50 range
+- Increased range of piercing munition from 80 to 90
+- Added custom icons for the munitions recipes, still sucks, but sucks less now.
+----------------------------------------
+V 0.0.1 - first release.
+
+FactorioMods © 201

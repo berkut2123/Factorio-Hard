@@ -1,0 +1,144 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.17.26
+Date: 6. 20. 2019
+  Bugfix:
+    - Another attempt at EvoGUI compatibility fix
+---------------------------------------------------------------------------------------------------
+Version: 0.17.25
+Date: 6. 20. 2019
+  Features:
+    - Decreased Terraforming Station Evolution deduction by 20%
+  Bugfix:
+    - EvoGUI compatibility fix
+---------------------------------------------------------------------------------------------------
+Version: 0.17.24
+Date: 6. 3. 2019
+  Features:
+    - Converted fully to "Factorio Standard Library" https://mods.factorio.com/mod/stdlib Now also a dependancy
+    - Display Evolution due to Time, Destruction and Pollution if you're using EvoGUI: https://mods.factorio.com/mod/EvoGUI
+    - Tweaked Artifact collector speed.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.23
+Date: 5. 29. 2019
+  Features:
+    - Rebalanced Dard Ammo damage values
+    - Increased damage bonus of Long range and rocket turrets
+---------------------------------------------------------------------------------------------------
+Version: 0.17.22
+Date: 5. 8. 2019
+  Features:
+    - Can't destroy Terraforming Station Logistics container
+---------------------------------------------------------------------------------------------------
+Version: 0.17.21
+Date: 5. 6. 2019
+  Features:
+    - Update to new "emissions_per_minute"
+    - Remove the remote and tech that controls friendly units if you have Unit Control mod installed
+---------------------------------------------------------------------------------------------------
+Version: 0.17.20
+Date: 5. 4. 2019
+  Features:
+    - One more player -> character fix
+---------------------------------------------------------------------------------------------------
+Version: 0.17.19
+Date: 5. 3. 2019
+  Features:
+    - Update to Factorio 0.17.35
+---------------------------------------------------------------------------------------------------
+Version: 0.17.18
+Date: 4. 24. 2019
+  Features:
+    - Alien Artifacts & Small Alien Artifact can be used as fuel and will not cause any pollution
+    - Updated for 0.17.29 pollution method	
+---------------------------------------------------------------------------------------------------
+Version: 0.17.17
+Date: 4. 22. 2019
+  Bugfix:
+    - Pheromone Concret grammer
+---------------------------------------------------------------------------------------------------
+Version: 0.17.16
+Date: 4. 22. 2019
+  Features:
+    - Pheromone Concret now only lasts roughly 1 hour 
+    - Added Rejuvenate Pheromone Concret recipe
+---------------------------------------------------------------------------------------------------
+Version: 0.17.15
+Date: 4. 17. 2019
+  Features:
+    - Removed Battle Marker Collision Mask
+    - Tweaked Long Range Turret & Rocket Turret collision Mask
+---------------------------------------------------------------------------------------------------
+Version: 0.17.14
+Date: 4. 8. 2019
+  Features:
+    - Tweaked Dart Turret collision mask
+    - Decelerate Concrete changed to Pheromone Concrete. Enemy units can't cross. Idea from Darkfrei
+  Bugfix:
+    - Spelling in local
+---------------------------------------------------------------------------------------------------
+Version: 0.17.12
+Date: 4. 1. 2019
+  Features:
+    - Artifact Collector no longer needs power. (uses batteries)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.11
+Date: 3. 25. 2019
+  Bugfix:
+    - Migration error fix
+---------------------------------------------------------------------------------------------------
+Version: 0.17.10
+Date: 3. 25. 2019
+  Features:
+    - Tweaked Combat Inserter recipe if Bob's Logistics
+    - Reduced Alien Artifact drop rates
+    - Added Behemoth Player worms
+---------------------------------------------------------------------------------------------------
+Version: 0.17.9
+Date: 3. 22. 2019
+  Bugfix:
+    - Conversion Ammo running out fix
+---------------------------------------------------------------------------------------------------
+Version: 0.17.8
+Date: 3. 20. 2019
+  Bugfix:
+    - Fixed Standard Dart and Poison Dart Conversion Ammo
+---------------------------------------------------------------------------------------------------
+Version: 0.17.7
+Date: 3. 20. 2019
+  Features:
+    - New Gun Dart Rifle - Thx thereaverofdarkness
+    - Moved Alien Understanding Tech up in Tech tree - Now requires military-science to unlock
+    - Rebalanced Tech Cost of some Techs
+---------------------------------------------------------------------------------------------------
+Version: 0.17.6
+Date: 3. 18. 2019
+  Features:
+    - Updated "pollution_to_join_attack" values of units
+---------------------------------------------------------------------------------------------------
+Version: 0.17.5
+Date: 3. 14. 2019
+  Bugfix:
+    - Made Compatible with Factorion 0.17.12
+---------------------------------------------------------------------------------------------------
+Version: 0.17.4
+Date: 3. 14. 2019
+  Features:
+    - Tweak to Prototype Artillery damage upgrades
+    - Removed Bob's Lib dependancy - too confusing for peeps
+---------------------------------------------------------------------------------------------------
+Version: 0.17.3
+Date: 3. 11. 2019
+  Bugfix:
+    - Removed Ammo Descriptions, now it shows damage values
+    - Decelerate Concrete changed to Super Concrete, since it can't slow enemy units.	
+---------------------------------------------------------------------------------------------------
+Version: 0.17.2
+Date: 3. 5. 2019
+  Features:
+    - Dart Ammo Damage tweak
+    - Artifact Collector Offset tweak
+---------------------------------------------------------------------------------------------------
+Version: 0.17.0
+Date: 2. 27. 2019
+  Features:
+    - Initial Release of 0.17

@@ -1,0 +1,76 @@
+Version: 0.2.13
+  Bugfixes:
+    - Fixed issues related to Factorio 0.17.53 collision upgrade rules.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.12
+Date: 10.4.2019
+  Changes:
+    - Added Changelog in correct way
+    - Added Licence in correct way
+---------------------------------------------------------------------------------------------------
+Version: 0.2.11
+Date: 9.4.2019
+  Changes:
+    - Code optimization to use 0.17 new features 
+    - Recipe tweaks to use considerably less copper and iron but more salt    
+  Bugfixes:
+    - Avoid interaction bug with robots
+---------------------------------------------------------------------------------------------------
+Version: 0.2.10
+Date: 25.3.2019
+  Changes:
+    - Don't ask...
+---------------------------------------------------------------------------------------------------
+Version: 0.2.9
+Date: 
+  Bugfixes:
+    - Potentially fixing interaction bug with robots, thanks to mrudat
+---------------------------------------------------------------------------------------------------
+Version: 0.2.8
+Date: 
+  Locale:
+    - Introduced German translation, thanks to boeller
+---------------------------------------------------------------------------------------------------
+Version: 0.2.7
+Date: 
+  Bugfixes:
+    - Heat exchangers behavior adjustment
+---------------------------------------------------------------------------------------------------
+Version: 0.2.6
+Date: 
+  Changes:
+    - Added Thumbnail
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+Date: 
+  Bugfixes:
+    - Fix basic heat exchangers not working correctly in 0.17
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 
+  Changes:
+    - Renamed folder of mod coherently with mod version
+    - Initial porting to 0.17
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 
+  Changes:
+    - Mod settings (disactivable new steam turbines recipes and heat exchangers recipes)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 
+  Changed:
+    - Thermal solar panels sprites
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 
+  Locale:
+    - Introduced Italian translation
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0 
+Date: 
+  Changes:
+    - Code Optimization 
+    - Decreased warm-up time of solar panels but also their energy storage
+    - Added 3 improved steam engines
+    - Buffed basic heat exchangers

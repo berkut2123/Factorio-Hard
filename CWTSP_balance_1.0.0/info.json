@@ -1,0 +1,10 @@
+{
+	"name": "CWTSP_balance",
+	"version": "1.0.0",
+	"title": "Thermal Solar Power for Bob's Power",
+	"author": "Caxx",
+	"description": "Adjusts the heat exchangers temperature to produce steam in the same temperatures as with Bob's Power.",
+	"homepage": "",
+	"factorio_version": "0.17",
+	"dependencies": ["base >= 0.17.0", "CW-thermal-solar-power", "bobpower"]
+}

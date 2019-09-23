@@ -1,0 +1,20 @@
+Licence
+
+This software is provided without warranty and the software author/license owner cannot be held liable for damages.
+
+
+Commercial Use:
+No. You are not allowed to make money off this mod or any of the contained assets (unless you are Wube Software).
+
+
+Distribution:
+Yes. You are allowed to redistribute this mod as is. This includes being repackaged as part of a mod pack. You must disclose the source.
+
+
+Modification:
+No. You are not allowed to distribute anything altered, or derived from this mod.
+
+Exceptions:
+You can make modifications if you have expressed permission from me (Earendel) first.
+You may make alterations for private personal use.
+You may post partial modified sections of this mod in the mod portal discussion section or official forum thread for this mod (and only those locations) for the purpose of providing bug fixes or enhancements.

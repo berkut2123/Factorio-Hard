@@ -1,0 +1,170 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.99.6
+Date: 20. 09. 2019
+  Locale:
+    - Polish locale added by CubeGaming, many thanks to them for taking the time and effort to do this.
+    - Russian locale updated by Oceanel51, much obliged to them.
+    - French locale updated by Redstylt, thanks again.
+  Fixes:
+    - Scrapping machine pollution/minute was mistakenly being overwritten, it has now has a more appropriate value.
+    - Fixed some glitches introduced to tooltip material info in the last version.
+    - Fixed a minor bug in multiplayer, whereby players leaving and rejoining sessions would have the generator manager quickbar shortcut disabled.
+    - Fixed a minor bug in the assignment of crafting tiers for non-ingots, e.g. stone furnaces could be used to produce glass sheets despite glass ingots requiring bronze furnaces.
+    - Fixed a potential issue arising from tree builder changes in 0.99.4 where vanilla techs with no recipe unlocks, altered by other mods, could end up with the same prerequisite more than once.
+    - Fixed another more serious issue arising from the above, whereby vanilla "upgrade" type techs with no recipe unlocks were ending up with excessive science pack tiers.
+---------------------------------------------------------------------------------------------------
+Version: 0.99.5
+Date: 19. 09. 2019
+  Burner leech:
+    - The Factorio modding API, as of 0.17.69, now directly supports burner inserters fueling themselves from any fuel slot they can access, aka "burner leech".
+    - It is not enabled by default and does not feature in vanilla freeplay games. Mods have to enable it.
+    - In IR, this is now a setting under Settings > Mod settings > Startup, which defaults to off, to preserve the non-leech challenge for those that enjoy it.
+  Fixes:
+    - Corrected an oversight in scrapping recipes. Maximum scrap return for each material is now 50k. Fixes issues with extreme recipes from other mods, such as Clusterio's energy transmitters.
+    - Corrected another oversight where items with incredibly minimal amounts of material in them could produce an invalid crafting time, such as the enigmatic "red".
+    - Rocket silo launch GUI now recognises the additional launch payloads.
+  Locale:
+    - Russian locale updated, thanks again to cos-mic.
+    - German locale updated, thanks again to tiriscef.
+    - Note to translators: tips 018 and 030 have changed.
+  Compatibility:
+    - IR now depends on Factorio base version 0.17.69.
+---------------------------------------------------------------------------------------------------
+Version: 0.99.4
+Date: 19. 09. 2019
+  Breaking changes:
+    - Disassembly wasn't working. It had an ugly menu and did not solve the problem it was created for. It has itself been disassembled.
+    - The replacement is scrapping. Scrapping offers a way to recover some of the metal, glass and stone from any crafted item, at a cost. Even plates, rivets, ammo.
+    - Disassemblers were removed from the mod. They were deliberately not migrated to Scrapping Machines, because scrappers are a lot hungrier for your itamz.
+    - For a full description of how scrapping works, see https://tinyurl.com/scraptastic.
+  Locale:
+    - Russian locale added. Thanks very much to cos-mic for doing this work, and to others for offering to help.
+    - Note to translators: a number of new entries, ask for a list if you need one.
+  Tweaks:
+    - A bonus from the scrap algorithm: in the Laser Assembler, many vanilla recipes / other mod recipes, which previously defaulted to red, now get the crafting tint of the recipe's most common material.
+    - Chemical plants now glow a little at night, to compensate for being at the back of queue when they were handing out lasers.
+    - Advanced furnace alt-mode icons shifted downwards, off the internal glow.
+    - Alloy recipes now have an icon overlay (to differentiate them from scrap smelting).
+    - Empty module slots now show a "greyed out" IR module instead of a vanilla one. Air filter icons were updated to have a similar boxy look to modules, so you know they fit in the same slots.
+    - Better milestone icons.
+  Balancing:
+    - The cost/complexity of air filters was increased. They are still a lot cheaper than an electric module.
+    - Nuclear Fuel Reprocessing was adjusted, is now a specialist scrapping-in-a-centrifuge recipe that also recovers some U238.
+  Fixes:
+    - IR small chest collision boxes were standardised against vanilla small chests, fixing some fast-replace and upgrade issues.
+    - Default upgrade paths set for all small chests and also for bronze depots.
+    - Storage logistics depots now have a filter, like the small yellow chest does.
+    - Productivity modules were re-enabled for rocket launching, explosives, and Kovarex enrichment. Productivity module issues will be looked over again during the balance pass for 1.0.0.
+    - Fixed a derp in vanilla recipe sweep where a couple of items (e.g. blue circuits) were ignoring the crafting category changes set for them.
+    - "Ring" type components no longer show primary material details, because they are always multi-material intermediate products.
+    - Storage tank removal warning is now only shown on standard vanilla tanks and the IR small tank, to stop it showing on tanks from other mods which use them as doorstops and hatstands or whatever the hell.
+  Compatibility:
+    - Multiple Unit Train Control (MUTC): now "currently supported" by IR, by request from author robot256, who did their homework and made this very easy to do, much appreciated.
+    - Space Exploration has temporarily been marked as incompatible, because reports about it are becoming an unwanted drain on my time. Official support for SE will be added at a later date. You're free to experiment.
+    - DSB: fixed bad offset/scale on stacked rubber and wood icons, stacked steel/titanium/chrome gear wheel icons now match unstacked style.
+    - Incineration and flare stack voiding recipes now have a generic localised name, for other mods that display hidden recipes (e.g. FNEI).
+    - Recipes in vanilla's Fluid Handling technology are handled less aggressively, to better support other mods that add recipes to that tech.
+    - Alien Biomes: hidden optional dependency added. Saplings should now be correctly added to Alien Biomes trees regardless of what other mods may be influencing loading order.
+    - AAI: compatibility refactored. No longer runs a second cheeky tech tree rebuild. Does still run a second science costs pass.
+    - The dreaded tech tree cycle error has an improved error message. Now only techs involved in the cycle are shown. The mods involved cannot yet be shown (pending API support).
+    - The science costs pass also runs a tree cycle check, as it can now be called separately when required.
+    - The tech tree builder no longer resets the prerequisites of technologies that have no recipe unlocks. Should help with compatibility for mods with a lot of script-only techs, e.g. Factorissimo 2.
+    - Comments added to code/technology/technology.lua on the disabled vanilla techs list at the top, indicating the closest IR or vanilla equivalent where relevant.
+    - Monowheel item changed to item-with-entity-data.
+---------------------------------------------------------------------------------------------------
+Version: 0.99.3
+Date: 11. 09. 2019
+  Balancing:
+    - Military Science (grey science packs) now depends on Improved Laboratories 1, like blue science, because you can't use military packs in copper labs anyway.
+    - This has no actual effect on military progression in terms of timing, but it does automatically result in slightly increased military research costs from the mid-Iron Age onwards.
+  Fixes:
+    - The smelting recipe overload change in the last version was reverted, it didn't achieve the desired goal and just created new problems.
+    - Fixed that logistics storage depots would return the wrong item when deconstructed.
+  Compatibility:
+    - Loader Redux compatibility was added, and it was added to the list of mods that are supported.
+    - PyCoalProcessing was marked as incompatible for the time being (at their request).
+    - Omnipermute was removed from the incompatible mods list, as it depends on Omnilibrary which remains incompatible.
+    - Deadlock's Larger Lamps now required to be version 1.2.7 or above.
+    - If IR hides any vanilla item that places a vanilla entity, the "next_upgrade" property of the entity is now automatically set to nil, instead of listing specific next_upgrade cancellations manually.
+---------------------------------------------------------------------------------------------------
+Version: 0.99.2
+Date: 10. 09. 2019
+  Breaking changes:
+    - Lamp signal-to-colour-mapping was re-ordered, so that it follows the rainbow order in the IR signals menu, left to right.
+    - Apologies that the above change might break some lamp set-ups, but this was a mess and did need correcting.
+  Locale:
+    - German locale added, many thanks to tiriscef for taking the time and effort to do this.
+    - French locale updated, thanks again to Redstylt.
+  Fixes:
+    - All quickbar shortcuts that are unlocked in vanilla by Construction Robotics are now unlocked by Roboport Equipment instead, as that is the equivalent vanilla unlock in IR.
+    - The same shortcuts are now additionally unlocked by Clockwork Punkbot research.
+    - Migration handler added re: the two changes above for existing saves.
+    - This issue with the construction quickbar shortcuts will not have affected the vast majority of IR players, as the unlocks are stored in player data, not in the game save.
+    - Smelting/alloying recipes were overloaded by 8x, so that inserters will fill furnace input slots more, a little closer to vanilla inserter/furnace behaviour.
+    - Fixed that players could receive vanilla items if they respawn. You now get nichts. Don't die.
+    - Display plate GUI: removed a potential desync issue.
+    - The research queue is no longer forced to be on. Does not affect existing saves.
+  Compatibility:
+    - Dectorio: Lamp signal colour mapping order, and the colour signal icons, both defer to Dectorio if detected.
+    - Dectorio: Fixed another issue which occurred with IR + Dectorio + Alien Biomes, caused by me not practising what I preach.
+    - Omnipermute and Omnilib were added to the incompatible mods list.
+---------------------------------------------------------------------------------------------------
+Version: 0.99.1
+Date: 08. 09. 2019
+  Locale:
+    - French locale added, many thanks to Redstylt and SNova for doing this work.
+  Fixes:
+    - Chromed steel rods (redundant in IR) had the wrong ratio of ingredients to results.
+    - The opening/closing sound volume for tin and bronze chests, and all the storage depot variants, now matches vanilla chests.
+    - Fixed that duranium alloy could not be forged in any available furnace.
+  Compatibility:
+    - AAI: Fixed that AAI was overriding IR's necessary changes to some early vanilla machine recipes, e.g. burner drills.
+---------------------------------------------------------------------------------------------------
+Version: 0.9.999
+Date: 07. 09. 2019
+  License:
+    - The license changed to CC BY-NC-ND 4.0 (https://creativecommons.org/licenses/by-nc-nd/4.0/).
+    - This is exactly the same license as the one used by Pyanodon's mods and Angel's mods.
+  New:
+    - Added a description of how the generator manager works to all generator equipment. Suggested by Ranakastrasz.
+  Fixes:
+    - Fixed that sulphur was on the wrong tab on the item filter menu.
+    - Removed laser turrets and electric arc turrets from disassembly recipes (too many results for the disassembler machine to handle).
+    - Demoted logs about redundant items from warning to debug, and removed other log spam.
+    - Generator manager quickbar shortcut and keyboard control name references were still a bit wonky, fixed.
+    - Bronze bearings locale string had a typo.
+  Balancing:
+    - Bronze forester: No longer has negative pollution. It interacted badly with fuel multipliers. Pollution now zero.
+    - Electric forester: Still has negative pollution. Their cleaning power increased.
+    - This means that solar-powered electric foresters produce better net cleaning than before, but steam-powered ones still have net pollution emissions.
+  Compatibility:
+    - DSB/DCM/AAI: Prevented a whole set of possible and existing issues with DSB/DCM circular tech errors, e.g. when AAI is also active.
+    - AAI: Fixed that copper drills and burner inserters were not enabled on new game start.
+    - Dectorio: fixed that vanilla ores were mistakenly being hidden from item filter menus.
+    - Changed the way that saplings are added to vanilla trees, to try and preserve changes other mods might have made (where possible).
+  Known compatibility issues:
+    - Dectorio + Alien Biomes: Dectorio does not handle IR's perfectly valid minable results property for trees in its Alien Biomes support. Reported to the author.
+    - AAI: "Starting crash sequence" provides some relatively trivial items that the player shouldn't really be able to access. Will be fixed, but low priority. To avoid it for now, turn off the crash sequence in AAI settings.
+---------------------------------------------------------------------------------------------------
+Version: 0.9.99
+Date: 07. 09. 2019
+  Fixes:
+    - Fixed CTRL+G causing an error when trying to use the keyboard to toggle the generator manager.
+    - Fixed a dopey mistake with AAI compatibility, caused by moving a recipe unlock without checking. Rookie.
+    - Fixed an issue raised by Explosive Termites, where IR was assuming that vanilla trees are minable. Do as I say, not as I do.
+    - The mod "Bullet Trails" was marked as incompatible because of conflicts over vanilla turrets. IR already provides its own bullet trails, via literal bullets.
+  Changes:
+    - All the supported mods except Larger Lamps were made into hidden dependencies - people seem to be thinking that showing optional dependencies means it's recommended to install everything on the list, it isn't.
+---------------------------------------------------------------------------------------------------
+Version: 0.9.9
+Date: 06. 09. 2019
+  New:
+    - Initial 0.9.9 release to the starving masses.
+    - Recipes and general balance in the mod are subject to change until 1.0.0 - this will only be done if absolutely necessary.
+    - 1.0.0 will be released when Factorio 0.17 goes stable and there are no more glaring issues to solve, whichever is the later.
+  READ THIS:
+    - A new game is highly recommended. Loading this mod into a pre-existing vanilla or modded save will probably wreck it.
+    - Only high resolution sprites are provided. "Lowest" graphics settings will rescale sprites.
+    - "Normal" and "expensive" recipes are not supported. Recipes are what they are.
+  Incomplete/to-do:
+    - There is not very much to do yet with the final post-rocket tier of materials. More post-rocket machines and technologies will be added at a later date.

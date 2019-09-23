@@ -1,0 +1,9 @@
+ {
+     "name": "HeavyTank",
+     "version": "0.17.1",
+     "title": "HeavyTank",
+     "author": "TexugoMaldito",
+     "dependencies": ["base >= 0.17"],
+     "factorio_version": "0.17",
+     "description": "HeavyTank 2nd Gen"
+ }

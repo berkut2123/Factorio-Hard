@@ -1,0 +1,10 @@
+{
+	"name": "CW-thermal-solar-power",
+	"version": "0.2.13",
+	"title": "Thermal solar power",
+	"author": "CyberWizard2261",
+	"description": "Adds the ability to build a thermal solar complex for generating energy",
+	"homepage": "",
+	"factorio_version": "0.17",
+	"dependencies": ["base >= 0.17.0"]
+}

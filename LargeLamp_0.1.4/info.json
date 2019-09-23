@@ -1,0 +1,11 @@
+{
+    "name": "LargeLamp",
+    "version": "0.1.4",
+    "title": "Large lamp",
+    "author": "Zniwiarz44, Rysiulaw",
+    "contact": "",
+    "homepage": "",
+    "factorio_version": "0.17",
+    "dependencies": ["base >= 0.17"],
+    "description": "This mod adds a large lamp which lights up a 2 times greater area then default small lamp."
+}

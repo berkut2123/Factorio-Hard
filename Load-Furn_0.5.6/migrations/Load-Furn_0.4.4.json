@@ -1,0 +1,26 @@
+{
+  "item":
+  [
+    ["lf-furnace-01", "furnace-pro-01"],
+    ["lf-furnace-02", "furnace-pro-02"],
+    ["lf-furnace-03", "furnace-pro-03"],
+    ["lf-furnace-04", "furnace-pro-04"],
+    ["lf-furnace-05", "furnace-pro-05"]
+  ], 
+  "entity":
+  [
+    ["lf-furnace-01", "furnace-pro-01"],
+    ["lf-furnace-02", "furnace-pro-02"],
+    ["lf-furnace-03", "furnace-pro-03"],
+    ["lf-furnace-04", "furnace-pro-04"],
+    ["lf-furnace-05", "furnace-pro-05"]
+  ], 
+  "technology":
+  [
+    ["lf-furnace-a", "furnace-pro-1"],
+    ["lf-furnace-b", "furnace-pro-2"],
+    ["lf-furnace-c", "furnace-pro-3"],
+    ["lf-furnace-d", "furnace-pro-4"],
+    ["lf-furnace-e", "furnace-pro-5"]
+  ] 
+}

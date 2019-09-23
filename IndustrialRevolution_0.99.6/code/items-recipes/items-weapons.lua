@@ -1,0 +1,36 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- data:extend({
+	-- {
+		-- type = "recipe",
+		-- name = "special-hat",
+		-- result = "special-hat",
+		-- result_count = 1,
+		-- category = "crafting",
+		-- enabled = true,
+		-- ingredients = {
+			-- {"tin-foil",1},
+		-- },
+		-- energy_required = 1,
+	-- },
+    -- {
+        -- icon = get_icon_path("special-hat", DIR.icon_size),
+        -- icon_size = DIR.icon_size,
+        -- infinite = true,
+        -- name = "special-hat",
+        -- order = "a[aardvark]",
+        -- resistances = {
+            -- {
+                -- decrease = 3,
+                -- percent = 5,
+                -- type = "physical"
+            -- },
+        -- },
+        -- stack_size = 1,
+        -- subgroup = "armor",
+        -- type = "armor"
+    -- }
+-- })
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
