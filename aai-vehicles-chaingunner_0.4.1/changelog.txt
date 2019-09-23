@@ -1,0 +1,15 @@
+v0.4.1: Updated for Factorio 0.17
+
+v0.3.1: Updated for Factorio 0.16
+
+v0.2.4: Reduced fire rate slightly. Increased physical resistance percentage but decreased fixed reduction. Reduced recipe cost.
+
+v0.2.3: Chaingunner now has it's own tech. The recipe is also updated (ideally using AAI Industry).
+
+v0.2.2: Reduced Inventory size.
+
+v0.2.1: Updated for Factorio 0.15
+
+v0.1.3: Control.lua no longer required
+
+v0.1.2: Fixed game config change removing secondary toolbelt and logistics settings..

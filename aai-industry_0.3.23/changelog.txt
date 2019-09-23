@@ -1,0 +1,214 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.3.23
+  Changes:
+    - Changes starting crash sequence extra items to be restricted if items are disabled by other mods.
+    - Shipwreck pieces now give guaranteed resources instead of chances.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.22
+  Changes:
+    - Allowed productivity for new crude oil processing recipe.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.21
+  Changes:
+    - Basic oil processing is improved but requires water and only returns petroleum.
+    - Advanced oil processing is worse for petroleum but better for light oil.
+    - A new Crude oil processing is faster and mainly returns heavy oil.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.20
+  Changes:
+    - Changes to logistic science packs are conditional on the recipe being close to the vanilla recipe (not altered by bobs).
+    - Changed utility science pack recipe to output 5 science packs with a craft time of 35s (same number of packs per second as vanilla).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.19
+  Bugfixes:
+    - Fixes the burner turbine generator had accidently become 100% effective, reduced to 95% effectivity.
+    - Added extra conditional checks to some functions that add tech prerequisites.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.18
+  Changes:
+    - Decreased effective cost of logistic science pack. Uses more transport belt but outputs 2 packs.
+    - Decreased effective cost of utility science pack. Uses more processing units but outputs 4 packs.
+    - Added logistic science pack cost to filter inserters tech.
+    - Updated some compatibility code relating to steam power for bobs mods.
+    - Improved support for entities being built via script.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.17
+  Changes:
+    - Decreased Assembling machine 2 electronic circuit cost.
+    - Assembling machine 3 requires electric engine units instead of electric motors.
+    - Steam turbine require electric motors but less copper and gears.
+    - Increased concrete and steel wall resistances, decreased health (overall durability improvement).
+
+  Bugfixes:
+    - Fixed that electric engine tech did not require engine tech.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.16
+  Changes:
+    - Updated pollution emissions to new format.
+    - Assembling machine 2 and 3 require steel plate instead of iron gear wheels.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.15
+  Bugfixes:
+    - Compatibility patch for other mods that add toolbelt infinite tiers.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.14
+  Bugfixes:
+    - Compatibility patch for other mods that add toolbelt tiers.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.13
+  Features:
+    - Added 6 tiers of toolbelt tech for a total of +30 inventory slots.
+
+  Bugfixes:
+    - Fixed changelog formatting
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.12
+  Bugfixes:
+    - Fixed crash with starting... crash sequence.
+    - Minor change to migration code.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.11
+  Info:
+    - Reduced stone brick requirement for steel and electric furnaces.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.10
+  Info:
+    - Updated for Factorio 0.17.35
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.9
+  Changes:
+    - Increased stone resource generation.
+  Fixes:
+    - Fixed that at lamp didn't require glass. Circuit requirement removed.
+    - Fixed that the first tier of bobs boilers didn't require MK1 boilers after one of the tech changed names.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.8
+  Changes:
+    - Changed glass stack size to 100
+    - Moved productivity-allow statements to final data step so that bobs mods modules won't ignore some intermediates.
+  Bugfixes:
+    - Fixed yellow transport belt being available in basic logistics if bobs basic belts are installed.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.7
+  Changes:
+    - Changed a function to work with Angels mods.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.6
+  Bugfixes:
+    - Better bobs support. Support for multi-layered icons
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.5
+  Features:
+    - Added Sand and Glass.
+  Changes:
+    - Reduced iron cost for motors.
+    - Cheaper inserters and belts.
+    - Updated support for bobs/angels.
+    - Updated to new pollution spec.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.4
+  Locale:
+    - Added missing technology descriptions.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+  Bugfixes:
+    - Changed the shipwreck collision settings to not interfere with RSO resource spawning.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+  Bugfixes:
+    - Fixed that some damage to the burner generator was unrepairable.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+  Info:
+    - Updated for Factorio 0.17.
+  Graphics:
+    - New textures for stone and spiked steel walls.
+  Changes:
+    - A few minor recipe tweaks.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+  Features:
+    - Support for Bobs transport overhaul and steam power tiers.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+  Changes:
+    - Updated offshore pump to new prototype spec.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+  Info:
+    - Updated for Factorio 0.16.
+  Changes:
+    - Crash sequence is now a config option.
+  Features:
+    - Spiked Steel Walls that reflect damage have been added.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.12
+  Bugfixes:
+    - Fixed electric engine lubricant requirement.
+  Changes:
+    - AAI intermediates can now use productivity modules.
+  Modding:
+    - Other mods can now disable the crash sequence (see forum thread).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.11
+  Bugfixes:
+    - v0.1.11: Fixed broken assembling machine 1 recipe.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.9
+  Features:
+    - Added Vehicle Fuel and Fuel Processor
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+  Graphics:
+    - Changed motor and engine icons to increase distinctiveness.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+  Features:
+    - BOOM. Game starts with a crash landing.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+  Changes:
+    - Burner Turbine is now lower priority power output.
+    - Removed tech lock on Unit Remote Controller.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+  Bugfixes:
+    - Fixed "Basic Logistics" tech name.
+    - Fixed expensive Electric Motor recipe.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+  Bugfixes:
+    - Fixed broken motor recipe.

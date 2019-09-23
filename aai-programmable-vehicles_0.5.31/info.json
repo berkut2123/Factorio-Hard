@@ -1,0 +1,25 @@
+{
+	"name": "aai-programmable-vehicles",
+	"version": "0.5.31",
+	"title": "AAI Programmable Vehicles",
+	"author": "Earendel",
+	"dependencies": [
+		"base >= 0.17.35",
+		"aai-signals >= 0.4.1",
+		"?aai-zones >= 0.4.1",
+		"?aai-programmable-structures >= 0.5.11",
+		"?aai-industry >= 0.3.2",
+		"?aai-vehicles-miner >= 0.4.1",
+		"?aai-vehicles-hauler >= 0.4.1",
+		"?aai-vehicles-chaingunner >= 0.4.1",
+		"?aai-vehicles-flame-tumbler >= 0.4.1",
+		"?aai-vehicles-flame-tank >= 0.3.1",
+		"?aai-vehicles-laser-tank >= 0.4.1",
+		"?aai-vehicles-warden >= 0.3.1",
+		"?bullet-trails >= 0.4.1",
+		"?walls-block-spitters >= 0.4.2"
+	],
+	"description": "Makes vehicles act like RTS units. Control them using a remote control handset, or program them with circuit conditions and zones. Can be used for base enemy base assault, patrols, friendly base navigation, vehicle-based mining, and more advanced applications. Works with vanilla and modded vehicles. Visit the mod portal page for a full feature list or the forums for tutorials.",
+	"factorio_version": "0.17",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=38475"
+}

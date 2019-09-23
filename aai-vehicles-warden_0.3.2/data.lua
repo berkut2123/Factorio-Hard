@@ -1,0 +1,8 @@
+require("prototypes/category")
+require("prototypes/entity")
+require("prototypes/weapon")
+require("prototypes/beam")
+require("prototypes/gun")
+require("prototypes/item")
+require("prototypes/recipe")
+require("prototypes/technology")

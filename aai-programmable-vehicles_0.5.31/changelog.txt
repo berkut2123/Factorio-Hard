@@ -1,0 +1,445 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.5.31
+Date: 25. 07. 2019
+  Bugfixes:
+    - Fixed issue when trying to manually edit unit data with over 6 signals.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.30
+  Changes:
+    - Updated the code to make the hovercraft vehicle act as a hauler.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.29
+  Changes:
+    - Unit group selections can now be saved to control groups (0-9). Control groups code thanks to Saevon.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.28
+  Bugfixes:
+    - Fixed error when manually changing modes while the player has no character.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.27
+  Bugfixes:
+    - Fixed error when the driver is a player without a character.
+    - Fixed vehicle impact sounds being audible at the world origin if the vehicle swapped modes at the same time.
+    - Fixed issue with vehicles with being powered by equipment batteries when they also have unusual fuel categories.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.26
+  Changes:
+    - Added hovercraft as a hauler type (can initiate inventory exchange).
+
+  Bugfixes:
+    - Fixed crash for adding a vehicle type to the excluded list mid-game.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.25
+  Changes:
+    - Added mod option to disable warning on riding in an AI controlled vehicle.
+    - Vehicles can't be powered from energy grid unless battery energy is over 50%.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.24
+  Bugfixes:
+    - Fixed crash on selected unit death.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.23
+  Changes:
+    - Added a setting for max pathfinding visualisation range. Decrease the number to increase performance when multiple vehicles are pathfinding.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.22
+  Bugfixes:
+    - Fixed error on path update if path elements have been removed.
+
+  Changes:
+    - Active vehicles have belt immunity.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.21
+  Changes:
+    - Reduced max worm range.
+    - Construction denial range now also applies to biters ability to create expansions.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.20
+  Changes:
+    - Improved support for entities being built via script.
+
+  Bugfixes:
+    - Removed logistic science pack dependency for circuit network.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.19
+  Bugfixes:
+    - Fixed unknown error relating to navpath visualisation
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.19
+  Bugfixes:
+    - Fixed crash relating to path visualisation in multiplayer when rendering objects get unexpectedly deleted.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.18
+  Bugfixes:
+    - Fixed crash on creating a unit remote while dead.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.17
+  Bugfixes:
+    - Fixed crash on changing waypoint back to position from something else via the GUI.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.16
+  Changes:
+    - Disabled virtual driver ability to pickup loot items (miners and wardens can still collect floor items).
+    - "Allow pathfinding" checkbox removed from path waypoints, replaced with Pathfinding.
+    - Pathfinding added to waypoints, settings are Always (default), Auto (only after a collision), and Never (keep driving regardless of obstacles).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.15
+  Changes:
+    - Virtual drivers are prevented from inheriting crafting categories from the base game character.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.14
+  Changes:
+    - Fixed set max pathfinding visualisation render length to 256 tiles to save FPS.
+
+  Bugfixes:
+    - Fixed the minimum fuel signal was not working after multi-categorised burner code change.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.13
+  Bugfixes:
+    - Fixed that path start point would disappear if modified by a control tower.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.12
+  Bugfixes:
+    - Fixed a bug with multi-category fuel code.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.11
+  Changes:
+    - Multi-categorised burner support thanks to Regedit2000
+
+  Bugfixes:
+    - Fixed vehicles would not be split if they had 2 weapons.
+    - Fixed miners stalling and losing their path or other orders when they momentarily lost power due to mining power draw.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.10
+  Bugfixes:
+    - Fixed script error with path remote.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.9
+  Info:
+    - Updated for Factorio 0.17.35
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.8
+  Bugfixes:
+    - Fixed a crash when using the path remote on a new game
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.7
+  Features:
+    - Added new pathfinding implementation. The new system is better for most cases but can struggle when starting from a cramped position.
+    - Unit type lists and paths are now surface-specific to make the mod more multi-surface compatible.
+    - Added shortcuts (to the right of the toolbar) for the unit and path remote controllers.
+    - Paths can now be named.
+    - Path waypoints now have text labels.
+    - Added a mod setting to restrict remote actions to specific player ids.
+
+  Changes:
+    - More cautious path following driving, looks further ahead to slow down and not overshoot corners.
+    - Changed path visualizations to use the rendering API, should increase performance.
+    - Nth unit of type lists are now surface-specific, each surface can have it's own 'Car 1'. Unit ids are unaffected.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.6
+  Bugfixes:
+    - Fixed support for multi-layered icons not working
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.5
+  Features:
+    - Vehicles with multiple weapons are now auto-split into multiple vehicles.
+    - There is a mod setting to exclude vehicles.
+    - Added support for vehicles with an icon specified as icons.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.3
+  Bugfixes:
+    - Fixed clear waypoint button didn't work.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.2
+  Bugfixes:
+    - Fixed loading error when 3rd party vehicles didn't have flags.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.1
+  Info:
+    - Updated for Factorio 0.17.
+
+  Bugfixes:
+    - Fixed issue where items in unit-data would cause a crash if they had been removed from the game.
+
+  Changes:
+    - Tiny almost unnoticeable pathfinding improvement.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.8
+  Features:
+    - Added optional speed limit to paths. Added option to allow pathfinding on position waypoints. Exclude logicarts from form vehicle AI.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.6
+  Bugfixes:
+    - Fixed invalid player variable preventing old save loading
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.5
+  Features:
+    - Paths Update: added paths and waypoints
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.3
+  Bugfixes:
+    - Fixed error when running out of ammo.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.2
+  Info:
+    - Updated for Factorio 0.16
+
+  Features:
+    - Added control over vehicle AI state.
+    - Vehicles are now controlled using a dummy character which bypasses the need for a fake turret and shooting script system, so things like shooting speed modifiers and max bullet range work properly now.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.25
+  Bugfixes:
+    - Beam effects fix
+    - Battery power fix.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.23
+  Features:
+    - Added support for the "Minimum Fuel (MJ)" signal, and added it as a default for hauler types.
+    - This prevents haulers giving away all their fuel.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.22
+  Changes:
+    - Hauler type units will not give away their own fuel.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.21
+  Changes:
+    - Inventory transfer now considers fuel and ammo slots when counting and removing items.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.19
+  Changes:
+    - Works with more ammo types, e.g. bobs advanced ammo magazines.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.18
+  Bugfixes:
+    - Fix for when AAI Vehicles: Hauler is not installed.
+    - Fix fuel duplication bug.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.17
+  Features:
+    - You can now send a unit or units to follow a single unit or player with the Unit Remote Controller.
+    - A group will form a circle armound the target.
+    - You can give follow commands with the Unit Controller tower, send it a "Follow Unit ID" signal, it will keep at a default distance. Add a distance signal to change the follow distance, add an angle signal to keep a fixed angle. Use X and Y tiles to specify an absolute offset from the target instead. Use X and Y Subtiles to specify an orientation offset, based on the direction the player or vehicle is facing.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.16
+  Changes:
+    - Cannot build close to enemy bases.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.17
+  Features:
+    - You can now send a unit or units to follow a single unit or player with the Unit Remote Controller. A group will form a circle armound the target. You can give follow commands with the Unit Controller tower, send it a "Follow Unit ID" signal, it will keep at a default distance. Add a distance signal to change the follow distance, add an angle signal to keep a fixed angle. Use X and Y tiles to specify an absolute offset from the target instead. Use X and Y Subtiles to speify an orientation offset, based on the direction the player or vehicle is facing.
+
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.14
+  Bugfixes:
+    - Fixed issue with Unit Remote Controller not being added at the start in some cases. Free Unit Remote Controller is now a setting.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.13
+  Changes:
+    - Improved close-range turning and precision stopping.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.9
+  Changes:
+    - Major pathfinding change, it seems to be much better in testing.
+    - Added support for turretless vehicles that have weapons.
+    - Added a function that can split a vehicle with multiple weapons into multiple vehicles with 1 weapon.
+    - Improved support for Aircraft.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.8
+  Bugfixes:
+    - Fixed depot wiring bug.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.6
+  Changes:
+    - Units now chart a small area around them.
+    - Updated for the new data-raw-prototypes version.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.4
+  Changes:
+    - Subtile movement commands now move by a limited offset, instead of setting a constant speed.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+  Changes:
+    - Replaced "Inventory Transferred" text with a particle animation showing the item types exchanged.
+    - Miners will take a direct route if told to go to a nearby tree.
+    - The Unit Remote Controller can now edit Unit Data.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+  Changes:
+    - Fixed error triggered by ammo prototypes changing.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+  Info:
+    - Updated for Factorio 0.15.
+
+  Changes:
+    - A lot had to be changed so expect some come bugs and please report them.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.11
+  Changes:
+    - Vehicle pollution, light, and driverless sounds have returned.
+  Bugfixes:
+    - Also fixes a bug related to vehicle impact resistance.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.10
+  Bugfixes:
+    - Fixed the desync issues! Special thanks to Arumba, Nexela, MagmaMcFry, Primedead, Arch666Angel, Nilaus, Belusterk, William The III, Zippy the Squirrel, Phexxer, Justderping ruler of iron horses, & No One. Remember, don't teleport fire! This version temporarily disables vehicle pollution, light, and driverless sounds, but these will return in the next release.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.8
+  Changes:
+    - If another mod adds equipment grids to vehicles, AAI vehicles can now power themselves from the equipment grid batteries, thanks to Undarl.
+    - This is part of planned compatibility the Localized Charging mod and other electric vehicle mods.
+    - Vehicles are now less likely to 'jolt' when they are having pathing problems.
+    - Unit Remote Controller can no longer select enemy vehicles.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.7
+  Changes:
+    - Replaced typo "singal" with "signal". Nice spot Arumba.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.6
+  Scripting:
+    - Allows 3rd party mods to register hauler-type vehicles. Add something like this to your control.lua: remote.add_interface("mymodname", { hauler_types = function() return {"my-hauler-entity-name", "my-other-hauler-entity-name"} end, } )
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+  Bugfixes:
+    - Fixed a bug with reverse acceleration speeds.
+    - Fixed a rare bug with invalid navigator entities causing an error.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+  Changes:
+    - Vehicles in 'unit mode' (move to tile) no longer collide with ghost entities. Increased active vehicle pollution, improved vehicle parking accuracy, prevent resting vehicle from switching mods (which would make mining awkward).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+  Bugfixes:
+    - Fixed default unit data for miners MK2-5. The miners will need to be redeployed to get the new unit data.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+  Changes:
+    - Reduced the amount of impact damage that most vehicles do and take when crashing. Tanks are affected less and the Flame Tumbler is unaffected. Also fixed a but involving resources from other mods that don't produce products.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+  Changes:
+    - Vehicle Deployer has a a built-in combinator so you can set Unit Data from the start of the game. Adds a Vehicle Depot, it exchanges inventory with nearby vehicles based on their Unit Data settings and it's own settings. It has a Exchange Data terminal to the top right where you can set a positive signal to accept items, or a negative signal to give items.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.13
+  Changes:
+    - Unit inventory filters are not cleared when the unit changes mode. The player can now exit a vehicle while it is moving backwards. A hauler can now transfer inventory to nearby vehicles that are requesting inventory even if the hauler does not have the matching item in it's unitdata. Flying units no longer use pathfinding, they just fly in a directly over buildings, water, etc.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.12
+  Changes:
+    - Update for Structures remote interface. Graphics for unit type id signals.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.11
+  Changes:
+    - Vehicles longer consume energy or fuel when moving too slowly to actually change position.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.10
+  Bugfixes:
+    - Fixed multiplayer desync
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.9
+  Changes:
+    - LUA-launched projectiles with a collision box now have an additional offset to prevent overlapping (shooting) the vehicle.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+  Changes:
+    - Unit remote controller now lists selected units with their unity type id, and static unit id. Fixed game config change clearing secondary toolbelt and character logistics settings. Fixed math.min() script error. Miners and Haulers now get ore resource settings based on any loaded mods (bobs, angels, etc).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+  Changes:
+    - Vehicles now check that the target position is unoccupied when using vehicle_move_to mode.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+  Changes:
+    - Ships are now supported. Also other mods that create immovable car-type vehicles should no longer cause invalid units to be created.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+  Changes:
+    - Shift-click with the Unit Remote Controller now distributes move_to commands over the selected area (so vehicles bump in to each other less).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+  Bugfixes:
+    - Fixed crash if a different mod added a vehicle with no weight property.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+  Changes:
+    - Added sound and light to vehicles with no driver.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+  Changes:
+    - Removed resistances_all in favour or destructible=false

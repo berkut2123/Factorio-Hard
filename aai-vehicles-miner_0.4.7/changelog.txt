@@ -1,0 +1,171 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.4.7
+  Bugfixes:
+    - Fixed error on placing a miner in a new game.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.6
+  Changes:
+    - There are now settings for the miner activity intervals so you can save UPS by increasing the interval but at the cost of less even mining and less frequent tree clearing.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.5
+  Changes:
+    - Can now mine meteors and other entities marked as rock type entities.
+    - Default mining tick interval is now 60 ticks (1s).
+
+  Bugfixes:
+    - Miner weight has been changed due to a base game change causing lower tiered vehicles to be unable to move. Vehicle friction values have been adjusted to compensate.
+    - Fixed that entity descriptions were not updated in the previous version.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.4
+  Changes:
+    - Increased miner tier 2-5 mining speed. Tier 1 is unaffected.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.3
+  Changes:
+    - Increased mod setting mining speed multiplier maximum to 10000%.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.2
+  Changes:
+    - Updated to new pollution spec. Added ability to disallow mining of certain resources (mainly for modded games with resources that require specialised equipment).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+  Info:
+    - Updated for Factorio 0.17
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.5
+  Info:
+    - Changed vehicle mining powers and mining speed. Resulting mining rate should be similar to before for vanilla ores, but higher tiers are better able to handle harder ores from other mods.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.4
+  Changes:
+    - Added mod setting for vehicle mining speed multiplier.
+    - Default mining speed reduced by 33%. Fixed crash related to resource depleted to value between 0 and 1.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+  Changes:
+    - Dropping excess resources to the ground was causing UPS drops in newer engine versions. Excess resources now go to a temporary LUA buffer.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+  Changes:
+    - Now works with solid resources that have prototype properties from fluid resources (bobs ores).
+    - Miners now only try to mine resources that they can fit in their inventory, so work well with inventory filters (but the script runs a bit slower).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+  Changes:
+    - Updated for Factorio 0.16. This version has a new way of picking fluid barrel emptying recipes so should work with mods that break Factorio's barrel-emptying naming convention.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.9
+  Changes:
+    - Recipe update for AAI Industry.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.8
+  Bugfixes:
+    - Fixed error cause by resource lacking a "miningtime" property
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.7
+  Bugfixes:
+    - Fixed tech names being overridden by vanilla numbering. They are no longer considered 'tech upgrades'.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.6
+  Changes:
+    - Fluid consumption reduced when mining.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+  Bugfixes:
+    - Fixed weird jolting
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+  Changes:
+    - Updated for new data-raw-prototypes version.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+  Changes:
+    - Completely rebuilt the way that vehicles mine. They no longer use invisible burner miners, everything is 100% script based instead.
+    - Miners can now mine ores that require a fluid if they have barrels of that fluid. Miners can also mine fluid source resources to fill empty barrels.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+  Changes:
+    - Updated to Factorio 0.15. Changed the way that miner internal energy handling works so that you can see the miner's current energy using the fuel bar.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.13
+  Changes:
+    - Fixed error on new game after old migration code was removed.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.12
+  Changes:
+    - Miners now stop when there are no empty inventory slots, so won't cause items to spill onto the ground.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.11
+  Changes:
+    - Miner can now destroy large rocks.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.10
+  Bugfixes:
+    - Fixed "science-pack-4" to "alien-science-pack"
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.9
+  Changes:
+    - Added technologies.
+    - Miner costs have increased.
+    - Higher tier miners are now move a bit faster.
+    - If a vehicle equipment mod is added then miners can get energy from equipment grid batteries to power themselves.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+  Changes:
+    - Mining speed has been reduced by around 25%.
+    - The mining tool tip was previously wrong, it stated that MK5 had a mining speed of 160 but was actually closer to 60. Now MK1 is 3 and MK5 is 48.
+
+---------------------------------------------------------------------------------------------------
+Bugfixes: 0.1.7
+  Changes:
+    - Fixed miners leaving their mining attachments behind when being picked up. Also clears the world of any attachments left behind.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+  Changes:
+    - Added Miner MK2, Miner MK3, Miner MK4, and Miner MK5!
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+  Changes:
+    - Miners will take fuel from their main inventory if the fuel inventory is empty.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+  Changes:
+    - Code cleanup thanks to Nexela
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+  Bugfixes:
+    - Fixed multiplayer desync
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+  Changes:
+    - Removed resistances_all in favour or destructible=false

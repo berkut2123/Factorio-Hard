@@ -1,0 +1,14 @@
+{
+	"name": "aai-programmable-structures",
+	"version": "0.5.16",
+	"title": "AAI Programmable Structures",
+	"author": "Earendel",
+	"dependencies": [
+		"base >= 0.17.35",
+		"aai-signals >= 0.4.2",
+		"aai-zones >= 0.4.3"
+	],
+	"description": "Adds scanning and control structures based on other mods installed. Includes a Tile Scanner by default that can the contents of tiles. Can scan and place Zones with AAI Zones mod. Can scan and control vehicles and their data with AAI Programmable Vehicles mod.",
+	"factorio_version": "0.17",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=38473"
+}

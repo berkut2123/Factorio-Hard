@@ -1,0 +1,20 @@
+{
+	"name":"AAI-CraftTab",
+	"author":"Naoya8",
+	"version":"1.0.2",
+	"title":"AAI Crafting Tab",
+	"description":"Moves Earandel's AAI mod items to their own crafting tab.",
+	"factorio_version":"0.17",
+	"dependencies": [
+		"base >= 0.16.51", 
+		"? aai-programmable-structures >= 0.4.4", 
+		"? aai-programmable-vehicles >= 0.4.8", 
+		"? aai-vehicles-chaingunner >= 0.3.1",
+		"? aai-vehicles-flame-tank >= 0.2.1", 
+		"? aai-vehicles-flame-tumbler >= 0.3.1", 
+		"? aai-vehicles-hauler >= 0.3.1", 
+		"? aai-vehicles-laser-tank >= 0.3.1", 
+		"? aai-vehicles-miner >= 0.3.5", 
+		"? aai-vehicles-warden >= 0.2.1", 
+		"? aai-zones >= 0.3.4" ]
+	}

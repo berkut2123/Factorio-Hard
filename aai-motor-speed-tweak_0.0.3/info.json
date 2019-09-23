@@ -1,0 +1,10 @@
+    {
+       "name": "aai-motor-speed-tweak",
+       "version": "0.0.3",
+	   "factorio_version": "0.17",
+       "title": "AAI Motor Speed Tweak",
+       "author": "Jackalope_Gaming",
+       "homepage": "",
+       "description": "Changes the crafting speeds of motors and electric motors to have better ratios with the rest of the game.",
+       "dependencies": ["base >= 0.12.00", "aai-industry >= 0.1.0"]
+    }

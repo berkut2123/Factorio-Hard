@@ -1,0 +1,34 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+  Bugfixes:
+    - Fixed crash if a signal was received outside of Factorio's numerical range.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+  Changes:
+    - Added a mod option to set how frequently signals are processed.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+  Bugfixes:
+    - Removed tooltip that referenced space exploration (because this mod was originally a subsection of space exploration).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+  Changes:
+    - Improved support for entities being built via script.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+  Changes:
+    - The technology no longer costs space science packs.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+  Changes:
+    - Added more event handling for script-created entities.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+  Bugfixes:
+    - Fixed that mod could not load if a style dependency was missing.

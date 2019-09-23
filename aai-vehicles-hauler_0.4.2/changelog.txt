@@ -1,0 +1,11 @@
+v0.4.2: Added hr graphics courtesy of Kamsta99. (There will be re-rendered hr graphics with wheel movement eventually).
+
+v0.4.1: Updated for Factorio 0.17
+
+v0.3.1: Updated for Factorio 0.16. The hauler now deals less damage when ramming.
+
+v0.2.3: Decreased damage resistance.
+
+v0.2.2: Hauler now requires tech
+
+v0.2.1: Updated for Factorio 0.15

@@ -1,0 +1,11 @@
+{
+	"name": "aai-signal-transmission",
+	"version": "0.1.8",
+	"title": "AAI Signal Transmission",
+	"author": "Earendel",
+	"dependencies": [
+		"base >= 0.16.21"
+	],
+	"description": "Allows sending of signals from anywhere to anywhere, even between planets. Unlimited distances. No surface restrictions.",
+	"factorio_version": "0.17"
+}

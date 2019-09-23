@@ -1,0 +1,10 @@
+{
+	"name": "aai-vehicles-warden",
+	"version": "0.3.2",
+	"title": "AAI Vehicles: Warden",
+	"author": "Earendel",
+	"dependencies": ["base >= 0.16.0"],
+	"description": "A versatile support vehicle equipped  with a mobile radar and an Electro Bolter turret that can fire Electroshock Pulses. If it has Repair Packs it can automatically repair nearby vehicles and structures. It can also collect ground items in a large radius. If used with AAI Programmable Vehicles, it can provide resources to nearby vehicles like a Hauler but with a larger transfer range. Useful for vehicle formations and base maintenance.",
+	"factorio_version": "0.17",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=48838"
+}

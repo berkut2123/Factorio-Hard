@@ -1,0 +1,9 @@
+{
+	"name": "aai-vehicles-hauler",
+	"version": "0.4.2",
+	"title": "AAI Vehicles: Hauler",
+	"author": "Earendel",
+	"dependencies": ["base >= 0.14.0"],
+	"description": "A high capacity general-purpose hauling vehicle for moving items around. The Hauler was designed for use with AAI Programmable Vehicles mod and can act autonomously if programmed correctly, for example: collecting resources from Miners and delivering it to depots.",
+	"factorio_version": "0.17"
+}

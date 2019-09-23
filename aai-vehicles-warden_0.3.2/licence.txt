@@ -1,0 +1,20 @@
+FMLDOL
+Factorio Mod Limited Distribution Only Licence
+https://docs.google.com/document/d/1z-6hZQekEHOu1Pk4z-V5LuwlHnveFLJGTjVAtjYHwMU
+This software is provided without warranty and the software author/license owner cannot be held liable for damages.
+
+Commercial Use:
+No.
+You are not allowed to make money off this mod or any of the contained assets.
+
+Modification:
+Restricted.
+You may make alterations for you own private personal use only.
+You are not allowed to distribute anything altered, or derived from this mod with the following exception:
+You may post partial modified sections of this mod in the mod portal discussion section or official forum thread for this mod for the purpose of providing bug fixes or enhancements.
+
+Distribution:
+Yes, but with the following conditions:
+The mod must not be modified.
+You must disclose the source by providing a link to the mod on the mod portal.
+Repackaging the mod does not count as modification. It can be used in mod packs.
