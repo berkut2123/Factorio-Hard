@@ -1,0 +1,39 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 2019-08-22
+  Bugfixes:
+    - Fixed issue with crafting time.
+    - Removed the need for a locale.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 2019-08-09
+  Bugfixes:
+    - Fixed changelog.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 2019-08-08
+  Features:
+    - Remove thorium from being generated on the map
+
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 2019-08-08
+  Changes:
+    - Replaced made up graphic with a on-the-fly generated one
+
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 2019-08-02
+  Features:
+    - Replaced recipe of purified saphirite sorting (zinc is lost in favor to thorium)
+
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 2019-08-01
+  Info:
+    - Initial Release
+
+  Features:
+    - Added a ore-mixing recipe for thorium

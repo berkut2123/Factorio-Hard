@@ -1,0 +1,16 @@
+{
+  "name": "angelsextended-remelting",
+  "version": "0.17.9",
+  "factorio_version": "0.17",
+  "title": "Angel's Extended - Remelting",
+  "author": "Aragas",
+  "contact": "personal@aragas.org",
+  "homepage": "https://github.com/Aragas/angelsextended-remelting",
+  "description": "An extension to Angel's Smelting. Adds Alloy Mixer that is used to mix molten metals into alloys directly and adds the ability to remelt metal into molten liquids. Supports Bob's Mods, MadClown01's Processing and ShinyAngelGFX.",
+  "dependencies": [
+	"angelssmelting >= 0.4.0",
+	"? bobplates >= 0.15.0", 
+	"? Clowns-Processing >= 1.3.2",
+	"? ShinyAngelGFX >= 0.15.10",
+	"! Better_Strand_Casting"]
+}

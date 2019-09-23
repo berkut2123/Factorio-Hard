@@ -1,0 +1,11 @@
+{
+    "name": "AdvancedSubstation",
+    "version": "0.17.0",
+    "title": "Advanced Substations",
+    "author": "Oniell NZ",
+    "contact": "martynmnz@yahoo.co.nz",
+    "homepage": "",
+    "factorio_version": "0.17",
+    "dependencies": ["base >= 0.17"],
+    "description": "Adds two new advanced substations to the game.\n- Longer hook up rage\n- Bigger coverage\n- More expensive\n- Adds Electric Energy Distribution 3 research\n* Advanced Substation\n* Experimental Nucleonic Substation (Volatile)\n\nThe Experimental Nucleonic Substation can be used with Roboports\n\nUses Quantum, temporal and rubber band science to allow the electricity to flow to such a large area. The rubber bands are to keep the wire tight.\n\nUSE AT YOUR OWN RISK!"
+}

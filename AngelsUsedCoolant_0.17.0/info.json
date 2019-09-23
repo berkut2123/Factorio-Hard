@@ -1,0 +1,13 @@
+{
+  "name": "AngelsUsedCoolant",
+  "version": "0.17.0",
+  "factorio_version": "0.17",
+  "title": "Angels Used Coolant Clarify",
+  "author": "Stephen Clark",
+  "description": "Adds the ability to void used coolant in the clarifier for Angels mods",
+  "dependencies": [
+  "base >= 0.16.0",
+  "angelsrefining >= 0.9.8",
+  "angelssmelting >= 0.4.6"
+  ]
+}

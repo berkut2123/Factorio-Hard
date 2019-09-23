@@ -1,0 +1,6 @@
+/c remote.call('ammo-loader', "")
+/c remote.call('ammo-loader', "printItemDB")
+/c remote.call('ammo-loader', "printNumTracked")
+/c remote.call('ammo-loader', "printNumProvided")
+
+

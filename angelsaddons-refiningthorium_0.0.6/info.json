@@ -1,0 +1,11 @@
+{
+    "name": "angelsaddons-refiningthorium",
+    "version": "0.0.6",
+    "title": "Angel's Addons - Refining Thorium Fix",
+    "author": "Karosieben",
+    "contact": "karosieben.playsgames@gmail.com",
+    "homepage": "",
+    "factorio_version": "0.17",
+    "dependencies": ["base >= 0.17", "angelsrefining >= 0.10.13", "bobores >=0.17.5", "bobplates >= 0.17.11", "boblibrary >= 0.17.5"],
+    "description": "Adds a sorting recipe for thorium and replaces zinc with thorium in sorting of prurified saphirite. Also REMOVES thorium ore fields from being generated."
+}

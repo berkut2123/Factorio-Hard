@@ -1,0 +1,11 @@
+{
+	"name": "angelsaddons-insulatedcablecoil",
+	"version": "0.0.3",
+	"title": "Angel's Addons - Insulated Cable Coil Fix",
+	"author": "Karosieben",
+	"contact": "karosieben.playsgames@gmail.com",
+	"homepage": "",
+	"factorio_version": "0.17",
+	"dependencies": ["base >= 0.17", "angelssmelting >= 0.5.7", "bobelectronics >= 0.17.6", "? bobassembly >= 0.17.7"],
+	"description": "Adds a cable coil for insulated cable and corresponding recipes"
+}

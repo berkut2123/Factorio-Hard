@@ -1,0 +1,188 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.2.11
+Date: 2019-09-04
+  Changes:
+    - Updated Deutsch (by Karosieben)
+    - Updated 日本語 (by Shirutan)
+    - Updated 한국어
+---------------------------------------------------------------------------------------------------
+Version: 0.2.10
+Date: 2019-08-22
+  Changes:
+    - Updated Deutsch (by Karosieben)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.9
+Date: 2019-08-13
+  Changes:
+    - Fixed initial error (Deutsch) (by Karosieben)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.8
+Date: 2019-08-12
+  Changes:
+    - Reflect the latest update
+    - Updated Deutsch (by adoa, Karosieben)
+    - Updated 中文 - 简体字(簡體字) (by 2437581835)
+    - Updated 中文 - 繁體字 (by Wu Jiayou)
+    - Updated русском (by ToxaSTN)
+    - Updated 한국어
+---------------------------------------------------------------------------------------------------
+Version: 0.2.7
+Date: 2019-07-04
+  Changes:
+    - Updated Polski (molta212)
+    - Updated 中文 - 繁體字 (Dan)
+    - Updated le francais (Firerazer, bokounet)
+    - Updated русском (ri4, Ragwarod, andy.deluser)
+    - Updated 한국어
+---------------------------------------------------------------------------------------------------
+Version: 0.2.6
+Date: 2019-05-16
+  Changes:
+    - Updated Español (Samuel Shaaban)
+    - Updated le francais (Firerazer)
+    - Updated Nederlands (ppaasman)
+    - Updated 한국어 (oosat, DispHunter)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+Date: 2019-05-08
+  Changes:
+    - Updated 中文 - 繁體字 (k98a)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 2019-04-25
+  Changes:
+    - Updated 한국어 (oosat, DispHunter)
+    - Updated 中文 - 繁體字 (k98a)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 2019-04-14
+  Changes:
+    - Updated Español (Samuel Shaaban)
+    - Updated le francais (Firerazer)
+    - Updated 한국어
+    - Updated русском (Dmitry Korotkov)
+    - Updated 日本語 (Shirutan)
+    - Updated 中文 - 繁體字 (k98a)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2019-03-25
+  Changes:
+    - Updated for Angel's Bio Processing
+    - Updated русском (by Anton Klimovich, Dmitry Korotkov)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2019-03-18
+  Changes:
+    - Fixed initial error (中文 - 繁體字) (by orient0724)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2019-03-15
+  Changes:
+    - Updated 한국어
+    - Updated for Factorio 0.17
+---------------------------------------------------------------------------------------------------
+Version: 0.1.50
+Date: 2019-01-23
+  Changes:
+    - Updated 한국어
+    - Updated Deutsch (by Karosieben)
+    - Updated русском (by Hormister, AleksTJ, Dmitry Korotkov, AlberTT)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.49
+Date: 2018-01-19
+  Changes:
+    - Updated Deutsch (by Karosieben)
+    - Updated русском (by Anton Klimovich)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.48
+Date: 2018-12-18
+  Changes:
+    - Updated Deutsch (by Karosieben)
+    - Updated le francais
+    - Updated Espanol (by OZMQ)
+    - Updated Polski (by Cylindryk Cylindrykowy)
+    - Updated Portugues, brasileiro (by Junior Lopes)
+    - Updated русском
+---------------------------------------------------------------------------------------------------
+Version: 0.1.47
+Date: 2018-12-11
+  Changes:
+    - Updated Deutsch (by Oliver Stotzem, Karosieben)
+    - Updated le francais
+    - Updated 日本語 (by Shirutan)
+    - Updated 한국어
+    - Updated Polski
+    - Updated русском (by Anton Klimovich, Dmitry Korotkov, diraria)
+    - Updated 中文 - 简体字(簡體字)
+    - Updated 中文 - 繁體字(繁体字) (by Gallons)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.46
+Date: 2018-07-19
+  Changes:
+    - Fixed initial error (Polski)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.45
+Date: 2018-07-18
+  Changes:
+    - Updated 中文 - 繁體字(繁体字) (by Gallons)
+    - Updated 한국어
+    - Updated Deutsch (by lennardjones, blackerking & Jonas Siewert)
+    - Updated Polski (by Kamil Czesak & Igor Frelikowski)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.44
+Date: 2018-06-19
+  Changes:
+    - Updated 日本語 (by Shirutan)
+    - Updated 中文 - 繁體字(繁体字) (by Gallons)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.43
+Date: 2018-06-15
+  Changes:
+    - Updated Angel's third party mods
+---------------------------------------------------------------------------------------------------
+Version: 0.1.42
+Date: 2018-06-11
+  Changes:
+    - Updated Angel's Petro Chemical Processing & Smelting (한국어)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.41
+Date: 2018-06-10
+  Changes:
+    - Updated Angel's Refining (日本語, 한국어, русском)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.40
+Date: 2018-06-07
+  Changes:
+    - Minor fixes (русском yoficator)
+    - Angel's mod crowdin open
+---------------------------------------------------------------------------------------------------
+Version: 0.1.39
+Date: 2018-06-01
+  Changes:
+    - Fixed 日本語, 한국어
+---------------------------------------------------------------------------------------------------
+Version: 0.1.38
+Date: 2018-04-26
+  Changes:
+    - Renewal of русском
+    - Fixed 日本語, 한국어
+---------------------------------------------------------------------------------------------------
+Version: 0.1.37
+Date: 2018-04-15
+  Changes:
+    - 한국어 수정: 쿼츠 → 석영
+---------------------------------------------------------------------------------------------------
+Version: 0.1.36
+Date: 2018-04-13
+  Changes:
+    - Fixed 日本語, 한국어
+---------------------------------------------------------------------------------------------------
+Version: 0.1.35
+Date: 2018-04-02
+  Changes:
+    - Fixed 日本語, 한국어
+---------------------------------------------------------------------------------------------------
+Version: 0.1.34
+Date: 2018-04-01
+  Changes:
+    - Renewal of le francais, 日本語, 한국어 and русском

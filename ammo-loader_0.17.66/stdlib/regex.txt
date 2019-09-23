@@ -1,0 +1,30 @@
+^(Queue){1}\.(\w+)\s*\=\s*function\s*\((\w+\,?\s*)+\)
+function \1\:\2 \(\3\)
+
+(Queue){1}\.(\w+)\s*\(\s*(\w+){1}\,?\s*(\w+\,?\s*)*\)
+\3\:\2\(\4\)
+
+(?<!Priority)(Queue){1}\.(\w+)\s*\(\s*(\w+){1}\,?\s*(\w+\,?\s*)*\)
+\3\:\2\(\4\)
+
+^(PriorityQueue){1}\.(\w+)\s*\=\s*function\s*\(\s{0,}(?:self\,?\s*){0,1}(\w+\,?\s*)?\)
+
+function\s*((?:\w+|\_+)+)\:((?:\w+|\_+)+)\s*\(\s*((?:\w+|\_+)+)\s*\)
+
+function\s*Queue\:(\S+)\s*\((\S+)*\)
+\1 \= function \(\2\)
+
+Queue\.([\w\_]+)\s*\(\s*([\w\_]+)(\,?\s*[\w\_]+\,?\s*)*\)
+
+P\(([\w\_\.]+)\,?\s*([\w\_\.]+)\)
+P\(\1\, \"\2\"\)
+
+(\s{4})+.*\n?\1\s{2}\w
+
+***all comments***
+\n(\s*\-\-[^\n]*)
+***
+
+--attribution regex
+find: <div.*?href\=\"(.*?)\".*?title\=\"(.*?)\".*?href\=\"(.*?)\".*?title\=\"(.*?)\".*?href\=\"(.*?)\".*?title\=\"(.*?)\".*?\n
+replace: [*]Author: [url=\1]\2[/url] | Website: [url=\3]\4[/url] | License: [url=\5]\6[/url][/*]\n

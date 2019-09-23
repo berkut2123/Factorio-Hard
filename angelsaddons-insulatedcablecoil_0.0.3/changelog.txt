@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 2019-09-19
+  Bugfixes:
+    - Fixed that recipe wasn't usabe in Bob's Electronics Assembly Machines
+
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 2019-09-16
+  Bugfixes:
+    - Fixed that recipe was available without research
+
+
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 2019-09-12
+  Info:
+    - Initial Release

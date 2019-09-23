@@ -1,0 +1,9 @@
+{
+	"name":"AdminUtils",
+	"author":"DeltaNedas",
+	"version":"1.3.1",
+	"factorio_version": "0.17",
+	"title":"Admin Utils",
+	"description":"Adds various commands I use for administration. Use \"//help\" for more info.",
+	"dependencies": ["base >= 0.17.0"]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "advanced-satellite-mod",
+    "version": "0.1.0",
+    "title": "Advanced satellite mod",
+    "author": "karlh1",
+    "contact": "account_factorio@cpu0.net",
+    "factorio_version": "0.17",
+    "description": "Adds a new type of satellite made with nuclear fuel.",
+    "dependencies": ["base >= 0.17"]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "AdminCommands",
+    "version": "17.1.0",
+    "title": "Admin Commands",
+    "author": "Solly",
+    "contact": "",
+    "homepage": "",
+    "factorio_version": "0.17",
+    "dependencies": ["base >= 0.16"],
+    "description": "Adds the \"/ac\" command, which allows admins to run Lua commands without disabling achievements. Intended to be used for admins to control a server. Keep in mind that \"game.player\" will not work with this mod. Instead, you must use \"game.players[Username/ID]\"."
+}

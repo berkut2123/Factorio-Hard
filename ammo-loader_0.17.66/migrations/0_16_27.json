@@ -1,0 +1,12 @@
+{
+    "entity": [
+        ["fuel-loader-chest", "ammo-loader-chest"]
+    ],
+    "item": [
+        ["fuel-loader-chest", "ammo-loader-chest"]
+    ],
+    "technology": [
+        ["ammo-loader-tech-ammo1", "ammo-loader-tech-loader-chest"],
+        ["ammo-loader-tech-fuel1", "ammo-loader-tech-burners"]
+    ]
+}

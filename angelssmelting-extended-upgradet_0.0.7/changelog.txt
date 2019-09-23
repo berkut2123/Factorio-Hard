@@ -1,0 +1,24 @@
+--0.0.3
+-changed alloys recipies to match Angels Alloys smelting aproach (mixing ignots, not liquids)
+-added Copper compression
+-fixed casting times on Brass compression
+-fixed Brass Sheet Coil icon
+
+
+ TODO::
+-added new icons for Advanced Ironworks Technology and Alloys Smelting Technology
+-removed redundant graphics files
+-added option to switch off standard bobs alloys recipies
+
+
+--0.0.2
+-updated mod description
+
+--0.0.1
+-INITIAL RELEASE
+-added Brass, Bronze, Gunmetal, Invar, Electrum, Nitinol, Cobalt-Steel casting plates recipies
+-added Iron, Brass compression recipies
+-added Iron, Steel, Brass, Titanium Gear Wheel casting using molten metals
+-added Iron pipes casting using molten metals
+-added Advanced Alloys Smelting Technology 1 (Brass, Bronze), 2 (Gunmetal, Invar) and 3 (Electrum, Nitinol)
+-added Advanced Ironworks Technology 1 (Iron compression, Iron Gear Wheel, Iron Pipes), 2(Steel Gear Wheel, Brass compression, Brass Gear Wheel), 3(Titanium Gear Wheel)

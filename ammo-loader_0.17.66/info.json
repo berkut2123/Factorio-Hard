@@ -1,0 +1,12 @@
+{
+    "name": "ammo-loader",
+    "version": "0.17.66",
+    "factorio_version": "0.17",
+    "title": "Ammo Loader+",
+    "author": "SilentCrim",
+    "homepage": "",
+    "description": "Storage chests that will automatically load turrets and vehicles with ammo and fuel.",
+    "dependencies": [
+        "base >= 0.17.0"
+    ]
+}
