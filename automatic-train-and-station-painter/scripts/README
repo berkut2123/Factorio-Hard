@@ -1,0 +1,14 @@
+Assuming that mods entity files don't have some crazy imports that can't be done just on your computer (Mac, here), and if you have
+`python3` with `pypng` and `lua` then you might be able to auto-generate color file based on the icons.
+
+I only care about Krastorio--at the moment--so this process, on my machine, works for me.
+
+* Download Krastorio and Krastorio Graphics into the mods/ subdir;
+* Unzip the files;
+* Run the conversion util[1];
+* and see the colors.lua file for how to pull it in.
+
+[1] Krastorio needs its paths to be resolved so an extra file is needed.
+
+`trivet$ ./rgba.py -s __Krastorio-graphics__=mods/Krastorio-graphics_0.0.1 mods/Krastorio_1.3.4/paths.lua mods/Krastorio_1.3.4/prototypes/fluid/fluid.lua mods/Krastorio_1.3.4/prototypes/item/item.lua > ../color/krastorio.lua`
+

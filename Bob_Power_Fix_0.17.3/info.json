@@ -1,0 +1,9 @@
+{
+  "name": "Bob_Power_Fix",
+  "version": "0.17.3",
+  "title": "Bob's Power Fix for Angel's",
+  "author": "hexagonhexagon",
+  "description": "Allows the oil burning power entities to accept Angel's fluids instead of Bob's fluids.",
+  "dependencies": ["base >= 0.17", "bobpower >= 0.17.10", "angelspetrochem >= 0.8.6"],
+  "factorio_version": "0.17"
+}

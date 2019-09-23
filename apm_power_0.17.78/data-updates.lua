@@ -1,0 +1,5 @@
+require('prototypes.power.fuel')
+require('prototypes.power.overwrites')
+require('prototypes.power.recipes-overwrites')
+require('prototypes.power.technologies-overwrites')
+require('prototypes.integrations.updates')

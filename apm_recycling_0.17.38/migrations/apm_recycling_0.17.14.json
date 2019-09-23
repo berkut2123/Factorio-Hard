@@ -1,0 +1,10 @@
+{
+  "fluid":
+  [
+    ["apm_dirty_water", "apm_dirt_water"]
+  ],
+  "recipe":
+  [
+    ["apm_recycling_dirty_water_recycling", "apm_dirt_water_recycling"]
+  ]
+}

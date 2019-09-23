@@ -1,0 +1,31 @@
+{
+  "fluid":
+  [
+    ["apm_nuclear_radioactive_water", "apm_radioactive_wastewater"]
+  ],
+  "item":
+  [
+    ["apm_nuclear_fluorite", "apm_fluorite_ore"],
+    ["apm_nuclear_mox_fuel_cell", "apm_fuel_cell_mox"],
+    ["apm_nuclear_used_mox_fuel_cell", "apm_fuel_cell_mox_used"],
+    ["apm_nuclear_waste_container", "apm_waste_container"],
+    ["apm_atomic_battery", "apm_rtg_radioisotope_thermoelectric_generator"]
+  ],
+  "entity":
+  [
+    ["", ""]
+  ],
+  "recipe":
+  [
+    ["apm_nuclear_fluorite", "apm_fluorite_ore"],
+    ["apm_nuclear_used_mox_fuel_cell_recovery", "apm_fuel_cell_mox_used_recovery"],
+    ["apm_nuclear_mox_fuel_cell", "apm_fuel_cell_mox"],
+    ["apm_nuclear_radioactive_water_recyling", "apm_radioactive_wastewater_recyling"],
+    ["apm_nuclear_waste_container", "apm_waste_container"],
+    ["apm_atomic_battery", "apm_rtg_radioisotope_thermoelectric_generator"]
+  ],
+  "technology":
+  [
+    ["", ""]
+  ]
+}

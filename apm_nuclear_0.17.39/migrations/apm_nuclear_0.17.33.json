@@ -1,0 +1,23 @@
+{
+  "fluid":
+  [
+    ["", ""]
+  ],
+  "item":
+  [
+    ["deuterium-fuel-cell", "apm_nuclear_fuel_cell_deuterium"],
+    ["used-up-deuterium-fuel-cell", "apm_nuclear_fuel_cell_used_deuterium"]
+  ],
+  "entity":
+  [
+    ["", ""]
+  ],
+  "recipe":
+  [
+    ["deuterium-fuel-cell", "apm_nuclear_fuel_cell_deuterium"]
+  ],
+  "technology":
+  [
+    ["", ""]
+  ]
+}

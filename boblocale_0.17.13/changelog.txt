@@ -1,0 +1,124 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.17.13
+Date: 2019-09-16
+  Bugfixes:
+    - Fixed minor bug in japanese translation of bobclasses, where two keys were duplicated
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.12
+Date: 2019-09-16
+  Changes:
+    - Updated russian translation
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.11
+Date: 2019-09-10
+  Changes:
+    - Updated german translation
+    - Updated japanese translation
+    - Updated korean translation
+    - Updated russian translation
+    - Updated spanish translation
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.10
+Date: 2019-09-03
+  Changes:
+    - Updated spanish translation
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.9
+Date: 2019-08-26
+  Changes:
+    - Updated traditional chinese translation
+    - Updated ukrainian translation
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.8
+Date: 2019-08-23
+  Features:
+    - Completed dutch translation
+
+  Changes:
+    - Updated japanese translation
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.7
+Date: 2019-08-21
+  Changes:
+    - Updated dutch translation
+
+  Bugfixes:
+    - Fixed typos in german translation
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.6
+Date: 2019-08-19
+  Changes:
+    - Updated dutch translation
+    - Started portuguese translation
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.5
+Date: 2019-08-14
+  Features:
+    - Completed german translation
+    - Completed korean translation
+  Changes:
+    - Corrected spanish translation
+    - Updated dutch translation
+    - Updated russian translation
+    - Updated ukrainian translation
+    - Updated traditional chinese translation
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.4
+Date: 2019-08-12
+  Changes:
+    - Updated korean translation by Xagros
+    - Updated german translation by Karosieben
+  Other:
+    - Moved the translation to crowdin. Jump over to contribute easily!
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.3
+Date: 2019-08-09
+  Features:
+    - Added support for bobsflowcontrol-updated
+  Changes:
+    - Updated japanese translation by shirutan
+    - Updated german translation by Karosieben
+  Other:
+    - Removed support for some deprecated mods
+  Debug:
+    - Added makefile to git repository to draft versions quicker
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.2
+Date: 2019-08-02
+  Bugfixes:
+    - Fixed typo in german translation
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.1
+Date: 2019-08-02
+  Features:
+    - Added changelog (obviously)
+  Changes:
+    - Updated ukrainian translation by burunduk
+    - Updated taiwanese translation by k98a
+    - Updated japanese translation by shirutan
+    - Updated russian translation by Schmarotzer
+    - Updated german translation by LMBlackWolf and Karosieben
+    - Dropped support for various outdated mods
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.0
+Date: 2019-03-04
+  Info:
+    - First rough release for 0.17.0
+  Changes:
+    - Updated polish translation by MrSnooker
+    - Updated french translation by bethouxa
+    - Updated japanese translation by shirutan
+    - Updated korean translation by GimoXagros

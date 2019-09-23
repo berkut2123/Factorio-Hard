@@ -1,0 +1,124 @@
+__Amator Phasma's Library__
+=============
+[Source Code on GitLab](https://gitlab.com/AmatorPhasma/apm_factorio)
+
+__Languages:__
+-------------
+English, Deutsch
+
+__About this mod:__
+-------------
+__First of all: this is a resource and code library for my other mods.__
+
+## It self comes with some functions: ##
+### Extended functions for inserter: ###
+- make it possible that a inserter can handle the 'burnt_result_inventory' on all machines.
+- burner inserter can leech fuel from pickup and drop target.
+- burner inserters are capable to chain fuel through all burner type machines.
+
+The extended functions for inserter are enabled by default when you have installed [Amator Phasma's Coal&Steam] (https://mods.factorio.com/mod/apm_power) or [Amator Phasma's Nuclear] (https://mods.factorio.com/mod/apm_nuclear). Otherwise you can control it yourself, whether you need it or not.
+As an example: If you have only [Amator Phasma's Recycling] (https://mods.factorio.com/mod/apm_recycling) installed, then this is disabled, because this mod dosen't need this and now there is an option below 'Mod settings' -> 'Map' its called: 'Advanced functions for inserter' to switch it on or off.
+
+### Radiation: ###
+- Items can be declared as radioactive (They slightly damage the player if he has any in the inventory)
+The radiation is enabled by default, you can control it yourself, whether you like it or not: 'Mod settings' -> 'Map' its called: 'Radiation damage'
+
+### Storage protection: ###
+- If a storage container is destroyed, the contents are spewed out to the ground
+The Storage protection is enabled by default, you can control it yourself, whether you like it or not: 'Mod settings' -> 'Map' its called: 'Storage protection'
+
+__For Modders:__
+-------------
+You can register and unregister items as radioactive with a remote call in the control.lua
+`radiation.remote.add_item(item_name: string, level: int)`
+Supported levels: 
+- 1: low radioactive 
+- 2: medium radioactive
+- 3: high radioactive
+Examples:
+`remote.call('apm_radiation', 'add_item', 'apm_nuclear_yellowcake', 1)`
+`remote.call('apm_radiation', 'remove_item', 'apm_nuclear_yellowcake')`
+
+You can also create the item description with the radioactive symbol in any data stage after this library's data stage with:
+`apm.lib.utils.item.add.radioactive_description(item_name: string, level: int)`
+Supported levels: (the level argument is optional)
+- 1: low radioactive 
+- 2: medium radioactive
+- 3: high radioactive
+Examples:
+`apm.lib.utils.item.add.radioactive_description('apm_nuclear_yellowcake')`
+`apm.lib.utils.item.add.radioactive_description('apm_nuclear_yellowcake', 1)`
+
+
+__Future?__
+-------------
+- optimizations, bug hunting, make the code look nice...
+
+__Problems?__
+-------------
+- Report them on the forum thread or here on this site under disscussion.
+
+__Ideas?__
+-------------
+- Please tell me on the forum thread.
+
+__Dependencies:__
+-------------
+- None
+
+__My other mods:__
+-------------
+####Finished:####
+- [Amator Phasma's Coal&Steam] (https://mods.factorio.com/mod/apm_power)
+- [Amator Phasma's Nuclear](https://mods.factorio.com/mod/apm_nuclear)
+- [Amator Phasma's Recycling](https://mods.factorio.com/mod/apm_recycling)
+####WIP:####
+- [Amator Phasma's Starfall](https://mods.factorio.com/mod/apm_starfall)
+- [Amator Phasma's Energy Addon](https://mods.factorio.com/mod/apm_energy_addon)
+
+__Known incompatibility:__
+-------------
+- None
+
+__Tested compatibility:__
+-------------
+- [Space Exploration by Earendel](https://mods.factorio.com/mod/space-exploration)
+- [Alien Biomes by Earendel](https://mods.factorio.com/mod/alien-biomes)
+- [AAI Programmable Vehicles by Earendel](https://mods.factorio.com/mod/aai-programmable-vehicles)
+- [AAI Vehicles: Chaingunner by Earendel](https://mods.factorio.com/mod/aai-vehicles-chaingunner)
+- [AAI Vehicles: Flame Tank by Earendel](https://mods.factorio.com/mod/aai-vehicles-flame-tank)
+- [AAI Vehicles: Flame Tumbler by Earendel](https://mods.factorio.com/mod/aai-vehicles-flame-tumbler)
+- [AAI Vehicles: Laser Tank by Earendel](https://mods.factorio.com/mod/aai-vehicles-laser-tank)
+- [AAI Vehicles: Miner by Earendel](https://mods.factorio.com/mod/aai-vehicles-miner)
+- [AAI Vehicles: Warden by Earendel](https://mods.factorio.com/mod/aai-vehicles-warden)
+- [AAI Vehicles: Hauler by Earendel](https://mods.factorio.com/mod/aai-vehicles-hauler)
+- [AAI Industry by Earendel](https://mods.factorio.com/mod/aai-industry)
+- [Bio Industries by TheSAguy](https://mods.factorio.com/mod/Bio_Industries)
+- [ScienceCostTweaker Mod (mexmer)](https://mods.factorio.com/mod/ScienceCostTweakerM)
+- [Angel's Angel's Bio Processing [BETA] by Arch666Angel](https://mods.factorio.com/mod/angelsbioprocessing)
+- [Angel's Angel's Industries by Arch666Angel](https://mods.factorio.com/mod/angelsindustries)
+- [Angel's Addons - Smelting Train by Arch666Angel](https://mods.factorio.com/mod/angelsaddons-smeltingtrain)
+- [Angel's Addons - Petrochem Train by Arch666Angel](https://mods.factorio.com/mod/angelsaddons-petrotrain)
+- [Angel's Addons - Warehouses by Arch666Angel](https://mods.factorio.com/mod/angelsaddons-warehouses)
+- [Angel's Addons - Pressure Tanks](https://mods.factorio.com/mod/angelsaddons-pressuretanks)
+- [Angel's Infinite Ores by Arch666Angel](https://mods.factorio.com/mod/angelsinfiniteores)
+- [Angel's Petro Chemical Processing by Arch666Angel](https://mods.factorio.com/mod/angelspetrochem)
+- [Angel's Refining by Arch666Angel](https://mods.factorio.com/mod/angelsrefining)
+- [Angel's Smelting by Arch666Angel](https://mods.factorio.com/mod/angelssmelting)
+- [Bob's Personal Equipment mod by Bobingabout](https://mods.factorio.com/mod/bobequipment)
+- [Bob's Assembling machines by Bobingabout](https://mods.factorio.com/mod/bobassembly)
+- [Bob's Electronicsby Bobingabout](https://mods.factorio.com/mod/bobelectronics)
+- [Bob's Enemies by Bobingabout](https://mods.factorio.com/mod/bobenemies)
+- [Bob's Adjustable Inserters by Bobingabout](https://mods.factorio.com/mod/bobinserters)
+- [Bob's Functions Library mod by Bobingabout](https://mods.factorio.com/mod/boblibrary)
+- [Bob's Logistics mod by Bobingabout](https://mods.factorio.com/mod/boblogistics)
+- [Bob's Mining by Bobingabout](https://mods.factorio.com/mod/bobmining)
+- [Bob's Modules by Bobingabout](https://mods.factorio.com/mod/bobmodules)
+- [Bob's Ores by Bobingabout](https://mods.factorio.com/mod/bobores)
+- [Bob's Metals, Chemicals and Intermediates by Bobingabout](https://mods.factorio.com/mod/bobplates)
+- [Bob's Power by Bobingabout](https://mods.factorio.com/mod/bobpower)
+- [Bob's Revamp mod by Bobingabout](https://mods.factorio.com/mod/bobrevamp)
+- [Bob's Tech by Bobingabout](https://mods.factorio.com/mod/bobtech)
+- [Bob's Warfare by Bobingabout](https://mods.factorio.com/mod/bobwarfare)
+
+[My thread in the forum.](https://forums.factorio.com/viewtopic.php?f=190&t=68748)

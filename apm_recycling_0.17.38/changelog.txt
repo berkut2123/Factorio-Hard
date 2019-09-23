@@ -1,0 +1,247 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.17.38
+Date: 09. 08. 2019
+  Changes:
+    - recipe-category: new: 'apm_recycling_3'
+    - recipe-category: new: 'apm_recycling_4'
+    - recipes: reprocessing recipes locked behind a specific recycler machine technology can only used in this machine.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.37
+Date: 08. 08. 2019
+  Changes:
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.36
+Date: 31. 05. 2019
+  Major Features:
+    - add initial support for recipe expensive mode
+---------------------------------------------------------------------------------------------------
+Version: 0.17.35
+Date: 28. 05. 2019
+  Compatibility:
+    - (ScienceCostTweakerM) converted ScienceCostTweaker scraps.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.34
+Date: 27. 05. 2019
+  Compatibility:
+    - (bobwarefare) add scrap metal to 'Robotic attack drone frame'
+    - (bobwarefare) add scrap metal to 'Large robotic attack drone frame'
+    - (bobplates) add scrap metal to 'Grinding wheel'
+    - (bobplates) add scrap metal to 'Polishing wheel'
+    - (bobwarefare) & (angelsmelting) add 'Gunmetal' for generating scrap recipes
+    - (PyCoalTBaA) scrap metal add some more 'Intermediates'
+---------------------------------------------------------------------------------------------------
+Version: 0.17.33
+Date: 14. 05. 2019
+  Major Features:
+    - setting: new: add 'Scrap metal conversion to granules (5=X)' default is 3.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.31
+Date: 12. 05. 2019
+  Compatibility:
+    - (angelspetrochem) add scrap metal to "Metal Catalyst Carrier"
+    - (angelspetrochem) add scrap metal to "Electrolyser Electrode"
+---------------------------------------------------------------------------------------------------
+Version: 0.17.30
+Date: 05. 05. 2019
+  Major Features:
+    - setting: new: add 'Scrap metal probability (%)' default is 10.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.29
+Date: 04. 05. 2019
+  Changes:
+    - moved: recipe generation for apm_power to __apm_power__/prototypes/integrations/updates.lua
+    - moved: recipe generation for apm_nuclear to __apm_nuclear__/prototypes/integrations/updates.lua
+---------------------------------------------------------------------------------------------------
+Version: 0.17.28
+Date: 04. 05. 2019
+  Changes:
+    - renamed 'Steam clock' to 'Steam relay'
+---------------------------------------------------------------------------------------------------
+Version: 0.17.27
+Date: 02. 05. 2019
+  Compatibility:
+    - (PyCoalTBaA) initial compatibillity added
+  Changes:
+    - updated for 0.17.35 API Changes
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.26
+Date: 28. 04. 2019
+  Changes:
+    - fluids can now put in barrels
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.25
+Date: 27. 04. 2019
+  Major Features:
+    - removed all media files to apm_resource_pack
+---------------------------------------------------------------------------------------------------
+Version: 0.17.24
+Date: 25. 04. 2019
+  Bugfixes:
+    - fix: metal wight ratio to recycler machine technologie
+  Changes:
+    - technologie: new: 'recycler-0' for the first recycler machine
+    - updated icons (scrap metal boxes)
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.23
+Date: 23. 04. 2019
+  Compatibility:
+    - (space-exploration) initial compatibillity added
+  Changes:
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.22
+Date: 21. 04. 2019
+  Changes:
+    - updated models
+    - relocate fuel- and recipe- categories to the library mod
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.21
+Date: 18. 04. 2019
+  Bugfixes:
+    - fix: some very odd scrap in some recipes. -> https://mods.factorio.com/mod/apm_recycling/discussion/5cb8995a1d9f02000cc90cf7
+---------------------------------------------------------------------------------------------------
+Version: 0.17.20
+Date: 17. 04. 2019
+  Minor Features:
+    - new setting: 'Integrate Bob's items'
+    - new setting: 'Integrate Angels's items'
+    - new setting: 'Integrate AAI - Industry items'
+    - new setting: 'Patches for Bob's mods'
+    - new setting: 'Patches for Angel's mods'
+    - new setting: 'Patches for AAI - Industry'
+    - scripting: ./lib/script/recycling.lua: function: apm.lib.utils.recycling.add.scrap_metal() will no longer perform any changes, only write data to scrap table
+    - new ./lib/script/recycling.lua: function: apm.lib.utils.recycling.metal.exist(name)
+    - new ./lib/script/recycling.lua: function: apm.lib.utils.recycling.metal.remove(name)
+    - new ./lib/script/recycling.lua: function: apm.lib.utils.recycling.scrap.remove(recipe_name)
+    - new ./lib/script/recycling.lua: function: apm.lib.utils.recycling.scrap.generation()
+    - info: ./lib/script/recycling.lua: function: apm.lib.utils.recycling.scrap.add() will no longer perform any changes
+    - info: ./lib/script/recycling.lua: function: apm.lib.utils.recycling.scrap.generation() will now perform the changes for inserting scrap metal into recipes
+    - rename: apm.lib.utils.recycling.generation() to apm.lib.utils.recycling.metal.generation()
+    - add logging for ./lib/script/recycling.lua: function: apm.lib.utils.recycling.metal.add()
+    - add logging for ./lib/script/recycling.lua: function: apm.lib.utils.recycling.add.scrap_metal()
+    - add logging for ./lib/script/recycling.lua: function: apm.lib.utils.recycling.scrap.generation()
+    - add logging for ./lib/script/recycling.lua: function: apm.lib.utils.recycling.metall.generation()
+    - moved: metal and scrap declarations to the data update phase
+    - moved: metal and scrap generation to the data finale phase
+---------------------------------------------------------------------------------------------------
+Version: 0.17.19
+Date: 14. 04. 2019
+  Bugfixes:
+    - fix: propperty use: "emissions_per_minute" intead of "emissions_per_second_per_watt"  -> https://forums.factorio.com/viewtopic.php?f=3&t=69433
+  Changes:
+    - entities: add modul slots: tier 1 = 0, tier 2 = 1, tier 3 = 2 and tier 4 = 3
+    - updated thumbnail
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.18
+Date: 13. 04. 2019
+  Bugfixes:
+    - removed a recipe overwrite if the mod 'Amator Phasma's Fuel & Power rework' is present
+---------------------------------------------------------------------------------------------------
+Version: 0.17.17
+Date: 12. 04. 2019
+  Changes:
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.16
+Date: 11. 04. 2019
+  Compatibility:
+    - now compatible with aai-industry
+---------------------------------------------------------------------------------------------------
+Version: 0.17.15
+Date: 10. 04. 2019
+  Bugfixes:
+    - fixed wrong definition ... stupid copy and paste error :( ... -> https://mods.factorio.com/mod/apm_recycling/discussion/5cae04fd02246e000c3856b5
+---------------------------------------------------------------------------------------------------
+Version: 0.17.14
+Date: 09. 04. 2019
+  Changes:
+    - recipe: renamed: Reprocessing of dirty water -> Dirty water purification
+  Compatibility:
+    - (apm_power) fluid: Unification of the fluid 'Dirty Water' in both mods.
+    - (angelrefining) recipe: Dirty water purification: products: -10 water.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.13
+Date: 07. 04. 2019
+  Changes:
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.12
+Date: 06. 04. 2019
+  Compatibility:
+    - function: apm.lib.utils.recycling.generation() hardened for corner cases and to play better with other mods.
+    - added: ScienceCostTweaker Mod (mexmer)
+  Changes:
+    - updated dependencies
+    - added file LICENSE
+---------------------------------------------------------------------------------------------------
+Version: 0.17.11
+Date: 05. 04. 2019
+  Compatibility:
+    - apm_power: added "Electromagnet" to scrap metal generation
+    - angelsrefining: add fluid 'Dirty water' void for clarifier
+---------------------------------------------------------------------------------------------------
+Version: 0.17.10
+Date: 05. 04. 2019
+  Minor Features:
+    - Languages: German translation added. (Deutsche übersetzung hinzugefügt)
+  Bugfixes:
+    - added missing localization strings
+  Changes:
+    - Entities: update all models
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.09
+Date: 01. 04. 2019
+  Changes:
+    - All symbols for machines to idealize symbols changed, now you should better see what, what is.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.08
+Date: 31. 03. 2019
+  Bugfixes:
+    - fixed: recipe "Radioactive water recyling" if apm_nuclear is active and angels refining is not had the wrong category.
+    - fixed: Scrap iron/copper recycling not available without angels mods (https://mods.factorio.com/mod/apm_recycling/discussion/5ca11cc23f02c6000d4cb011)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.07
+Date: 31. 03. 2019
+  Changes:
+    - new machine: add a new level of recycling machine (burner), which is available on game start.
+    - technologie: remove technology prerequisite for iron and copper recycling, to make them available on game start.
+    - recipes: add two new recipes for early copper and iron recycling if angels refining is active
+    - general: optimize some code
+---------------------------------------------------------------------------------------------------
+Version: 0.17.06
+Date: 29. 03. 2019
+  Bugfixes:
+    - hardend namespace for inner and outer function from "utils.xxx" to "apm.lib.utils.xxx" this should prevent crashes if other mods can overwrite utils.
+    - function: apm.lib.utils.recycling.add.scrap_metal(recipe_name, scrap_metal, probability) refactoring and hardened against special cases that can lead to loading crashes with other mods. (example: aai-industry)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.05
+Date: 27. 03. 2019
+  Changes:
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.04
+Date: 23. 03. 2019
+  Bugfixes:
+    - fixed a error in script
+---------------------------------------------------------------------------------------------------
+Version: 0.17.03
+Date: 23. 03. 2019
+  Bugfixes:
+    - fixed wrong values in entity prototypes for low res sprites: "The given sprite rectangle ... is outside the actual sprite size"
+---------------------------------------------------------------------------------------------------
+Version: 0.17.02
+Date: 23. 03. 2019
+  Changes:
+    - added new graphics for recycler machines
+---------------------------------------------------------------------------------------------------
+Version: 0.17.01
+Date: 16. 03. 2019
+  Major Features:
+    - Initial release

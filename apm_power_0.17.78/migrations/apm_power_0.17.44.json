@@ -1,0 +1,23 @@
+{
+  "fluid":
+  [
+    ["", ""]
+  ],
+  "item":
+  [
+    ["", ""]
+  ],
+  "entity":
+  [
+    ["", ""]
+  ],
+  "recipe":
+  [
+    ["apm_stone_crucibel", "apm_raw_crucibel_0"],
+    ["apm_seawater_filtration", "apm_seawater_centrifuging"]
+  ],
+  "technology":
+  [
+    ["", ""]
+  ]
+}

@@ -1,0 +1,115 @@
+__Amator Phasma's Coal & Steam__
+=============
+[Source Code on GitLab](https://gitlab.com/AmatorPhasma/apm_factorio)
+
+__Languages:__
+-------------
+English, Deutsch
+
+__About this mod:__
+-------------
+This mod revisits the early game of Factorio and pushes the electrification a bit further back by extending the Burner-Stage and inserting a new stage: Steam-Stage (buildings will be powered by steam).
+
+"Love and fame for the burner inserter!"
+
+The production lines of this mod focus on fuel production, but it also comes with a few new intermediates and a new science package. It does not change the standard Techtree too much, the majority of the related tech for this mod comes before the vanilla techtree even begins. The vanilla techtree and most of the other mods content are locked behind a new technology called "Electrification" which can be called the goal of this modification.
+
+Tip: You should generate the map with a little more richness for coal, to not run out of it, since you need up to twice the amount of a normal vanilla playthrough.
+
+#### The fuel is split in two different types: ####
+- Unrefined fuel (like: raw coal and wood)
+- Refined fuel (like: coke or charcoal briquettes)
+
+*some machines or furnace can operate with unrefined fuel other need refined fuel
+
+#### This mod comes with a few new buildings: ####
+- Crusher, Press, Centrifuge (3 tiers: burner, steam powered and electric)
+- Assmebling machine, Lab (2 tiers: burner and steam powered)
+- Coking plant (3 tiers burner)
+- Greenhouse, Air cleaner, (1 tier: steam powered)
+- Puddling furnace (1 tier: burner, for steel production)
+- Steelworks (1 tier: electric, for steel production)
+- Mining drills (2 tier: burner II (4x4) and steam powered (5x5))
+- Offshore-pumps (2 tier: burner and electric)
+- Sieve (1 tier: steam powered)
+- Inserter (burner filter & burner long)
+
+__Tested with vanilla factorio, with Bob's and/or Angel's and/or Earendel's mods. (See list below)__
+
+__UPS?:__
+-------------
+This mod needs the extended inserter functionality that comes with my library, this consumes computation time. You have in the settings the option to reduce this consumption: 'Mod Settings' -> 'Map' -> 'Amator Phasma's Library' -> 'Maximum inserter checks per tick' the Default should be 15 (if you used a early version there it was 100, you should change it to 15). If you lower this value, the script needs less computation time, but the inserter will slower react to clear the burned fuel inventory (example: ash, discharged batteries, used nuclear MOX-Fuel from breeder, etc. depending on which mod you have installed by me who uses this feature). 
+__You can allways change this setting on the fly, no game restart required.__
+__The avarrage computation time for this functions: ~0.3 ms on default settings__
+
+__Known problem:__
+-------------
+- None
+
+__Future?__
+-------------
+- better models/icons/images (I'm a bloody-noob in this 3D/2D-art thing, so this is a long term goal, suggestions are welcome here, the goal is to let them all look more like steampunk machines at the end)
+
+__Problems?__
+-------------
+- Report them on the forum thread or here on this site under disscussion.
+
+__Ideas?__
+-------------
+- Please tell me on the forum thread.
+
+__Dependencies:__
+-------------
+- [Amator Phasma's Library](https://mods.factorio.com/mod/apm_lib)
+
+__Recommended dependencies:__
+-------------
+- [Amator Phasma's Nuclear](https://mods.factorio.com/mod/apm_nuclear)
+- [Amator Phasma's Recycling](https://mods.factorio.com/mod/apm_recycling)
+
+__Known incompatibility:__
+-------------
+- None
+
+__Tested compatibility:__
+-------------
+- [Space Exploration by Earendel](https://mods.factorio.com/mod/space-exploration)
+- [Alien Biomes by Earendel](https://mods.factorio.com/mod/alien-biomes)
+- [AAI Programmable Vehicles by Earendel](https://mods.factorio.com/mod/aai-programmable-vehicles)
+- [AAI Vehicles: Chaingunner by Earendel](https://mods.factorio.com/mod/aai-vehicles-chaingunner)
+- [AAI Vehicles: Flame Tank by Earendel](https://mods.factorio.com/mod/aai-vehicles-flame-tank)
+- [AAI Vehicles: Flame Tumbler by Earendel](https://mods.factorio.com/mod/aai-vehicles-flame-tumbler)
+- [AAI Vehicles: Laser Tank by Earendel](https://mods.factorio.com/mod/aai-vehicles-laser-tank)
+- [AAI Vehicles: Miner by Earendel](https://mods.factorio.com/mod/aai-vehicles-miner)
+- [AAI Vehicles: Warden by Earendel](https://mods.factorio.com/mod/aai-vehicles-warden)
+- [AAI Vehicles: Hauler by Earendel](https://mods.factorio.com/mod/aai-vehicles-hauler)
+- [AAI Industry by Earendel](https://mods.factorio.com/mod/aai-industry)
+- [Bio Industries by TheSAguy](https://mods.factorio.com/mod/Bio_Industries)
+- [ScienceCostTweaker Mod (mexmer)](https://mods.factorio.com/mod/ScienceCostTweakerM)
+- [Angel's Angel's Bio Processing [BETA] by Arch666Angel](https://mods.factorio.com/mod/angelsbioprocessing)
+- [Angel's Angel's Industries by Arch666Angel](https://mods.factorio.com/mod/angelsindustries)
+- [Angel's Addons - Smelting Train by Arch666Angel](https://mods.factorio.com/mod/angelsaddons-smeltingtrain)
+- [Angel's Addons - Petrochem Train by Arch666Angel](https://mods.factorio.com/mod/angelsaddons-petrotrain)
+- [Angel's Addons - Warehouses by Arch666Angel](https://mods.factorio.com/mod/angelsaddons-warehouses)
+- [Angel's Addons - Pressure Tanks](https://mods.factorio.com/mod/angelsaddons-pressuretanks)
+- [Angel's Infinite Ores by Arch666Angel](https://mods.factorio.com/mod/angelsinfiniteores)
+- [Angel's Petro Chemical Processing by Arch666Angel](https://mods.factorio.com/mod/angelspetrochem)
+- [Angel's Refining by Arch666Angel](https://mods.factorio.com/mod/angelsrefining)
+- [Angel's Smelting by Arch666Angel](https://mods.factorio.com/mod/angelssmelting)
+- [Bob's Personal Equipment mod by Bobingabout](https://mods.factorio.com/mod/bobequipment)
+- [Bob's Assembling machines by Bobingabout](https://mods.factorio.com/mod/bobassembly)
+- [Bob's Electronicsby Bobingabout](https://mods.factorio.com/mod/bobelectronics)
+- [Bob's Enemies by Bobingabout](https://mods.factorio.com/mod/bobenemies)
+- [Bob's Adjustable Inserters by Bobingabout](https://mods.factorio.com/mod/bobinserters)
+- [Bob's Functions Library mod by Bobingabout](https://mods.factorio.com/mod/boblibrary)
+- [Bob's Logistics mod by Bobingabout](https://mods.factorio.com/mod/boblogistics)
+- [Bob's Mining by Bobingabout](https://mods.factorio.com/mod/bobmining)
+- [Bob's Modules by Bobingabout](https://mods.factorio.com/mod/bobmodules)
+- [Bob's Ores by Bobingabout](https://mods.factorio.com/mod/bobores)
+- [Bob's Metals, Chemicals and Intermediates by Bobingabout](https://mods.factorio.com/mod/bobplates)
+- [Bob's Power by Bobingabout](https://mods.factorio.com/mod/bobpower)
+- [Bob's Revamp mod by Bobingabout](https://mods.factorio.com/mod/bobrevamp)
+- [Bob's Tech by Bobingabout](https://mods.factorio.com/mod/bobtech)
+- [Bob's Warfare by Bobingabout](https://mods.factorio.com/mod/bobwarfare)
+
+[My thread in the forum.](https://forums.factorio.com/viewtopic.php?f=190&t=68748)

@@ -1,0 +1,14 @@
+{
+        "name": "apm_recycling",
+        "version": "0.17.38",
+        "title": "Amator Phasma's Recycling",
+        "author": "AmatorPhasma",
+        "dependencies": [
+                "base >= 0.17.34",
+                "apm_resource_pack >= 0.17.12",
+                "apm_lib >= 0.17.87"
+        ],
+        "description": "This mod adds scrap to some intermediate recipes. The scrap have to be taken into account in your logistic, at the end these can be recycled to base material.",
+        "factorio_version": "0.17",
+        "homepage": ""
+}

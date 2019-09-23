@@ -1,0 +1,68 @@
+__Amator Phasma's Energy Addon__
+=============
+
+__Languages:__
+-------------
+English, Deutsch
+
+
+__About this mod:__
+-------------
+This is a very small mod that adds an electric car (thats needs batteries), a charging station and adds a fuel value to the vanilla batteries, as well discharged batteries as a ("burned") result, these can then be recharged at a charging station.
+
+
+__Known problem:__
+-------------
+
+__Future?__
+-------------
+- include modded batteries (like Bobs).
+- 'mobile' energy stations
+
+
+__Problems?__
+-------------
+Report them on the forum thread or here on this site under disscussion.
+
+
+__Ideas?__
+-------------
+Please tell me on the forum thread.
+
+
+__Dependencies:__
+-------------
+[Amator Phasma's Library](https://mods.factorio.com/mod/apm_lib)
+
+
+__Known incompatibility:__
+-------------
+Any mod that removes the vanilla batteries, apart from that, there should be no problems, this mod does not do anything serious :)
+
+
+__Tested compatibility:__
+-------------
+[AAI Industry](https://mods.factorio.com/mod/aai-industry)
+[ScienceCostTweaker Mod (mexmer)](https://mods.factorio.com/mod/ScienceCostTweakerM)
+[Angel's Addons - Warehouses by Arch666Angel](https://mods.factorio.com/mod/angelsaddons-warehouses)
+[Angel's Addons - Pressure Tanks](https://mods.factorio.com/mod/angelsaddons-pressuretanks)
+[Angel's Infinite Ores by Arch666Angel](https://mods.factorio.com/mod/angelsinfiniteores)
+[Angel's Petro Chemical Processing by Arch666Angel](https://mods.factorio.com/mod/angelspetrochem)
+[Angel's Refining by Arch666Angel](https://mods.factorio.com/mod/angelsrefining)
+[Angel's Smelting by Arch666Angel](https://mods.factorio.com/mod/angelssmelting)
+[Bob's Assembling machines by Bobingabout](https://mods.factorio.com/mod/bobassembly)
+[Bob's Electronicsby Bobingabout](https://mods.factorio.com/mod/bobelectronics)
+[Bob's Enemies by Bobingabout](https://mods.factorio.com/mod/bobenemies)
+[Bob's Adjustable Inserters by Bobingabout](https://mods.factorio.com/mod/bobinserters)
+[Bob's Functions Library mod by Bobingabout](https://mods.factorio.com/mod/boblibrary)
+[Bob's Logistics mod by Bobingabout](https://mods.factorio.com/mod/boblogistics)
+[Bob's Mining by Bobingabout](https://mods.factorio.com/mod/bobmining)
+[Bob's Modules by Bobingabout](https://mods.factorio.com/mod/bobmodules)
+[Bob's Ores by Bobingabout](https://mods.factorio.com/mod/bobores)
+[Bob's Metals, Chemicals and Intermediates by Bobingabout](https://mods.factorio.com/mod/bobplates)
+[Bob's Power by Bobingabout](https://mods.factorio.com/mod/bobpower)
+[Bob's Revamp mod by Bobingabout](https://mods.factorio.com/mod/bobrevamp)
+[Bob's Tech by Bobingabout](https://mods.factorio.com/mod/bobtech)
+[Bob's Warfare by Bobingabout](https://mods.factorio.com/mod/bobwarfare)
+
+[My thread in the forum.](https://forums.factorio.com/viewtopic.php?f=190&t=68748)

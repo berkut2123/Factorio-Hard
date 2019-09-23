@@ -1,0 +1,14 @@
+{
+  "fluid":
+  [
+    ["apm_dirty_coal_water", "apm_coal_water"]
+  ],
+  "recipe":
+  [
+    ["apm_dirty_coal_water_seperation", "apm_coal_water_seperation"]
+  ],
+  "technology":
+  [
+    ["apm_power_better_fuel", "apm_fuel-1"]
+  ]
+}

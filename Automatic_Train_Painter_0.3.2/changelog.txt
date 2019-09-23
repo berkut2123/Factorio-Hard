@@ -1,0 +1,169 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 2019.09.11
+  Bugfixes:
+    - Manual Color Module now compatible with modded Equipment Grids.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 2019.09.09
+  New Features:
+    - Startup settings option for enabling/disabling locomotive Equipment Grid.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2019.09.07
+  New Features:
+    - Enabled 2x4 locomotive Equipment Grid.
+    - Manual Color Module: an inexpensive 2x2 Equipment item that can be placed in locomotive Equipment Grid.  When present, automatic painting will be prevented for that train.
+    - Colors for Pyanodons Raw Ores, Coal Processing, Petroleum Handling, and Industry.
+    - Colors for Realistic Ores.
+    - Colors for Industrial Revolution.
+
+  Optimizations:
+    - Implemented algorithm to automatically color Barrels and Deadlock Stacks based on their fluid and stacked item, respectively, eliminating redundancies in color database.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.10
+Date: 2019.09.02
+  New Features:
+    - Colors for Krastorio (except Equipment).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.9
+Date: 2019.06.15
+  New Features:
+    - Minor updates for Bob's/Angel's colors.
+    - Colors for Deadlock's Stacking Beltboxes & Compact Loaders compatibility (including Bob's/Angel's Ores, Plates, Smelting, Electronics).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.8
+Date: 2019.03.24
+  New Features:
+    - Colors for 5dim's Automatization, Decoration, Energy, Equipment, Logistics, Mining, Module, Nuclear, Ores, Resources, Trade, Trains, Transport, & Vehicle.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.7
+Date: 2019.03.24
+  New Features:
+    - Colors for Angel's Petrochem.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.6
+Date: 2019.03.23
+  New Features:
+    - Painting exemption for trains equipped with F.A.R.L. Module.
+    - Colors for Angel's Refining & Smelting; Bob's Electronics & Enemies.
+    - Colors for Bob's Metals & Ores revised.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+Date: 2019.03.23
+  Bug Fixes:
+    - Fixed crash when looking for LTN deliveries when LTN is not installed.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 2019.03.23
+  New Features:
+    - Logistic Train Network (LTN) support to paint trains as they are dispatched from LTN Depot.
+
+  Known Issues:
+    - LTN Trains will only be painted at dispatch when light at depot turns yellow.  This does not always happen for unknown reasons.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 2019.03.15
+  New Features:
+    - Trains without cargo or fluid wagons will no longer be affected by mod.
+    - Painting exemption for trains equipped with Shuttle Train Module.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2019.03.14
+  New Features:
+    - Colors for *all* base game items now supported.
+    - Colors for Bob's Assembling Machines, Greenhouse, Logistics, Metals, Mining, Modules, Ores, Power, Revamp Mod, & Tech.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2019.03.11
+  Bug Fixes:
+    - Fixed crash when train contains item not in entity color list.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2019.03.11
+  New Features:
+    - Complete rewrite and refactor.  Under the hood, it's a brand new mod.
+    - Color mixing algorithm is now perfectly proportional for item quantities.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+Date: 2019.03.08
+  New Features:
+    - New thumbnail!
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+Date: 2019.03.07
+  Bug Fixes:
+    - If "Paint locomotives" setting turned off and "Unpaint empty trains" turned on, locomotives of non-empty trains would still be unpainted.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+Date: 2019.03.07
+  New Features:
+    - Many, many new base game entity colors.
+    - Changelog.
+    - German (DE) localization
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 2019.03.06
+  New Features:
+    - Settings option: "Paint locomotives."
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 2019.03.06
+  New Features:
+    - Settings option: "Unpaint empty trains."
+
+  Bug Fixes:
+    - Empty cargo and fluid wagons would keep their color even when "Paint cargo/fluid wagons" setting(s) unchecked.
+    - Removed optional dependency for WagonColors to keep settings from being toward bottom of menu.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 2019.03.06
+  New Features:
+    - Settings options: "Paint cargo wagons" and "Paint fluid wagons."
+
+  Bug Fixes:
+    - Cargo and fluid wagons will now revert to default colors when setting is unchecked and item is present in inventory.
+    - Reduced fluid inventory color value counting by factor of 5 to more evenly blend colors when used in trains with cargo wagons.
+    - Updated version number so mod actually appears on Mod Portal...
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2019.03.06
+  New Features:
+    - Optional dependency for WagonColors mod.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2019.03.05
+  New Features:
+    - Thumbnail
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2019.03.05
+  Initial Build:
+    - Ported from Train Ore Color mod.
+
+  New Features:
+    - Fluid content functionality.
+    - Cargo and fluid wagon painting functionality.
+    - Additional entity colors.

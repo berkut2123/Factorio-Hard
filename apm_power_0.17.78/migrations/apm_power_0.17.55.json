@@ -1,0 +1,22 @@
+{
+  "fluid":
+  [
+    ["", ""]
+  ],
+  "item":
+  [
+    ["apm_steam_clock", "apm_steam_relay"]
+  ],
+  "entity":
+  [
+    ["", ""]
+  ],
+  "recipe":
+  [
+    ["apm_steam_clock", "apm_steam_relay"]
+  ],
+  "technology":
+  [
+    ["", ""]
+  ]
+}

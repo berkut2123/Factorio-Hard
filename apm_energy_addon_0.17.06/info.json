@@ -1,0 +1,16 @@
+{
+        "name": "apm_energy_addon",
+        "version": "0.17.06",
+        "title": "Amator Phasma's Energy Addon",
+        "author": "AmatorPhasma",
+        "dependencies": [
+                "base >= 0.17.34",
+                "apm_resource_pack >= 0.17.08",
+                "apm_lib >= 0.17.75",
+                "? apm_power >= 0.17.62",
+                "? apm_nuclear >= 0.17.27"
+        ],
+        "description": "This is a very small mod that adds an electric car (thats needs batteries), a charging station and adds a fuel value to the vanilla batteries, as well discharged batteries as a ('burned') result, these can then be recharged at a charging station.",
+        "factorio_version": "0.17",
+        "homepage": ""
+}

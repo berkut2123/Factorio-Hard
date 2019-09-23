@@ -1,0 +1,75 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.17.7
+Date: 18. 07. 2019
+  Bugfixes:
+    - Fixed crash when using /editor command.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.6
+Date: 15. 07. 2019
+  Bugfixes:
+    - Fixed inventory size differences.
+  Changes:
+    - Minor GUI update.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.5
+Date: 09. 07. 2019
+  Bugfixes:
+    - Fixed boot rubber ingredient.
+  Features:
+    - Added rename button to the Avatar switcher GUI, to allow you to set a name for your characters,
+    - Added God mode, Editor mode and switch class buttons to the Avatar switcher GUI if button is enabled and it's single player, or if the player is an admin if the game is multiplayer. Use with caution. each button is enabled with a setting.
+    - Added close button to class select GUI, exits without choosing a class.
+    - Removed position coordinates from the Avatar switcher GUI
+    - Added a map and minimap button to each character on the Avatar switcher GUI
+---------------------------------------------------------------------------------------------------
+Version: 0.17.4
+Date: 01. 05. 2019
+  Changes:
+    - Updated for 0.17.35 player -> character changes
+---------------------------------------------------------------------------------------------------
+Version: 0.17.3
+Date: 21. 03. 2019
+  Balancing:
+    - Updated class values to reflect 0.17 changes
+---------------------------------------------------------------------------------------------------
+Version: 0.17.2
+Date: 15. 03. 2019
+  Changes:
+    - Fixed that the character entity wasn't actually replaced.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.1
+Date: 11. 03. 2019
+  Bugfixes:
+    - Fixed class select would show even when it shouldn't, such as if you were in spectator mode or map editor.
+    - removed old classes to prevent a crash.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.0
+Date: 26. 02. 2019
+  Info:
+    - Updated to work with Factorio 0.17
+---------------------------------------------------------------------------------------------------
+Version: 0.16.2
+Date: 15. 05. 2018
+  Changes:
+    - Fixed trying to switch bodies on different surfaces causes a crash.
+    - Builder's build speed bonus up from 20% to 100% (Doesn't effect existing players)
+    - Miner's mining speed bonus down from 400% to 100% (Does effect existing players)
+    - Added descriptions to the class button locale entries.
+---------------------------------------------------------------------------------------------------
+Version: 0.16.1
+Date: 10. 02. 2018
+  Changes:
+    - Converted some values to globals to make remote calls work. example function add_classes() in control.lua
+    - Changed buttons to a standard style.
+    - over-all code clean-ups
+    - Fixed builder starting inventory.
+    - Added a technology filter on class definitions as an unlocker. Works like prerequisites on technology (need them all to unlock)
+    - Made all 4 current classes buildable on the "Bodies" research.
+    - Added the whole "Select a Character" menu for the multiple bodies system.
+    - all bodies you build will be associated to you as a player so you can switch between them.
+---------------------------------------------------------------------------------------------------
+Version: 0.16.0
+Date: 26. 01. 2018
+  Info:
+    - Initial release
+

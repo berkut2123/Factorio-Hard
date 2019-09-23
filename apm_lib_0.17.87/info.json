@@ -1,0 +1,12 @@
+{
+        "name": "apm_lib",
+        "version": "0.17.87",
+        "title": "Amator Phasma's Library",
+        "author": "AmatorPhasma",
+        "dependencies": [
+                "base >= 0.17.34"
+        ],
+        "description": "First of all: this is a resource and code library for my other mods. It self comes with extended functions for inserter: 1) make it possible that a inserter can handle the 'burnt_result_inventory' on all machines. 2) burner inserter can leech fuel from pickup and drop target. 3) burner inserters are capable to chain fuel through all burner type machines. These features are enabled by default when you have installed one of my other mods, if they need it. Otherwise you can control it yourself, whether you need it or not.",
+        "factorio_version": "0.17",
+        "homepage": ""
+}

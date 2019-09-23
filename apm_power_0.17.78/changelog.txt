@@ -1,0 +1,848 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.17.78
+Date: 09. 08. 2019
+  Changes:
+    - recipe: 'tree seeds' reduced the amount of needed wood by 1
+    - recipe: 'fertiliser_1' reduced cost - only in expensive mode
+    - recipe: 'apm_fertiliser_2' reduced cost - only in expensive mode
+  Compatibility:
+    - (aai-industry) fix: recipe for (angel) ore-crusher
+    - (aai-industry) fix: recipe for steam-engine
+---------------------------------------------------------------------------------------------------
+Version: 0.17.77
+Date: 09. 08. 2019
+  Bugfixes:
+    - fix: changelog from 0.17.75, 0.17.76
+  Compatibility:
+    - (aai-industry) fix: missing small-electric-pole unlock -> Thanks @Kebab Removalist
+    - (aai-industry) fix: small-electric-pole now needs "Treated wood planks" again.
+    - (bobmining) removed: steam-mining-drill
+---------------------------------------------------------------------------------------------------
+Version: 0.17.76
+Date: 08. 08. 2019
+  Compatibility:
+    - (aai-industry) fix: missing inserter unlock -> Thanks @Kebab Removalist
+---------------------------------------------------------------------------------------------------
+Version: 0.17.75
+Date: 08. 08. 2019
+  Compatibility:
+    - (aai-industry) fix: missing iron pipes in steam technology -> https://mods.factorio.com/mod/apm_power/discussion/5cfe6a627777ff000d3f4f0e/edit/6
+    - (aai-industry) fix: missing boiler in steam technology -> https://mods.factorio.com/mod/apm_power/discussion/5cfe6a627777ff000d3f4f0e/edit/6
+    - (space-exploration) fix: incompatibility with Space Exploration after 0.17.53 -> https://mods.factorio.com/mod/apm_power/discussion/5d2909f03f77ea000cb8676a
+    - (Squeak Through) fix: conflict with "Squeak Through"
+  Changes:
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.74
+Date: 31. 05. 2019
+  Bugfixes:
+    - fix: add 'Electromagnet' to red science-pack-tech if ScienceCostTweakerM is active -> https://mods.factorio.com/mod/apm_power/discussion/5cf0809e375124000b170e43
+---------------------------------------------------------------------------------------------------
+Version: 0.17.73
+Date: 31. 05. 2019
+  Major Features:
+    - add initial support for recipe expensive mode
+  Changes:
+    - entity: 'Air cleaner' reduce pollution removal from 100p/m to 50p/m
+    - recipe: 'Resin' from wood now gives 2x Resin
+  Compatibility:
+    - (angelssmelting) recipe: 'Steelmaking 1' now = 24x "Crushed saphirite" + 2x 'Crucibel' + 6x 'Crushed coke' = 2x "Steel"
+    - (angelssmelting) recipe: 'Steelmaking 1' reduce energy_usage to 24
+---------------------------------------------------------------------------------------------------
+Version: 0.17.72
+Date: 28. 05. 2019
+  Compatibility:
+    - (ScienceCostTweakerM) recipe: 'Automation science pack' now uses 'Gearing' and 'Electromagnet'
+    - (ScienceCostTweakerM) recipe: remove lab (no useage)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.71
+Date: 26. 05. 2019
+  Bugfixes:
+    - fix migration error in 0.17.70
+---------------------------------------------------------------------------------------------------
+Version: 0.17.70
+Date: 26. 05. 2019
+  Compatibility:
+    - (bobpower) add missing localisation strings (entity-description) for boilers 2-5.
+    - (PyCoalTBaA) recipes: overwrite ingredient: 'Steam' temperature from 165°C to 120°C, to fit my changes to boiler and steam-engines.
+    - (PyCoalTBaA) fluid: unification of creosote
+    - (PyCoalTBaA) item: unification of treated wood
+    - (angelsbioprocessing) recipe: 'Wood boards' from papper: result increased to 2, time reduced to 1
+  Changes:
+    - recipe: "Treated wood planks 1" ingredient 'Creosote' increased to 50 from 10
+    - recipe: new: 'Treated wood planks 2' ingredient: 50x 'Heavy oil' +5x 'Wood' == 10x 'Treated wood planks'
+---------------------------------------------------------------------------------------------------
+Version: 0.17.69
+Date: 24. 05. 2019
+  Compatibility:
+    - (bobgreenhouse) technology: 'Greenhouse' added "Electricity" as prerequisite.
+    - (aai-programmable-vehicles) technology: 'Position beacon' added "Electricity" as prerequisite.
+    - (aai-programmable-vehicles) technology: 'Automated Vehicle Deployment' added "Electricity" as prerequisite.
+    - (aai-programmable-vehicles) technology: 'Vehicle Depot' added "Electricity" as prerequisite.
+    - (aai-vehicles-hauler) recipe: 'Hauler' replaced ingridients "Iron gear wheel" with "Engine unit".
+    - (aai-vehicles-hauler) recipe: 'Hauler' ingridients decreased "Iron plates" to 10.
+    - (aai-vehicles-hauler) technology: 'Basic Vehicles' added "Engine" as prerequisite.
+    - (aai-vehicles-hauler) technology: replace science-pack 'automation' with 'industrial'.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.68
+Date: 21. 05. 2019
+  Bugfixes:
+    - fixed wrong recipe probabilities (related to: https://forums.factorio.com/71014)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.67
+Date: 20. 05. 2019
+  Changes:
+    - rebalance energy usage for burner inserter
+---------------------------------------------------------------------------------------------------
+Version: 0.17.66
+Date: 18. 05. 2019
+  Bugfixes:
+    - fixed wrong localisation strings
+---------------------------------------------------------------------------------------------------
+Version: 0.17.65
+Date: 16. 05. 2019
+  Changes:
+    - recipe: 'Automation science pack' replaced 'Iron gear wheel' with 'Gearing'
+    - recipe: 'Automation science pack' replaced 'Copper plate' with 'Electromagnet'
+    - recipes: crushing/pressing with fluids, crushing/pressing with tools +0.25 and + 0.5 output material
+    - recipe: 'Charcoal pyrolysis 2-5' decrease time usage from (4.5, 6.5, 7.5, 8.5) to (4.0, 5.0 , 6.0, 7.0)
+    - recipe: 'Coal-saturated wastewater separation' decrease time usage to 6.5
+    - recipe: 'Dirty water purification' decrease time usage to 6.5
+---------------------------------------------------------------------------------------------------
+Version: 0.17.64
+Date: 14. 05. 2019
+  Changes:
+    - recipe: 'Empty Barrel' ingredients +1 "Sealing rings"
+    - recipe: rename: 'Wood pellets' to 'Wood pellets 1'
+    - recipe: new 'Wood pellets 2'
+  Compatibility:
+    - (space-exploration) added "se-space-capsule-_-vehicle" to the exclude list for fuel description generation
+---------------------------------------------------------------------------------------------------
+Version: 0.17.63
+Date: 12. 05. 2019
+  Compatibility:
+    - (aai-industry) replace aai's burner-lab in the electric lab recipe with the steam lab from my mod.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.62
+Date: 12. 05. 2019
+  Changes:
+    - entities: cars and locomotives now show the required fuel type in the description
+    - item: rocket-fuel changed fuel-category to 'Rocket fuel' (also changed values)
+    - item: nuclear-fuel changed fuel-category to 'Rocket fuel' (also changed values)
+    - entity: locomotives allow use of fuel-category 'Rocket fuel'
+  Compatibility:
+    - (aai-vehicles-miner) initial compatibillity (science_packs / fuel_categories)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.61
+Date: 12. 05. 2019
+  Bugfixes:
+    - fix: recipe: 'Air cleaning 2 (extracting ammonium sulfate)' fix 'Sulfuric acid' amount from 50 to 30
+    - fix: missing localized strings for 'apm_stone_crucibel' -> 'Crucibel firing'
+    - fix: wrong pipe-connection color for 'Electric centrifuge'
+  Changes:
+    - recipe: new: 'Crushing coal 3'
+    - recipe: new: 'Press coal briquette 3'
+    - item: new: 'Crusher drumms'
+    - item: new: 'Crusher drumms (used)'
+    - item: new: 'Press plates'
+    - item: new: 'Press plates (used)'
+    - recipe: new: 'Crusher drumms maintenance'
+    - recipe: new: 'Press plates grinding'
+    - setting: reduce coal fuel value default from 3.5MJ to 3.0MJ
+    - entity: buffed electric offshore-pump from 200fluid/s to 400fluid/s
+    - entity: 'burner mining drill' reduce base enrgy_usage ftom 150kW to 115kW
+    - player: make sure the player has some things on start (2x burner mining drill, 2x stone furnace, 4x burner-inserter, 2x burner-filter-inserter, 15x wood)
+    - recipe: "Explosives" replace "Coal" with 2x"Crushed coal"
+    - recipe: "Grenade" replace "Coal" with "Crushed coal"
+    - recipe: "Slowdown capsule" replace "Coal" with 2x"Crushed coal"
+    - recipe: "Plastic bar" replace "Coal" with 2x"Crushed coal"
+    - recipe: "Poison capsule" replace "Coal" with "Crushed coal"
+  Compatibility:
+    - (Bio_Industries) replace ingredient in some recipes "wood" with "Wood pellets"
+    - (bobplates) replace ingredient in some recipes "coal" with "Crushed coal" or "Coal briquette"
+    - (bobplates) replace ingredient in some recipes "wood" with "Wood pellets"
+    - (bobwarfare) replace ingredient in some recipes "coal" with "Crushed coal" or "Coal briquette"
+    - (bobwarfare) replace ingredient in some recipes "wood" with "Wood pellets"
+    - (bobelectronics) replace ingredient in some recipes "wood" with "Wood pellets"
+    - (angelspetrochem) replace ingredient in some recipes "coal" with "Crushed coal" or "Coal briquette"
+    - (angelsrefining) replace ingredient in some recipes "coal" with "Crushed coal" or "Coal briquette"
+    - (space-exploration) replace ingredient in some recipes "coal" with "Crushed coal" or "Coal briquette"
+    - (space-exploration) replace ingredient in some recipes "wood" with "Wood pellets"
+---------------------------------------------------------------------------------------------------
+Version: 0.17.60
+Date: 10. 05. 2019
+  Changes:
+    - recipe: 'Asphalt 1' now needs 30 Ash + 25 Creosote and takes 4.5s
+    - recipe: 'Asphalt 2' now needs 15 Stone + 25 Creosote and takes 4.5s
+    - recipe: 'Sifting' (all) +10% ore output -2 mud
+    - recipe: 'Wood 1' change wood recipe to 5s/1wood now: (time 275s / 4x seeds / 4x fertiliser (Quality: B+) = 55x wood)
+    - item: new: 'Ammonium sulfate'
+    - recipe: new: 'Air cleaning 2 (extracting ammonium sulfate)' (+30x Sulfuric acid = 15x Ammonium sulfate)
+    - item: new: 'Fertiliser (Quality: A)'
+    - recipe: new: 'Fertiliser (Quality: A)'
+    - recipe: new: 'Wood 2' 5s/2wood now: (time 175s / 4x seeds / 4x fertiliser (Quality: A) = 55x wood)
+    - technology: new: 'Advanced fertilizer production'
+  Compatibility:
+    - (space-exploration) fix: add sand processing to crusher
+    - (angelsbioprocessing) disabled: technology: 'Fertiliser (Quality: A)'
+    - (angelsbioprocessing) lock technology: 'Tree Arboretum 1' behind 'Electricity'
+    - (angelsindustries) lock technology: 'Vehicle Equipment 1' behind 'Electricity'
+    - (angelsindustries) lock technology: 'Cargo Robots' behind 'Electricity'
+    - (angelsaddons-smeltingtrain) lock technology: 'Angel's Addons - Smelting Train' behind 'Electricity'
+    - (angelsaddons-petrotrain) lock technology: 'Angel's Addons - Petrochem Train' behind 'Electricity'
+    - (Bio_Industries) disabled: technology: 'Fertiliser (Quality: A)'
+    - (Bio_Industries) 'Tree seed' unification
+---------------------------------------------------------------------------------------------------
+Version: 0.17.59
+Date: 08. 05. 2019
+  Bugfixes:
+    - fix: Error in assignID, item with name 'science-pack-0' does not exist. -> https://mods.factorio.com/mod/apm_power/discussion/5cd0b37b5ae1bf000d06b8cc
+    - fix: technology: 'Electric press' add missing science-pack
+  Changes:
+    - entity: new: 'Electric centrifuge'
+    - entity: added two module slots to the "Electric offshore-pump"
+    - entity: new: 'Steam sieve'
+    - item: rename 'Wet mud' to 'Wet mineralized mud'
+    - item: new: 'Dry mineralized mud'
+    - recipe: new: 'Dry mineralized mud'
+    - item: new: 'Iron sieve'
+    - item: new: 'Copper sieve'
+    - recipe: new: 'Mud sifting (iron sieve)'
+    - recipe: new: 'Mud sifting (copper sieve)'
+    - entity: "Electric offshore-pump" will now also pump only sea water. (all electric pumps must be replaced)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.58
+Date: 06. 05. 2019
+  Bugfixes:
+    - recipe: "Steelmaking 2" in Steelworks outputs now steam with 120°C
+  Changes:
+    - adapted changes from apm_recycling
+---------------------------------------------------------------------------------------------------
+Version: 0.17.57
+Date: 05. 05. 2019
+  Bugfixes:
+    - Bob's integration bug: 'Burner long inserter' is added to 'Fast Inserter' if Bob's Inserter overhaul is active -> https://mods.factorio.com/mod/apm_power/discussion/5cce3c8ea60e02000d9498bf
+---------------------------------------------------------------------------------------------------
+Version: 0.17.56
+Date: 04. 05. 2019
+  Changes:
+    - dependencies add optional 'apm_recycler'
+    - new: ./prototypes/integrations/updates.lua
+    - moved: recipe generation for apm_power from apm_recycling to ./prototypes/integrations/updates.lua
+    - recipe: 'long-inserter' replaced 'iron-gear-wheel' with 'gearing'
+    - recipe: 'steam-engine' replaced 'iron-gear-wheel' with 'gearing'
+    - recipe: 'steam-turbine' replaced 'iron-gear-wheel' with 'gearing'
+    - recipe: allow productivity modules for: "Electromagnet"
+    - recipe: allow productivity modules for: "Resin"
+    - recipe: allow productivity modules for: "Rubber (Vulcanization 1)"
+    - recipe: allow productivity modules for: "Rubber (Vulcanization 2)"
+    - recipe: allow productivity modules for: "Gearing"
+    - recipe: allow productivity modules for: "Wooden board"
+    - recipe: allow productivity modules for: "Chipboard production"
+    - recipe: allow productivity modules for: "Steam relay"
+    - recipe: allow productivity modules for: "Sealing rings"
+    - recipe: allow productivity modules for: "Steelmaking 2"
+    - updated dependencies
+  Compatibility:
+    - (aai-industry) fix: and rebalance some recipes (mostly the new ones from my mod)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.55
+Date: 04. 05. 2019
+  Bugfixes:
+    - fix: /prototypes/intergrations/recipes.lua:286 :: index local 'recipe'(a nil value) -> https://mods.factorio.com/mod/apm_power/discussion/5ccce4c1a2e6cc000d24355a replaced this raw edit with a proper function with checks
+  Changes:
+    - technology: add 'Puddling furnace (Steel)' as prerequisites for 'Steam power'
+    - item: rename 'Steam clock' to 'Steam relay'
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.54
+Date: 04. 05. 2019
+  Changes:
+    - entities: changed some descriptions
+    - entities: added dynamic descriptions to entities with energy_source.type: burner or fluid.
+    - reciepe: 'boiler' remove 'stone furnace' add 10x steal and 15x copper
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.53
+Date: 02. 05. 2019
+  Bugfixes:
+    - fix: 'electric offshore-pump' needs 'electric offshore-pump'
+---------------------------------------------------------------------------------------------------
+Version: 0.17.52
+Date: 02. 05. 2019
+  Bugfixes:
+    - fix: wrong category for charcoal
+  Changes:
+    - changed some item description generation
+---------------------------------------------------------------------------------------------------
+Version: 0.17.51
+Date: 02. 05. 2019
+  Changes:
+    - entity: new: 'Burner long inserter'
+    - technology: new: 'Burner long inserter' befor 'Inserter capacity bonus 0'
+    - entity: new: 'Improvised offshore pump' (burner): replacement for the old one.
+    - entity: new: 'Electric offshore pump' (electric)
+    - technology: new: 'Electric mining drills' after 'Electronics'
+    - technology: 'automation' now needs more science packs
+    - technology: 'optics' now needs more science packs
+    - items: descriptions: updated
+    - updated for 0.17.35 API Changes
+    - updated dependencies
+  Compatibility:
+    - (bobinserters) replace 'Burner long inserter' with 'Long inserter 1' from bob
+---------------------------------------------------------------------------------------------------
+Version: 0.17.50
+Date: 30. 04. 2019
+  Minor Features:
+    - new: ./lib/data-interfaces.lua: apm.power.overwrites.data_stage.coal_fuel_value (float): this can be used to overwrite my coal fuel value settings (MJ)
+  Changes:
+    - entity: new: 'Steam mining drill' (can not mining ores with liquid)
+    - technologiy: new: 'Steam mining drill' after 'Engine' as prerequisites for 'Electricity'
+    - recipe: new: 'Industrial science pack 1' -> hand crafting only double all values
+    - recipe: new: 'Industrial science pack 2' -> crafting in machines only (same as the old one)
+    - items: stack_size set to 200 for steel-plate
+  Compatibility:
+    - (PyCoalTBaA) unification for some fuel products
+---------------------------------------------------------------------------------------------------
+Version: 0.17.49
+Date: 28. 04. 2019
+  Compatibility:
+    - (PyCoalTBaA) added py-tiles to tile resorting
+---------------------------------------------------------------------------------------------------
+Version: 0.17.48
+Date: 28. 04. 2019
+  Compatibility:
+    - (PyCoalTBaA) initial compatibillity (settings and science_packs)
+  Changes:
+    - recipe: removed deletion of 'iron-gear-wheel' in 'offshore-pump'
+---------------------------------------------------------------------------------------------------
+Version: 0.17.47
+Date: 27. 04. 2019
+  Changes:
+    - recipe: 'small-electric-pole' replaced 'Wood' with 2x'Treated wood planks'
+    - recipe: 'combat-shotgun' replaced 'Wood' with 2x'Treated wood planks'
+    - technology: added 'Fuel processing 3' to 'Electricity'
+    - technology: removed 'Treated wood planks' from unlock on 'Railways'
+    - technology: added 'Treated wood planks' unlock on 'Fuel processing 3'
+---------------------------------------------------------------------------------------------------
+Version: 0.17.46
+Date: 27. 04. 2019
+  Major Features:
+    - removed all media files to apm_resource_pack
+  Compatibility:
+    - (angelsrefining) added cross compatibillity for crusher recipes
+---------------------------------------------------------------------------------------------------
+Version: 0.17.45
+Date: 27. 04. 2019
+  Bugfixes:
+    - fix: (even if it can not lead to an error)
+    - fix: wrong category name
+  Compatibility:
+    - (angelsbioprocessing) moved recipe: wooden board from papper to Coal&Steam category and update the icon.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.44
+Date: 26. 04. 2019
+  Changes:
+    - removed from game: "Perpetual motion gear wheel" 
+    - recipe: transport-belt: -"Perpetual motion gear wheel" +iron-gear-wheel
+    - item: new: 'raw cruibel'
+    - recipe: 'raw crucibel 1' from 2x stone-brick
+    - recipe: 'raw crucibel 2' from 5x wed mut
+    - recipe: 'stone crucibel' from 1x 'raw crucibe' (smelting)
+    - recipe: renamed 'seawater filtration' to 'seawater centrifuging'
+    - settings: set default_value for coal MJ to 4
+    - icons: updated (some)
+    - entity: 'Steelworks' has now a yellow base (same as other electric machines)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.43
+Date: 25. 04. 2019
+  Bugfixes:
+    - add missing 'tiles.cfg' for localized strings
+  Changes:
+    - recipe: 'tree seeds': 5x wood = 1x 'tree seeds'
+    - recipe: 'wood 1': from 35x 'tree seeds' to 7x 'tree seeds'
+    - updated icons
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.42
+Date: 23. 04. 2019
+  Compatibility:
+    - added a basic overwrite for fuel-categories, if an entity uses a burner type energie source with the category 'chemical' to distribute the my other categories
+    - (alien-biomes) my tile layer resorting for asphalt works now as it should (asphalt before stone-path)
+    - (space-exploration) initial compatibillity added
+  Changes:
+    - settings: renamed 'Patches for AAI mods' to 'Patches for Earendel's mods' (I decided to name this only after the authors not mods.)
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.41
+Date: 22. 04. 2019
+  Changes:
+    - entity: new: 'Steelworks'
+    - recipe: new: 'Steelmaking 2'
+    - item: new: Stone crucibel
+    - recipe: 'Steelworks' +4 Stone crucibel
+  Compatibility:
+    - (angelssmelting) disable 'Steelworks' and 'Steelmaking 2'
+---------------------------------------------------------------------------------------------------
+Version: 0.17.40
+Date: 21. 04. 2019
+  Bugfixes:
+    - fix: disabled recipes after the las migration
+---------------------------------------------------------------------------------------------------
+Version: 0.17.39
+Date: 21. 04. 2019
+  Bugfixes:
+    - fix: recipe: 'Reprocessing of charcoal filter (Type: C-0)' missing crafting category: 'advanced-crafting'
+    - fix: recipes missing 'always_show_made_in = true' attribute
+    - fix: stucking inserter on steel recipe (ore stack size now 200 because 4*25 was more then 50)
+    - fix: naming 'Impregnated wood planks' to 'Treated wood planks'
+    - (aai-industry) fix: missing stone-table in some recipes.
+  Changes:
+    - items: stack_size set to 200 for copper-ore, iron-ore, stone, coal, uranium-ore, sulfur, wood
+    - recipe: (for balance reasons) 'Reprocessing of charcoal filter (Type: C-0)' result from 3 to 2.9 'Charcoal filter (Type: C-0)'
+    - recipe: (for balance reasons) 'Charcoal filter (Type: C-0)' replaced iron-plates with 1x steel-plate
+    - entity: (for balance reasons) reduced "Burner mining drill 1" mining radius by 1 (to vanilla stats)
+    - technology: moved 'Dirty water purification' unlock to 'Air cleaning'
+    - fluid: new: 'Seawater'
+    - entity: new: 'Basic Centrifuge'
+    - entity: new: 'Improvised offshore pump' pumps 'Seawater' NOT 'Water'
+    - item: new 'Mud'
+    - item: new 'Asphalt'
+    - tile: new 'Asphalt' (walking_speed_modifier = 1.35, vehicle_friction_modifier = 0.95, between stone-path and concrete values)
+    - recipe: new: 'Asphalt 1' 2x = (40x Ash + 20x Creosote)
+    - recipe: new: 'Asphalt 2' 2x = (5x Stone + 20x Creosote)
+    - recipe: (for balance reasons) 'Coke pyrolysis 3' reduce 'creosote' to 5
+    - recipe: (for balance reasons) 'Coke pyrolysis 4' reduce 'creosote' and 'coke oven gas'to 15
+    - recipe: (for balance reasons) 'Charcoal pyrolysis 2' reduce 'creosote' to 5
+    - recipe: (for balance reasons) 'Charcoal pyrolysis 3' reduce 'creosote' to 15
+    - recipe: new: 'Seawater filtration': 200x Seawater = 190 Water + (0.5x Wet mud, 0.001x Raw fish)
+    - recipe: 'Fertiliser (Quality: B+)' add 10x Wet mud
+    - recipe: (for balance reasons) 'Wood 1' reduce output by 5
+    - items: charcoal and charcoal briquettes are now 'refined fuel'
+    - items: added the 'Fuel type to the description of items'
+    - entity: (for balance reasons) reduced boiler pollution by 5/m (to compansate the 'Seawater filtration')
+    - recipe: (for balance reasons) 'Wooden board 1' changed result to 2 (+1), changed energy_required to 3 (+1)
+    - recipe: (for balance reasons) 'Wooden board 2' changed result to 4 (+2)
+    - recipe: (for balance reasons) 'Wood production 1' removed
+    - recipe: (for balance reasons) 'Wood production 2' renamed to 'Wood production 1'
+    - technology: 'Fertiliser production' removed, moved recipe to 'Greenhaus'
+    - relocate fuel- and recipe- categories to the library mod
+    - updated dependencies
+  Compatibility:
+    - initial support for Angels Bio Processing (BETA)
+    - (bobtech) fix: missing 'Industrial science pack' in lab mk2
+    - (angelsrefining) entity/item: burner ore crusher replaced with own burner crusher (give them player two to compansate lower crafting speed)
+    - (angelssmelting) made my steel recipe a bit more expensive, now needs 36 crushed sapherite
+    - (angelsbioprocessing) unification of wood products
+    - (aai-industry) restored orginal recipe for 'Offshore-Pump'
+    - (aai-industry) moved unlock for 'Offshore-Pump' to technology: 'Electricity'
+---------------------------------------------------------------------------------------------------
+Version: 0.17.38
+Date: 18. 04. 2019
+  Bugfixes:
+    - fixed: that some burner fuel like 'coke briquett' has the wrong fuel-category, because I fxed a bug in the lib :/
+  Changes:
+    - item: removed: Battery (discharged) 'will be moved into a new mod'
+    - entity: removed: Electric car 'will be moved into a new mod'
+    - recipe: removed: Charge batteries 'will be moved into a new mod'
+  Compatibility:
+    - (aai-industry) change iron-gear-wheel to 2x result and 1.25/s crafting time to compensade some costs for the motors
+---------------------------------------------------------------------------------------------------
+Version: 0.17.37
+Date: 17. 04. 2019
+  Changes:
+    - allow "speed" modules in my machines with a module slot
+---------------------------------------------------------------------------------------------------
+Version: 0.17.36
+Date: 16. 04. 2019
+  Bugfixes:
+    - fix (ScienceCostTweaker Mod (mexmer)) missing code line to replace the Electromagnetism lab as ingredient in the Electrochemics lab
+---------------------------------------------------------------------------------------------------
+Version: 0.17.35
+Date: 15. 04. 2019
+  Minor Features:
+    - naming: internal names and English localization aligned, for better search results in mods like FNEI (because they can only search for the internal name)
+  Compatibility:
+    - I have changed the calculations for fuel values, based on coal, there was a logical failure in it. This can result in unecpected high fuel values for follow-up products (in the chain) if an other mod overwrites the coal value, like Realistic Power does. The calculations should now hardened against this. (If an other mod overwrites the base value of coal, my setting for the value might be not functional in this case).
+---------------------------------------------------------------------------------------------------
+Version: 0.17.34
+Date: 14. 04. 2019
+  Minor Features:
+    - renamed the mod from 'Amator Phasma's Fuel & Power rework' to 'Amator Phasma's Coal & Steam'
+    - add new setting: 'Coal fuel value (MJ)' this is to adjust the fuel value of coal, tha base for all other fuel value calculations
+  Bugfixes:
+    - fix: entities now use the propperty: emissions_per_minute intead of emissions_per_second_per_watt  -> https://forums.factorio.com/viewtopic.php?f=3&t=69433
+    - fix: recipe: removed: vanilla steel-plates
+    - fix: entity: Puddling furnace: descripton now says it can only use refinded fuel.
+    - fix: descriptions: add the following string: "(example: coke, and higher tiers)" to all entities that can only use refined fuel.
+    - fix: descriptions: fixed typos in german translation.
+    - fix: recipe: "Coke pyrolysis 4" name not shown properly as "Coke pyrolysis 4"
+    - fix: recipes: "Coke pyrolysis 1-5" now has all Endproducts in the name, like: "... (coke, sulfur)"
+    - fix: recipe: missing string for german translation for "Coke pyrolysis 5"
+    - fix: smoke: burner assembler machine no makes slightly more dark smoke.
+  Compatibility:
+    - (aai-industry) better integration for the item: motor
+    - (bob-logistics) removed overwrites for belt results. (basic-belt results now: 2)
+  Changes:
+    - recipe: all tier 1 building rebalanced: -stone-furnace, all need stone-bricks now, caped to 4 ingredients (removed pipes)
+    - recipe: new: Charcoal pyrolysis 3 under tech: Fuel processing 4
+    - recipe: balance: Coke pyrolysis and Charcoal pyrolysis, small changes for energy required and result (efficiency vs time)
+    - entities: add modul slots: Advanced coking plant = 2, Steam assembling machine = 1, Steam crusher = 1 , Electric crusher = 2, Steam press = 1, Electric press = 2, Greenhouse = 1, Steam centrifuge = 1
+    - settings: set order property to all settings
+    - updated thumbnail
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.33
+Date: 13. 04. 2019
+  Minor Features:
+    - add new setting: compatibility patches for ExpensiveLandfillRecipe
+  Compatibility:
+    - compatibility with ExpensiveLandfillRecipe
+    - replace icons if needed: ./prototypes/integrations/icons.lua
+  Changes:
+    - entity: new: Puddling furnace (tier 1)
+    - technologie new: Puddling furnace (Steel production)
+    - technologie: steel-processing, revert back to vanilla state. (Makes the mod better compatible with other mods)
+    - recipe: new: Steelmaking (a recipe for the early state of the game)
+    - icon: 'Wooden board' changed back to old simple icon (I don't like the new one...)
+    - recipes: increased sulfur output of the "coke pyrolysis" tier: 3-5 to 60%, 70%, 100 sulfuric wastewater, it should now be better fit to the needs
+---------------------------------------------------------------------------------------------------
+Version: 0.17.32
+Date: 12. 04. 2019
+  Minor Features:
+    - moved vanilla overwrites to the update data phase instead of final data phase, now only thirt party (patches) and the generic-ash (final setting) overwrites happen in the final-fixes phase, makes more sense for me, and is more aligne against what other mod authors do.
+  Bugfixes:
+    - (not essential for user) removed some strange logic in my patches (patch things, revert it, patch it again...)
+    - fixed (optical for ui): some technologie was not locked behind automation science but should.
+    - fixed: (BUG!!!) some technologie was locked behind automation science but shouldn't (better armor).
+  Compatibility:
+    - Fine-tuning of some patches (users should see any change it's mostly internal)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.31
+Date: 12. 04. 2019
+  Bugfixes:
+    - fixed (aai-industry) steam-assembling-machine instead burner-assembling-machine used for the next assembling-machine tier
+    - (bio-industries) removed fuel value from some items
+---------------------------------------------------------------------------------------------------
+Version: 0.17.30
+Date: 11. 04. 2019
+  Minor Features:
+    - add new setting: compatibility patches for Bio Industries
+  Compatibility:
+    - compatibility with Bio Industries
+  Bugfixes:
+    - fixed (aai-industry) fuel-processing used the wrong coke for vehicle fuel if angelpetrochem is installed
+---------------------------------------------------------------------------------------------------
+Version: 0.17.29
+Date: 11. 04. 2019
+  Minor Features:
+    - add new setting: compatibility patches for AAI mods
+    - add new setting: compatibility patches for Bob's mods
+    - add new setting: compatibility patches for Angel's mods
+    - add new setting: compatibility patches for ScienceCostTweaker Mod (mexmer)
+  Compatibility:
+    - compatibility with AAI Industry
+    - compatibility with AAI Industry and ScienceCostTweaker Mod (mexmer) together
+  Bugfixes:
+    - fix: wrong color for pipe-covers on advanced coking plant
+    - fix: inserters can go stuck on greenhouses with recipe 'wood 2' (solution: increase stack size of seeds to 200)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.28
+Date: 10. 04. 2019
+  Bugfixes:
+    - fix entities: press wrong string/value in prototypes
+    - fix: item: 'Coal filter (Type: C-0)' renamed to 'Charcoal filter (Type: C-0)'
+  Compatibility:
+    - (angelspetrochem) recipe: Refining of coke oven gas 1 now produces: 20 hydrogen and 10 methane instead of only 10 methane (a chemist tells me this :>)
+  Changes:
+    - better rendering of the burner assembler model
+    - better rendering of the steam assembler model
+    - better rendering of the burner lab model
+    - better rendering of the steam lab model
+    - better rendering of the steam crusher model
+    - better rendering of the steam press model
+    - better rendering for the tech-tree icons (of the models above in this changelog)
+    - new icons for fluids (The old ones were too pixelated)
+    - new icon: 'Wooden board'
+    - technology: automated-rail-transportation: now needs only industiral science pack
+    - technology: rail-signals: now needs industiral science pack and automation science packs, comes direct after electricity tech
+    - technology: new: inserter-capacity-bonus-0 (for normal inserter: capacity +1) after steam tech
+    - recipe: Fertiliser (Quality: B+): -3 ash
+    - recipe: new: Press coal briquette 2
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.27
+Date: 09. 04. 2019
+  Bugfixes:
+    - recipe: technology: Alloy processing not possible when ScienceCostTweaker is active.
+    - technology: had the wrong science packs
+---------------------------------------------------------------------------------------------------
+Version: 0.17.26
+Date: 09. 04. 2019
+  Bugfixes:
+    - recipe: Coke pyrolysis 3 now respects the settings for ash
+  Compatibility:
+    - angelsrefining: add fluid 'Dirt water' void for clarifier
+    - angelsrefining: add fluid 'Creosote' void for clarifier
+    - angelsrefining: add fluid 'Coke oven gas' void for flare-stack
+---------------------------------------------------------------------------------------------------
+Version: 0.17.25
+Date: 09. 04. 2019
+  Changes:
+    - better rendering of the centrifuge model
+    - better rendering of the air cleaner model
+    - entity: new: cocking plant (tier 3)
+    - recipe category: new: apm_cocking_3
+    - revert changes made for 0.17.25 back (multiple products) -> https://forums.factorio.com/67857
+    - fluid: new: Dirty water
+    - fluid: new: Creosote
+    - fluid: new: Coke oven gas
+    - recipe: Coke pyrolysis 1: -1 ash product
+    - recipe: Coke pyrolysis 2: -1 ash product
+    - recipe: Coke pyrolysis 3: -1 ash product -25% sulfur + 10 creosote
+    - recipe: Coke pyrolysis 4: products: 0.5 sulfur + 10 creosote + 10 coke oven gas
+    - recipe: Charcoal pyrolysis renamed to Charcoal pyrolysis 1
+    - recipe: new: Charcoal pyrolysis 2: products: 3x charcoal + 1x ash + 10 creosote
+    - (angelpetrochem) recipe: Coke pyrolysis 5: 100 water-yellow-waste + 10 creosote + 10 coke oven gas
+    - recipe: Refining of creosote: 100x creosote + 50x steam = 20x Heavy-oil, 15x light-oil and 10x petroleum-gas
+    - item: new: Sealing rings
+    - recipe: Sealing rings: 1x Rubber == 5* sealing rings
+    - recipe: pipes: ingredients: + 1x sealing rings
+    - item: new: Impregnated wood planks
+    - recipe: new: Impregnated wood planks 1: 5x wood + 10x creosote == 10x impregnated wood planks
+    - recipe: new: Rails: ingridients: -iron-stick +1x impregnated wood planks
+    - recipe: Air cleaning: replaced Coal-saturated wastewater with Dirty water
+---------------------------------------------------------------------------------------------------
+Version: 0.17.24
+Date: 08. 04. 2019
+  Changes:
+    - item: Tree seeds now has 1MJ
+    - item: battery has reduced fuel value to 25MJ
+    - recipe: Wood production 1 -> -5 tree seeds -10 secounds
+    - recipe: Wood production 2 -> -5 tree seeds -1 fertiliser (Quality: B+) -5 secounds
+    - recipe: Coal combustion: coal ash production -> +4 ash results
+    - recipe: Wood combustion: wood ash production -> +4 ash results
+    - recipes: all crusher recipes now has a minium of 2 secounds
+    - better rendering of the press (tier 1) model
+---------------------------------------------------------------------------------------------------
+Version: 0.17.23
+Date: 07. 04. 2019
+  Bugfixes:
+    - item: charcoal now respects the settings for ash
+    - angelpetrochem: recipe: rubber from liquid now is the correct rubber item
+    - angelpetrochem: recipe: resin from liquid now is the correct resin item
+  Changes:
+    - recipe: Rubber (Vulcanization 2) -> +1 sulfur as an ingridient
+    - recipe: Coke pyrolysis 2 -> -50% sulfur as result
+    - recipe: Coke pyrolysis 3 -> -25% sulfur as result
+    - technology: steam crusher after centrifuge (recipe needs centrifuge to work correctly)
+    - technology: steam press after centrifuge (recipe needs centrifuge to work correctly)
+    - recipe: Coal filter (Type: C-0) -> only 1 charcoal briquette for 3 filter
+    - recipe: Reprocessing of coal filter (Type: C-0) -> only 1 charcoal briquette for 3 filter
+    - better rendering of the crusher (tier 1) model
+---------------------------------------------------------------------------------------------------
+Version: 0.17.22
+Date: 07. 04. 2019
+  Changes:
+    - better rendering of the greenhouse model
+    - better rendering of the coking plant (tier 1 and tier 2) model
+    - new recipe category: apm_crusher_with_tool
+    - new recipe category: apm_press_with_tool
+    - new color code for wood products (only a little bit darker)
+  General:
+    - Cleaning up the source code, file names, etc. (naming, comments, unneeded parts)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.21
+Date: 05. 04. 2019
+  Bugfixes:
+    - fixed: fuel value for charcoal brick
+  Compatibility:
+    - added: ScienceCostTweaker Mod (mexmer)
+  Minor Features:
+    - entity: new: electric crusher
+    - entity: new: electric press
+  Changes:
+    - changed color codes for coal and coke products (coke is now darker than coal, but coal is slightly lighter)
+    - changed crafting speed for press to: tier 1: 0.5, tier 2: 1.0, tier 3: 1.5 to match the crusher speeds
+    - entity: greenhpuse new image
+    - added file LICENSE
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.20
+Date: 05. 04. 2019
+  Bugfixes:
+    - fixed: typo in recipe: Charge batteries
+    - sound: electric car: driving sound louder
+  Compatibility:
+    - angelsmelting: blast-furnace is now limited to refined fuel
+    - angelsrefining: add fluid 'Coal-saturated wastewater' void for clarifier
+    - bobplates: "enriched fuel block" now need a "solid fuel block" as an ingredient.
+  Changes:
+    - item: solid-fuel block set to factor 5 (from 8) of coal fuel value
+    - entity: reduce car pollution/s to base 3p/s
+    - entity: reduce locomotive pollution/s to base 2p/s
+    - bots: revamped construction and logistic bots (need more power, more energy storage, a bit faster if energy storage is empty...)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.19
+Date: 05. 04. 2019
+  Compatibility:
+    - marked a conflicting mod: "AAI industry", this mod overhauled the same areas as my mod and at the moment I don't know how to make them compatible, I have to wait until my mod is feature complete.
+    - revamped angels coal products to aligne with this mod
+  Minor Features:
+    - Languages: German translation added. (Deutsche übersetzung hinzugefügt)
+    - item: new: electro magnet
+  Bugfixes:
+    - fixed: several spelling mistakes or unclear names.
+    - fixed: removed duplicated sulfur recipes in technologies
+  Changes:
+    - recipe: electric-engine-unit needs 3x electro magnets
+    - recipe: steam-engine 6x electro magnets
+    - recipe: steam-turbine needs 12x electro magnets
+    - item: replaced image for "Perpetual motion gear wheel".
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.18
+Date: 04. 04. 2019
+  Bugfixes:
+    - fixed recipes related to a "bugfix" in the newest factorio update (0.17.25) -> https://forums.factorio.com/67857
+---------------------------------------------------------------------------------------------------
+Version: 0.17.17
+Date: 04. 04. 2019
+  Bugfixes:
+    - recipes: add compatibility for "coke briquettes" if angel's petrochem is installed. -> https://mods.factorio.com/mod/apm_power/discussion/5ca5cab016a40e000d44b6de
+  Minor Features:
+    - fuel category: add new: "apm_electrical"
+    - fuel category: add new: "apm_petrol" (not in use yet)
+    - item: change: Batteries now have a fuel value (70MJ) and leave discharged batteries after use
+    - item: new: discharged battery
+    - recipe: new: charge batteries (10x discharged battery = 9x batteries + 1x batterie with 90% probability) can be crafted in all electric assembling machines.
+    - entity: new: Electric car
+  Changes:
+    - entities: adding pollution generation to cars, tanks, and locomotives (if non-electrically charged fuel is used, such as batteries)
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.16
+Date: 03. 04. 2019
+  Changes:
+    - entities: replaced all entity models with new ones
+    - entities: add a "burner mining drill tier 2"
+    - technology: replaced icons
+---------------------------------------------------------------------------------------------------
+Version: 0.17.15
+Date: 01. 04. 2019
+  Changes:
+    - All symbols for machines to idealize symbols changed, now you should better see what, what is.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.14
+Date: 31. 03. 2019
+  Changes:
+    - add new machine: steam centrifuge
+    - enitiy: air cleaner now reduce pollution by 100 per secound
+    - recipe: air cleaning energy_required set to 25
+    - recipe: air cleaning and Reprocessing coal filter has now a byproduct 'Carbonated water'
+    - technology: rearrange "engines", now comes after the steam technology
+    - technology: rearrange "railway", now comes directly after "engines"
+    - recipe: coal washing for uranium now is placed into the steam centrifuge
+    - recipe: engine-unit now uses gearing instead of iron gear wheels
+    - recipe: changed recipes for coke coking for more progress
+    - items: changes some fuel values to better fit the progress
+    - recipe: add new recipe for crushed coal
+    - change icon defenitions (./lib/definitions.lua)
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.13
+Date: 29. 03. 2019
+  Bugfixes:
+    - fixed crash on load.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.12
+Date: 29. 03. 2019
+  Bugfixes:
+    - fixed wrong name in entity prototype.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.11
+Date: 29. 03. 2019
+  Bugfixes:
+    - fixed steam crusher doesn't accept some crafting recipes.
+    - fixed steam assembler doesn't accept normal crafting recipes.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.10
+Date: 29. 03. 2019
+  Bugfixes:
+    - hardend namespace for inner and outer function from "utils.xxx" to "apm.lib.utils.xxx" this should prevent crashes if other mods can overwrite utils.
+    - pipe connections for steam buildings now blue
+  Changes:
+    - add new machine: air cleaner (works with steam as fuel) comes after the steam assembling machine technology
+    - items: reduced pollution bonus for all fuel types (it was too much)
+    - technologies: balance time and science pack numbers for technologies (mostly a bit lower)
+    - general: refactoring recipes
+    - recipe: Wood production  -> increase production time to 300 sec. (align it with Bio-Industries for later compatibility)
+    - recipe: Wood production  -> added 10xash as an ingredient.
+    - add new item: Coal filter (Type: C-0)
+    - add new item: Used coal filter (Type: C-0)
+    - add new item: Fertiliser (Quality: B+)
+    - add new recipes: Woodproduction Tier 2
+  Minor Features:
+    - add setting for "generic ash" if this option is set to true: burned fuel produces a generic ash, is set to false: organic fuels produce "wood ash" and inorganic fuels produce "coal ash". (Default: true)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.09
+Date: 28. 03. 2019
+  Changes:
+    - updated dependencies
+  Bugfixes:
+    - fixed wrong technologie and recipes if boblogistics is installed but transport-belt overhaul is unchecked
+---------------------------------------------------------------------------------------------------
+Version: 0.17.08
+Date: 28. 03. 2019
+  Bugfixes:
+    - angel coke recognized as refined fuel
+---------------------------------------------------------------------------------------------------
+Version: 0.17.07
+Date: 27. 03. 2019
+  Bugfixes:
+    - cars, tanks, locomotives now work correct and have a burnt fuel inventory
+---------------------------------------------------------------------------------------------------
+Version: 0.17.06
+Date: 27. 03. 2019
+  Bugfixes:
+    - replaced the placeholder image for the steam technology.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.05
+Date: 27. 03. 2019
+  Changes:
+    - increased mining are for burner mining drill +1 to (4x4)
+    - recipes: rebalance all burner machines
+    - add new intermediate item 'Gearing'
+    - add new intermediate item 'Resin'
+    - add new intermediate item 'Rubber'
+    - add new intermediate item 'Wooden board'
+    - add new intermediate item 'Perpetual motion gear wheel'
+    - add mew machine 'Steam assembling machine' (works with steam as fuel)
+    - add mew machine 'Steam crusher' (works with steam as fuel)
+    - add mew machine 'Steam press' (works with steam as fuel)
+    - add mew machine 'Steam lab' (works with steam as fuel)
+    - add mew machine 'Greenhouse' (works with steam as fuel)
+    - add mew machine 'Improved coking plant'
+---------------------------------------------------------------------------------------------------
+Version: 0.17.04
+Date: 24. 03. 2019
+  Bugfixes:
+    - fixed a spelling mistake in recipe for 'Ash filtration: 0.02% uranium'
+    - technology order for 'logistics' if bobs-logistics is installed
+  Changes:
+    - recipe time for 'steam clock' increased to 1.25 seconds
+---------------------------------------------------------------------------------------------------
+Version: 0.17.03
+Date: 23. 03. 2019
+  Bugfixes:
+    - fixed a error in script
+---------------------------------------------------------------------------------------------------
+Version: 0.17.02
+Date: 23. 03. 2019
+  Bugfixes:
+    - fixed wrong values in entity prototypes for low res sprites: "The given sprite rectangle ... is outside the actual sprite size"
+---------------------------------------------------------------------------------------------------
+Version: 0.17.01
+Date: 16. 03. 2019
+  Major Features:
+    - Initial release

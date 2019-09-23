@@ -1,0 +1,25 @@
+{
+  "fluid":
+  [
+    ["", ""]
+  ],
+  "item":
+  [
+    ["thorium-232", "apm_nuclear_thorium_oxide_pellet"],
+    ["plutonium-239", "apm_nuclear_plutonium_oxide_pellet"],
+    ["thorium-fuel-cell", "apm_nuclear_fuel_cell_thorium"],
+    ["used-up-thorium-fuel-cell", "apm_nuclear_fuel_cell_used_thorium"]
+  ],
+  "entity":
+  [
+    ["", ""]
+  ],
+  "recipe":
+  [
+    ["", ""]
+  ],
+  "technology":
+  [
+    ["", ""]
+  ]
+}

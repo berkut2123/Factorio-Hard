@@ -1,0 +1,23 @@
+{
+  "fluid":
+  [
+    ["apm_creosote", "creosote"]
+  ],
+  "item":
+  [
+    ["treated-wood", "apm_treated_wood_planks"],
+    ["py-asphalt", "apm_asphalt"]
+  ],
+  "entity":
+  [
+    ["", ""]
+  ],
+  "recipe":
+  [
+    ["", ""]
+  ],
+  "technology":
+  [
+    ["", ""]
+  ]
+}

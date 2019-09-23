@@ -1,0 +1,11 @@
+{
+  "name": "bob-basic-belt-reskin",
+  "version": "0.17.3",
+  "factorio_version": "0.17",
+  "title": "Bob's Logistics Basic Belt Reskin",
+  "author": "Kirazy",
+  "contact": "kirazy@live.com",
+  "description": "Reskins the grayscale basic-tier belts in Bob's Logistics to be colored as the rest of the belts, with white highlights.",
+  "dependencies": [	"base >= 0.17.0",
+					"boblogistics >=0.17.1"]
+}

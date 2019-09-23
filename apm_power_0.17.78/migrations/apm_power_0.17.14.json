@@ -1,0 +1,11 @@
+{
+  "item":
+  [
+    ["apm_charcoal_bricks", "apm_charcoal_brick"]
+  ],
+  "recipe":
+  [
+    ["apm_coal_crushed", "apm_coal_crushed_1"]
+  ]
+}
+

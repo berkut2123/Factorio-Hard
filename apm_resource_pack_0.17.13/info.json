@@ -1,0 +1,12 @@
+{
+        "name": "apm_resource_pack",
+        "version": "0.17.13",
+        "title": "Amator Phasma's Resource Pack",
+        "author": "AmatorPhasma",
+        "dependencies": [
+                "base >= 0.17.34"
+        ],
+        "description": "This mod is a resource pack, with all media files, it does nothing!.",
+        "factorio_version": "0.17",
+        "homepage": ""
+}

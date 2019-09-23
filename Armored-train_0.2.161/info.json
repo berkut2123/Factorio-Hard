@@ -1,0 +1,9 @@
+{
+  "name": "Armored-train",
+  "version": "0.2.161",
+  "factorio_version": "0.17",
+  "title": "Armored Train (Wagon turrets)",
+  "author": "PandaMiami80s",
+  "description": "Turret Wagons and Armored Train (T.W.A.T.)",
+  "dependencies": ["base >= 0.17.35"]
+}

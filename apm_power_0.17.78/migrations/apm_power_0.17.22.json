@@ -1,0 +1,78 @@
+{
+  "item":
+  [
+    ["apm_power_industrial_science_pack", "apm_industrial_science_pack"],
+    ["apm_power_air_cleaner_machine_0", "apm_air_cleaner_machine_0"],
+    ["apm_power_assembling_machine_0", "apm_assembling_machine_0"],
+    ["apm_power_assembling_machine_1", "apm_assembling_machine_1"],
+    ["apm_power_burner_filter_inserter", "apm_burner_filter_inserter"],
+    ["apm_power_crusher_machine_0", "apm_crusher_machine_0"],
+    ["apm_power_crusher_machine_1", "apm_crusher_machine_1"],
+    ["apm_power_crusher_machine_2", "apm_crusher_machine_2"],
+    ["apm_power_press_machine_0", "apm_press_machine_0"],
+    ["apm_power_press_machine_1", "apm_press_machine_1"],
+    ["apm_power_press_machine_2", "apm_press_machine_2"],
+    ["apm_power_coking_plant_0", "apm_coking_plant_0"],
+    ["apm_power_coking_plant_1", "apm_coking_plant_1"],
+    ["apm_power_lab_0", "apm_lab_0"],
+    ["apm_power_lab_1", "apm_lab_1"],
+    ["apm_power_greenhouse_0", "apm_greenhouse_0"],
+    ["apm_power_steam_centrifuge_0", "apm_centrifuge_0"]
+  ],
+  "recipe":
+  [
+    ["apm_power_industrial_science_pack", "apm_industrial_science_pack"],
+    ["apm_power_air_cleaner_machine_0", "apm_air_cleaner_machine_0"],
+    ["apm_power_assembling_machine_0", "apm_assembling_machine_0"],
+    ["apm_power_assembling_machine_1", "apm_assembling_machine_1"],
+    ["apm_power_burner_filter_inserter", "apm_burner_filter_inserter"],
+    ["apm_power_crusher_machine_0", "apm_crusher_machine_0"],
+    ["apm_power_crusher_machine_1", "apm_crusher_machine_1"],
+    ["apm_power_crusher_machine_2", "apm_crusher_machine_2"],
+    ["apm_power_press_machine_0", "apm_press_machine_0"],
+    ["apm_power_press_machine_1", "apm_press_machine_1"],
+    ["apm_power_press_machine_2", "apm_press_machine_2"],
+    ["apm_power_coking_plant_0", "apm_coking_plant_0"],
+    ["apm_power_coking_plant_1", "apm_coking_plant_1"],
+    ["apm_power_lab_0", "apm_lab_0"],
+    ["apm_power_lab_1", "apm_lab_1"],
+    ["apm_power_greenhouse_0", "apm_greenhouse_0"],
+    ["apm_power_steam_centrifuge_0", "apm_centrifuge_0"]
+  ],
+  "entity":
+  [
+    ["apm_power_air_cleaner_machine_0", "apm_air_cleaner_machine_0"],
+    ["apm_power_assembling_machine_0", "apm_assembling_machine_0"],
+    ["apm_power_assembling_machine_1", "apm_assembling_machine_1"],
+    ["apm_power_burner_filter_inserter", "apm_burner_filter_inserter"],
+    ["apm_power_crusher_machine_0", "apm_crusher_machine_0"],
+    ["apm_power_crusher_machine_1", "apm_crusher_machine_1"],
+    ["apm_power_crusher_machine_2", "apm_crusher_machine_2"],
+    ["apm_power_press_machine_0", "apm_press_machine_0"],
+    ["apm_power_press_machine_1", "apm_press_machine_1"],
+    ["apm_power_press_machine_2", "apm_press_machine_2"],
+    ["apm_power_coking_plant_0", "apm_coking_plant_0"],
+    ["apm_power_coking_plant_1", "apm_coking_plant_1"],
+    ["apm_power_lab_0", "apm_lab_0"],
+    ["apm_power_lab_1", "apm_lab_1"],
+    ["apm_power_greenhouse_0", "apm_greenhouse_0"],
+    ["apm_power_steam_centrifuge_0", "apm_centrifuge_0"]
+  ],
+  "technology":
+  [
+    ["apm_power_air_cleaner_machine", "apm_air_cleaner_machine"],
+    ["apm_power_coking_plant", "apm_coking_plant_0"],
+    ["apm_power_coking_plant_1", "apm_coking_plant_1"],
+    ["apm_power_ash_production", "apm_ash_production"],
+    ["apm_power_crusher_machine", "apm_crusher_machine_0"],
+    ["apm_power_steam_crusher_machine", "apm_crusher_machine_1"],
+    ["apm_power_electric_crusher_machine", "apm_crusher_machine_2"],
+    ["apm_power_press_machine", "apm_press_machine_0"],
+    ["apm_power_steam_press_machine", "apm_press_machine_1"],
+    ["apm_power_electric_press_machine", "apm_press_machine_2"],
+    ["apm_power_greenhouse", "apm_greenhouse"],
+    ["apm_power_steam_lab", "apm_lab_1"],
+    ["apm_power_steam_assembler_machine", "apm_assembler_machine_1"],
+    ["apm_power_steam_centrifuge_0", "apm_centrifuge_0"]
+  ]
+}

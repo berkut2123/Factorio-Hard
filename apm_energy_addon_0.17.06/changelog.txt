@@ -1,0 +1,32 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.17.06
+Date: 21. 05. 2019
+  Bugfixes:
+    - fixed wrong recipe probabilities (related to: https://forums.factorio.com/71014)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.05
+Date: 12. 05. 2019
+  Changes:
+    - moved car overwrite to data-update stage
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.04
+Date: 02. 05. 2019
+  Changes:
+    - updated for 0.17.35 API Changes
+    - updated dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.17.03
+Date: 27. 04. 2019
+  Major Features:
+    - removed all media files to apm_resource_pack
+---------------------------------------------------------------------------------------------------
+Version: 0.17.02
+Date: 22. 04. 2019
+  Bugfixes:
+    - fixed wrong path for images if lowres is used.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.01
+Date: 21. 04. 2019
+  Major Features:
+    - Initial release

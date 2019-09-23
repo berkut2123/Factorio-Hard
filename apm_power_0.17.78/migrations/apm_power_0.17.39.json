@@ -1,0 +1,25 @@
+{
+  "fluid":
+  [
+    ["", ""]
+  ],
+  "item":
+  [
+    ["apm_centrifuge_0", "apm_centrifuge_1"],
+    ["apm_impregnated_wood_planks", "apm_treated_wood_planks"]
+  ],
+  "entity":
+  [
+    ["apm_centrifuge_0", "apm_centrifuge_1"]
+  ],
+  "recipe":
+  [
+    ["apm_centrifuge_0", "apm_centrifuge_1"],
+    ["apm_wood_2", "apm_wood_1"],
+    ["apm_impregnated_wood_planks_1", "apm_treated_wood_planks_1"]
+  ],
+  "technology":
+  [
+    ["", ""]
+  ]
+}

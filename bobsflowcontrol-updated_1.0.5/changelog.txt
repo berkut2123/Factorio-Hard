@@ -1,0 +1,14 @@
+Changelog:
+1.0.5 Integrated Bobs pipe sprites, reduced the size of the mod as a result.
+	  German translation for the pipes added
+1.0.4 Added Nitinol and Copper Tungsten Alloy Pipe set
+removed that higher tier pipes had different sizes (in line with bobs)
+1.0.3 Update to Factorio 0.17
+1.0.2 another bug that occurs when starting the game has been fixed now it should start without problems
+1.0.1 fixed Error by start the Game
+1.0.0 update to 0.16
+
+TO DO List:
+Update all icons to be based on the higher res images, they are grainy
+Add other pipe types
+Integrate pipe size mechanics

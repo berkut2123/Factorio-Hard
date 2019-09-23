@@ -1,0 +1,116 @@
+__Amator Phasma's Recycling__
+=============
+[Source Code on GitLab](https://gitlab.com/AmatorPhasma/apm_factorio)
+
+__Languages:__
+English, Deutsch
+-------------
+
+__About this mod:__
+-------------
+This is a simple modification that adds up to two by-products to the intermediate products:
+The scrap metal probability is 10% by default (can be changed in the startup settings) for one scrap metal type, this value is divided by the amount of scrap metal types in a recipe. (example: iron gear wheel: 10% for iron scrap metal, low density structure: 5% for copper and 5% for steel scrap metal) This scrap metal can be collected and later processed in a recycler and then smelted into plates.
+
+It's very simple, but it adds a small layer of complexity to your transport-belt layout. In the early game you can easily solve this with splitters or filter-inserters. Later in high-production areas, you have a dedicated transport-belt for this purpose.
+
+This mod supports all Bob and Angel metals if you had one or both of them.
+
+__Tested with vanilla factorio, with Bob's and/or Angel's and/or Earendel's mods. (See list below)__
+
+__For Modders:__
+-------------
+You can easily add scrap metal to products in the data-updates phase with:
+`apm.lib.utils.recycling.scrap.add(recipe_name, scrap_metal, probability) 
+-- The probability is optional to overwrite the value from the settings`
+Example: 
+`apm.lib.utils.recycling.scrap.add('pipe', 'iron')`
+This results in a 10% probability for iron scrap
+`apm.lib.utils.recycling.scrap.add('rocket-engine', 'tungsten', 0.05)`
+This results in a 5% probability for tungsten scrap
+
+or delete the scrap metal output with:
+`apm.lib.utils.recycling.scrap.remove(recipe_name)`
+Example: 
+`apm.lib.utils.recycling.scrap.remove('pipe')`
+
+To define your one scrap metal you need a bit more:
+`apm.lib.utils.recycling.metal.add(name, tint, output, output_category, wight, output_probability, t_catalysts, t_output_byproducts, b_own_tech, t_tech_prerequisites, output_amount_overwrite)`
+-- name:                    an arbitrary name for a metal (like: iron, copper, titanium, etc..)
+-- tint:                    the color of this metal
+-- output:                  an prototype name of an item
+-- output_category:         the recipe-category for the last recycling step (Default: 'smelting' example: for angel metals: 'induction-smelting')
+-- wight:                   int: <4 means for tier 1, <7 means for tier 2, <10 means for tier 3, >=10 means for tier 4
+--                          * in the future this will also determine the importance of this metal for a further automatic generation.
+-- output_probability:      a dummy for the futere, has no impact at this moment
+-- t_catalysts              example: {{type='fluid', name='steam', amount=100}} (*only two inpute-pipe)
+-- t_output_byproducts:     example: {{type='fluid', name='water', amount=50}} (*only two output-pipe)
+-- b_own_tech:              bool, if true there is a own tech generated for the recipes of this metal/scrap process
+-- t_tech_prerequisites:    has only effect if b_own_tech is true, a table of technologies that are used as prerequisites for this recipe chain
+-- output_amount_overwrite: (int) overwrites the default output for the last recipe in the process
+
+Example:
+`apm.lib.utils.recycling.metal.add('iron', {r= 0.75, g = 0.76, b = 0.77}, 'iron-plate', nil, 1, 0.25, nil, nil, false, nil)`
+`apm.lib.utils.recycling.metal.add('tin', {r= 0.33, g = 0.49, b = 0.36}, 'liquid-molten-tin', 'induction-smelting', 2, 0.25, nil, nil, true, {'angels-tin-smelting-1'})`
+
+If you add an Metal thats not defines in my ./prototypes/recycling/generate.lua you need to add an local string for translations:
+Example: 
+`apm_metal_type_iron=iron`
+`apm_metal_type_copper=Kupfer`
+
+If you want look in the code: you need go into my library mod to ./apm_lib_0.17.37.zip/lib/utils/recycling.lua
+
+__Important:__ You have to create the metal type BEFORE you can add scrap metal to a recipe, this means you should prepare the load order to load your data-updates phase after this mod, to use the "defaults" defined in ./prototypes/recycling/generate.lua
+
+__Known problem:__
+-------------
+- None
+
+__Future?__
+-------------
+- nothing serious at the moment...
+
+__Problems?__
+-------------
+- Report them on the forum thread or here on this site under disscussion.
+
+__Ideas?__
+-------------
+- Please tell me on the forum thread.
+
+__Dependencies:__
+-------------
+- [Amator Phasma's Library](https://mods.factorio.com/mod/apm_lib)
+
+__Known incompatibility:__
+-------------
+- None
+
+__Tested compatibility:__
+-------------
+- [Space Exploration by Earendel](https://mods.factorio.com/mod/space-exploration)
+- [Alien Biomes by Earendel](https://mods.factorio.com/mod/alien-biomes)
+- [AAI Industry by Earendel](https://mods.factorio.com/mod/aai-industry)
+- [Bio Industries by TheSAguy](https://mods.factorio.com/mod/Bio_Industries)
+- [ScienceCostTweaker Mod (mexmer)](https://mods.factorio.com/mod/ScienceCostTweakerM)
+- [Angel's Addons - Warehouses by Arch666Angel](https://mods.factorio.com/mod/angelsaddons-warehouses)
+- [Angel's Addons - Pressure Tanks](https://mods.factorio.com/mod/angelsaddons-pressuretanks)
+- [Angel's Infinite Ores by Arch666Angel](https://mods.factorio.com/mod/angelsinfiniteores)
+- [Angel's Petro Chemical Processing by Arch666Angel](https://mods.factorio.com/mod/angelspetrochem)
+- [Angel's Refining by Arch666Angel](https://mods.factorio.com/mod/angelsrefining)
+- [Angel's Smelting by Arch666Angel](https://mods.factorio.com/mod/angelssmelting)
+- [Bob's Assembling machines by Bobingabout](https://mods.factorio.com/mod/bobassembly)
+- [Bob's Electronicsby Bobingabout](https://mods.factorio.com/mod/bobelectronics)
+- [Bob's Enemies by Bobingabout](https://mods.factorio.com/mod/bobenemies)
+- [Bob's Adjustable Inserters by Bobingabout](https://mods.factorio.com/mod/bobinserters)
+- [Bob's Functions Library mod by Bobingabout](https://mods.factorio.com/mod/boblibrary)
+- [Bob's Logistics mod by Bobingabout](https://mods.factorio.com/mod/boblogistics)
+- [Bob's Mining by Bobingabout](https://mods.factorio.com/mod/bobmining)
+- [Bob's Modules by Bobingabout](https://mods.factorio.com/mod/bobmodules)
+- [Bob's Ores by Bobingabout](https://mods.factorio.com/mod/bobores)
+- [Bob's Metals, Chemicals and Intermediates by Bobingabout](https://mods.factorio.com/mod/bobplates)
+- [Bob's Power by Bobingabout](https://mods.factorio.com/mod/bobpower)
+- [Bob's Revamp mod by Bobingabout](https://mods.factorio.com/mod/bobrevamp)
+- [Bob's Tech by Bobingabout](https://mods.factorio.com/mod/bobtech)
+- [Bob's Warfare by Bobingabout](https://mods.factorio.com/mod/bobwarfare)
+
+[My thread in the forum.](https://forums.factorio.com/viewtopic.php?f=190&t=68748)

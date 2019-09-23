@@ -1,0 +1,23 @@
+{
+  "fluid":
+  [
+    ["", ""]
+  ],
+  "item":
+  [
+    ["apm_nuclear_breeder_inventory", "apm_nuclear_breeder_uranium_inventory"],
+    ["apm_nuclear_breeder_inventory_enriched", "apm_nuclear_breeder_uranium_inventory_enriched"]
+  ],
+  "entity":
+  [
+    ["", ""]
+  ],
+  "recipe":
+  [
+    ["apm_nuclear_breeder_inventory", "apm_nuclear_breeder_uranium_inventory"]
+  ],
+  "technology":
+  [
+    ["", ""]
+  ]
+}

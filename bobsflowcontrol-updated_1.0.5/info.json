@@ -1,0 +1,10 @@
+{
+	"name": "bobsflowcontrol-updated",
+	"version": "1.0.5",
+	"title": "Flow Control for Bobs pipes",
+	"author": "DarkNova",
+	"homepage": "",
+	"description": "Extends Flow Control for all of the Bob's Pipes",
+	"factorio_version": "0.17",
+	"dependencies": [ "base >= 0.17", "Flow Control >= 3.0.4", "bobplates >= 0.17.0", "boblogistics >= 0.17.0" ]
+}

@@ -1,0 +1,1 @@
+table.insert(data.raw["technology"]["automated-rail-transportation"].effects, {type = "unlock-recipe",recipe = "manual-color-module"})

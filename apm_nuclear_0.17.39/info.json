@@ -1,0 +1,15 @@
+{
+        "name": "apm_nuclear",
+        "version": "0.17.39",
+        "title": "Amator Phasma's Nuclear",
+        "author": "AmatorPhasma",
+        "dependencies": [
+                "base >= 0.17.34",
+                "apm_resource_pack >= 0.17.13",
+                "apm_lib >= 0.17.87",
+                "? apm_recycling >= 0.17.38"
+        ],
+        "description": "Version 0.17.15 will change a lot of recipes, this will result in a little mess in your factory if you used a older version before. This mod is inspired by 'Nuclear Power' by Fatmice and 'Uranium Power' by Simdezimon. And, like the both, does this mod expand the production of nuclear fuel cells and the reprocessing of spent fuel cells. Uranium is processed to Yellocake as an intermediate for the production of uranium hexafluoride, this in turn must then be enriched in several steps by centrifuges in order to be able to produce uranium fuel cells for your reactor. However, the cycle does not close until further processing of the spent fuel cells, resulting in plutonium which can be used for the MOX fuel cell. The breeding reactor (a new building that comes with this mod) is used to breed plutonium efficiently, for the further production of MOX fuel cells and also for weapons-grade plutonium that can be used in nuclear warheads. With this mod, the start into the atomic age is a bit harder than in the vanilla Factorio and you will need the logic cabling for this mod because you have to control pumps so that your enrichment process can work efficiently. (Without a logic control this process will come to a standstill.)",
+        "factorio_version": "0.17",
+        "homepage": ""
+}

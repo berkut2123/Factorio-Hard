@@ -1,0 +1,16 @@
+{
+        "name": "apm_power",
+        "version": "0.17.78",
+        "title": "Amator Phasma's Coal & Steam",
+        "author": "AmatorPhasma",
+        "dependencies": [
+                "base >= 0.17.34",
+                "apm_resource_pack >= 0.17.12",
+                "apm_lib >= 0.17.85",
+                "? apm_recycling >= 0.17.37",
+                "? aai-industry >= 0.3.22"
+        ],
+        "description": "This mod revisits the early game of Factorio and pushes the electrification a bit further back by extending the Burner-Stage and inserting a new stage: Steam-Stage (buildings will be powered by steam). 'Love and fame for the burner inserter!' The production lines of this mod focus on fuel production, but it also comes with a few new intermediates and a new science package. It does not change the standard Techtree too much, the majority of the related tech for this mod comes before the vanilla techtree even begins. The vanilla techtree and most of the other mods content are locked behind a new technology called 'Electrification' which can be called the goal of this modification.",
+        "factorio_version": "0.17",
+        "homepage": ""
+}

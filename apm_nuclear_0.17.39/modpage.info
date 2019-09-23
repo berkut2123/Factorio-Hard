@@ -1,0 +1,99 @@
+__Amator Phasma's Nuclear__
+=============
+[Source Code on GitLab](https://gitlab.com/AmatorPhasma/apm_factorio)
+
+__Languages:__
+-------------
+English, Deutsch
+
+__About this mod:__
+-------------
+This mod is inspired by "Nuclear Power" by Fatmice and "Uranium Power" by Simdezimon.
+And, like the both, does this mod expand the production of nuclear fuel cells and the reprocessing of spent fuel cells.
+
+Uranium is processed to Yellocake as an intermediate for the production of uranium hexafluoride, this in turn must then be enriched in several steps by centrifuges in order to be able to produce uranium fuel cells for your reactor. 
+However, the cycle does not close until further processing of the spent fuel cells, resulting in plutonium which can be used to produce MOX fuel cell.
+
+The breeding reactor (a new building that comes with this mod) is used to breed plutonium efficiently, for the further production of MOX fuel cells and also for weapons-grade plutonium that can be used in nuclear warheads.
+
+With this mod, the start into the atomic age is a bit harder than in the vanilla Factorio and you will need the logic cabling for this mod because you have to control pumps so that your enrichment process can work efficiently. (Without a logic control this process will come to a standstill.)
+
+__Tested with vanilla factorio, with Bob's and/or Angel's and/or Earendel's mods. (See list below)__
+
+__UPS?:__
+-------------
+This mod needs the extended inserter functionality that comes with my library, this consumes computation time. You have in the settings the option to reduce this consumption: 'Mod Settings' -> 'Map' -> 'Amator Phasma's Library' -> 'Maximum inserter checks per tick' the Default should be 15 (if you used a early version there it was 100, you should change it to 15). If you lower this value, the script needs less computation time, but the inserter will slower react to clear the burned fuel inventory (example: ash, discharged batteries, used nuclear MOX-Fuel from breeder, etc. depending on which mod you have installed by me who uses this feature). 
+__You can allways change this setting on the fly, no game restart required.__
+__The avarrage computation time for this functions: ~0.3 ms on default settings__
+
+__Known problem:__
+-------------
+- None
+
+__Future?__
+-------------
+- nothing serious at the moment...
+
+__Problems?__
+-------------
+- Report them on the forum thread or here on this site under disscussion.
+
+__Ideas?__
+-------------
+- Please tell me on the forum thread.
+
+__Dependencies:__
+-------------
+- [Amator Phasma's Library](https://mods.factorio.com/mod/apm_lib)
+
+__Recommended dependencies:__
+-------------
+- [Amator Phasma's Recycling](https://mods.factorio.com/mod/apm_recycling)
+
+__Known incompatibility:__
+-------------
+- [MadClown01's Nuclear Extension](https://mods.factorio.com/mod/Clowns-Nuclear)
+- [MadClown01's AngelBob Nuclear Extension](https://mods.factorio.com/mod/Clowns-AngelBob-Nuclear)
+
+__Tested compatibility:__
+-------------
+- [Space Exploration by Earendel](https://mods.factorio.com/mod/space-exploration)
+- [Alien Biomes by Earendel](https://mods.factorio.com/mod/alien-biomes)
+- [AAI Programmable Vehicles by Earendel](https://mods.factorio.com/mod/aai-programmable-vehicles)
+- [AAI Vehicles: Chaingunner by Earendel](https://mods.factorio.com/mod/aai-vehicles-chaingunner)
+- [AAI Vehicles: Flame Tank by Earendel](https://mods.factorio.com/mod/aai-vehicles-flame-tank)
+- [AAI Vehicles: Flame Tumbler by Earendel](https://mods.factorio.com/mod/aai-vehicles-flame-tumbler)
+- [AAI Vehicles: Laser Tank by Earendel](https://mods.factorio.com/mod/aai-vehicles-laser-tank)
+- [AAI Vehicles: Miner by Earendel](https://mods.factorio.com/mod/aai-vehicles-miner)
+- [AAI Vehicles: Warden by Earendel](https://mods.factorio.com/mod/aai-vehicles-warden)
+- [AAI Vehicles: Hauler by Earendel](https://mods.factorio.com/mod/aai-vehicles-hauler)
+- [AAI Industry by Earendel](https://mods.factorio.com/mod/aai-industry)
+- [Bio Industries by TheSAguy](https://mods.factorio.com/mod/Bio_Industries)
+- [ScienceCostTweaker Mod (mexmer)](https://mods.factorio.com/mod/ScienceCostTweakerM)
+- [Angel's Angel's Bio Processing [BETA] by Arch666Angel](https://mods.factorio.com/mod/angelsbioprocessing)
+- [Angel's Angel's Industries by Arch666Angel](https://mods.factorio.com/mod/angelsindustries)
+- [Angel's Addons - Smelting Train by Arch666Angel](https://mods.factorio.com/mod/angelsaddons-smeltingtrain)
+- [Angel's Addons - Petrochem Train by Arch666Angel](https://mods.factorio.com/mod/angelsaddons-petrotrain)
+- [Angel's Addons - Warehouses by Arch666Angel](https://mods.factorio.com/mod/angelsaddons-warehouses)
+- [Angel's Addons - Pressure Tanks](https://mods.factorio.com/mod/angelsaddons-pressuretanks)
+- [Angel's Infinite Ores by Arch666Angel](https://mods.factorio.com/mod/angelsinfiniteores)
+- [Angel's Petro Chemical Processing by Arch666Angel](https://mods.factorio.com/mod/angelspetrochem)
+- [Angel's Refining by Arch666Angel](https://mods.factorio.com/mod/angelsrefining)
+- [Angel's Smelting by Arch666Angel](https://mods.factorio.com/mod/angelssmelting)
+- [Bob's Personal Equipment mod by Bobingabout](https://mods.factorio.com/mod/bobequipment)
+- [Bob's Assembling machines by Bobingabout](https://mods.factorio.com/mod/bobassembly)
+- [Bob's Electronicsby Bobingabout](https://mods.factorio.com/mod/bobelectronics)
+- [Bob's Enemies by Bobingabout](https://mods.factorio.com/mod/bobenemies)
+- [Bob's Adjustable Inserters by Bobingabout](https://mods.factorio.com/mod/bobinserters)
+- [Bob's Functions Library mod by Bobingabout](https://mods.factorio.com/mod/boblibrary)
+- [Bob's Logistics mod by Bobingabout](https://mods.factorio.com/mod/boblogistics)
+- [Bob's Mining by Bobingabout](https://mods.factorio.com/mod/bobmining)
+- [Bob's Modules by Bobingabout](https://mods.factorio.com/mod/bobmodules)
+- [Bob's Ores by Bobingabout](https://mods.factorio.com/mod/bobores)
+- [Bob's Metals, Chemicals and Intermediates by Bobingabout](https://mods.factorio.com/mod/bobplates)
+- [Bob's Power by Bobingabout](https://mods.factorio.com/mod/bobpower)
+- [Bob's Revamp mod by Bobingabout](https://mods.factorio.com/mod/bobrevamp)
+- [Bob's Tech by Bobingabout](https://mods.factorio.com/mod/bobtech)
+- [Bob's Warfare by Bobingabout](https://mods.factorio.com/mod/bobwarfare)
+
+[My thread in the forum.](https://forums.factorio.com/viewtopic.php?f=190&t=68748)

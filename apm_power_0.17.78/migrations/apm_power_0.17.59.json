@@ -1,0 +1,23 @@
+{
+  "fluid":
+  [
+    ["", ""]
+  ],
+  "item":
+  [
+    ["", ""]
+  ],
+  "entity":
+  [
+    ["", ""]
+  ],
+  "recipe":
+  [
+    ["apm_sea_water_from_void", "apm_sea_water_from_void_1"],
+    ["apm_water_from_void", "apm_sea_water_from_void_2"]
+  ],
+  "technology":
+  [
+    ["", ""]
+  ]
+}

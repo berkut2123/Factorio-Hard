@@ -1,0 +1,20 @@
+{
+        "name": "apm_modpack",
+        "version": "0.17.14",
+        "title": "Amator Phasma's Modpack",
+        "author": "AmatorPhasma",
+        "contact": "factorio@bjoern-trimborn.de",
+        "dependencies": [
+                "base >= 0.17.34",
+                "apm_lib >= 0.17.80",
+                "apm_resource_pack >= 0.17.12",
+                "apm_recycling >= 0.17.35",
+                "apm_power >= 0.17.72",
+                "? apm_starfall >= 0.17.19",
+                "apm_nuclear >= 0.17.36",
+                "? apm_energy_addon >= 0.17.06"
+        ],
+        "description": "This a meta package with my and some other compatible mods.",
+        "factorio_version": "0.17",
+        "homepage": ""
+}

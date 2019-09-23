@@ -1,0 +1,9 @@
+{
+	"name": "Automatic_Train_Painter",
+	"version": "0.3.2",
+	"title": "Automatic Train Painter",
+	"author": "yeahtoast",
+	"description": "Automatically colors locomotives and wagons based on their contents.",
+	"dependencies": ["base >= 0.17.0"],
+	"factorio_version": "0.17"
+}

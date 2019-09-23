@@ -1,0 +1,22 @@
+{
+  "fluid":
+  [
+    ["", ""]
+  ],
+  "item":
+  [
+    ["", ""]
+  ],
+  "entity":
+  [
+    ["", ""]
+  ],
+  "recipe":
+  [
+    ["apm_industrial_science_pack", "apm_industrial_science_pack_1"]
+  ],
+  "technology":
+  [
+    ["", ""]
+  ]
+}

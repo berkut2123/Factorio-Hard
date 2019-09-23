@@ -1,0 +1,40 @@
+{
+  "fluid":
+  [
+    ["apm_coal_water", "apm_coal_saturated_wastewater"],
+    ["apm_tar", "apm_creosote"]
+  ],
+  "item":
+  [
+    ["apm_filter_coal", "apm_filter_charcoal"],
+    ["apm_filter_coal_used", "apm_filter_charcoal_used"],
+    ["apm_seeds", "apm_tree_seeds"],
+    ["apm_wood_brick", "apm_wood_briquette"],
+    ["apm_coal_brick", "apm_coal_briquette"],
+    ["apm_coke_brick", "apm_coke_briquette"],
+    ["apm_car_2", "apm_electric_car"],
+    ["apm_burner_miner_2", "apm_burner_miner_drill_2"]
+  ],
+  "entity":
+  [
+    ["apm_car_2", "apm_electric_car"],
+    ["apm_burner_miner_2", "apm_burner_miner_drill_2"]
+  ],
+  "recipe":
+  [
+    ["apm_filter_coal_used_recycling", "apm_filter_charcoal_used_recycling"],
+    ["apm_coal_water_seperation", "apm_coal_saturated_wastewater_seperation"],
+    ["apm_filter_coal", "apm_filter_charcoal"],
+    ["apm_coal_brick_pressed_1", "apm_coal_briquette_pressed_1"],
+    ["apm_coal_brick_pressed_2", "apm_coal_briquette_pressed_2"],
+    ["apm_wood_brick", "apm_wood_briquette"],
+    ["apm_coke_brick", "apm_coke_briquette"],
+    ["apm_seeds", "apm_tree_seeds"],
+    ["apm_car_2", "apm_electric_car"],
+    ["apm_burner_miner_2", "apm_burner_miner_drill_2"]
+  ],
+  "technology":
+  [
+    ["", ""]
+  ]
+}

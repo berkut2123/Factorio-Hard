@@ -1,0 +1,23 @@
+{
+  "fluid":
+  [
+    ["", ""]
+  ],
+  "item":
+  [
+    ["apm_staballoy", "apm_depleted_uranium_ingots"]
+  ],
+  "entity":
+  [
+    ["", ""]
+  ],
+  "recipe":
+  [
+    ["apm_staballoy_1", "apm_depleted_uranium_ingots_1"],
+    ["apm_staballoy_2", "apm_depleted_uranium_ingots_2"]
+  ],
+  "technology":
+  [
+    ["", ""]
+  ]
+}

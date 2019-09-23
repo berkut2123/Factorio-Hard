@@ -1,0 +1,22 @@
+{
+  "fluid":
+  [
+    ["", ""]
+  ],
+  "item":
+  [
+    ["apm_offshore_pump", "apm_offshore_pump_0"]
+  ],
+  "entity":
+  [
+    ["apm_offshore_pump", "apm_offshore_pump_0"]
+  ],
+  "recipe":
+  [
+    ["apm_offshore_pump", "apm_offshore_pump_0"]
+  ],
+  "technology":
+  [
+    ["", ""]
+  ]
+}
